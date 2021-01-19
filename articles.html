@@ -1,0 +1,14 @@
+---
+title: Articles
+---
+<h1>Articles</h1>
+
+<ul>
+    {% for article in site.articles %}
+    <li>
+        <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+        <h3>{{ article.subtitle }}</h3>
+        <p>{{ article.description | markdownify }}</p>
+    </li>
+    {% endfor %}
+</ul>
