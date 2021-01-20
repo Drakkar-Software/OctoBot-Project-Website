@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
     const loadAnalytics = () => {
         if(typeof gtag !== "undefined"){
-            gtag('config', 'G-WF9W9FMD0E', {'page_location': event.data.url});
+            gtag('config', 'G-WF9W9FMD0E', {'page_location': window.location.href});
         }
     }
 
