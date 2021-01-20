@@ -1,4 +1,18 @@
 ---
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+<!-- Intro: OctoBot in a glance (on pager) -->
+<div class="part intro-background">
+    <div class="background-mask p-0">
+        <div class="py-4 w-75 mx-auto text-center">
+            <h2 class="my-4">{% t landing_page.tagline %}</h2>
+            <h5>{% t landing_page.title %}</h5>
+            <div class="">
+                {% t landing_page.subtitle %}
+            </div>
+            <div class="mt-4">
+                <a href="#try-octobot" class="btn call-to-action-button">{% t landing_page.try_octobot %}</a>
+            </div>
+        </div>
+    </div>
+</div>

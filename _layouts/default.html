@@ -18,8 +18,10 @@
         </script>
         {% endif %}
     </head>
-    <body>
-    {% include navigation.html %}
+    <body class="container-fluid px-0 bg-dark text-light">
+    {% include header.html %}
     {{ content }}
+    {% include footer.html %}
+    {% include scripts.html %}
     </body>
 </html>

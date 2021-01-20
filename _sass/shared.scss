@@ -1,0 +1,60 @@
+.background-mask {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  min-height: 20rem;
+  width: 100%;
+}
+
+.bg-dark {
+  background-color: #121212 !important;
+}
+
+@mixin hover-colored {
+  color: #b71c1c !important; /* material red-900*/
+  transition-duration: .3s;
+}
+
+.link {
+  color: white;
+  &:hover {
+    @include hover-colored;
+  }
+}
+
+.nav-link.link:hover {
+  @include hover-colored;
+}
+
+.call-to-action-button {
+  background-color: #b71c1c;
+  color: white;
+}
+
+.call-to-action-button:hover {
+  background-color: #7f0000;
+  color: white;
+  transition-duration: .15s;
+}
+
+.outline-button {
+  background-color: transparent;
+  color: #b71c1c;
+  border-color: #b71c1c;
+  border-width: .125rem;
+  border-style: solid;
+}
+
+.outline-button:hover {
+  color: #b71c1c;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition-duration: .15s;
+}
+
+.footer-icons {
+  font-size: 1.4rem;
+}
+
+.footer-icons > a {
+  margin-right: 0.125rem;
+  margin-left: 0.125rem;
+}

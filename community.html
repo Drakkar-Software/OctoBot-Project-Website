@@ -1,0 +1,122 @@
+---
+title: Community
+---
+
+<!--header-->
+<div class="part community-intro-background">
+    <div class="background-mask p-0">
+        <div class="py-4 w-75 mx-auto text-center">
+            <h2 class="my-4">{% t community_page.title %}</h2>
+            <h5>{% t community_page.subtitle %}</h5>
+        </div>
+    </div>
+</div>
+
+<div id="loader" class="text-center my-5">
+    <div class="spinner-grow text-danger" role="status"></div>
+    <div class="spinner-grow text-danger" role="status"></div>
+    <div class="spinner-grow text-danger" role="status"></div>
+    <div class="spinner-grow text-danger" role="status"></div>
+    <div class="spinner-grow text-danger" role="status"></div>
+    <h3>{% t community_page.loading %}</h3>
+    <!--  spacer-->
+    <div class="py-5 my-5"></div>
+    <div class="py-5 my-5"></div>
+</div>
+
+<div id="fetched-part" class="part d-none">
+    <div>
+        <div>
+            <div class="d-flex flex-wrap justify-content-center my-4 w-100">
+                <div class="community-bot-stats-label my-1 text-center mx-2 mx-md-4">
+                    <span class="badge bg-secondary community-bot-stats" id="monthly-bots">?</span> {% t landing_page.bots_this_month %}
+                </div>
+                <div class="community-bot-stats-label my-1 mx-2 mx-md-4">
+                    <span class="badge bg-secondary community-bot-stats" id="daily-bots">?</span> {% t landing_page.bots_at_this_moment %}
+                </div>
+                <div class="community-bot-stats-label my-1 mx-2 mx-md-4">
+                    <span class="badge bg-secondary community-bot-stats" id="all-bots">?</span> {% t landing_page.total_octobots %}
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-10 col-md-5 col-lg-4 col-xl-3 row text-primary mx-auto my-2 mt-md-3">
+                <div class="col community-bot-stats-second d-flex justify-content-between flex-column pt-5">
+                    <div class="mx-auto">
+                        <i class="fas fa-2x fa-medal"></i>
+                    </div>
+                    <div class="mx-auto">
+                        <span id="profit-1">?</span>%
+                    </div>
+                </div>
+                <div class="col community-bot-first d-flex justify-content-between flex-column pb-4">
+                    <div class="mx-auto">
+                        <i class="fas fa-2x fa-trophy"></i>
+                    </div>
+                    <div class="mx-auto">
+                        <span id="profit-2">?</span>%
+                    </div>
+                </div>
+                <div class="col community-bot-third d-flex justify-content-between flex-column pt-5">
+                    <div class="mx-auto">
+                        <i class="fas fa-2x fa-award"></i>
+                    </div>
+                    <div class="mx-auto">
+                        <span id="profit-3">?</span>%
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <div>
+                <h3>
+                    {% t community_page.current_best_performers %}
+                </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row my-2 my-md-5">
+        <div class="col-12 col-md-6">
+            <h3>{% t community_page.top_exchanges %}</h3>
+            <div class="table-responsive">
+
+            </div>
+            <table class="table table-dark table-hover table-striped text-center" id="top-exchanges">
+                <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">{% t community_page.exchange %}</th>
+                    <th scope="col">{% t community_page.active_octobots %}</th>
+                </tr>
+                </thead>
+                <tbody id="top-exchanges-tbody" class="text-capitalize">
+                </tbody>
+            </table>
+        </div>
+
+        <div class="col-12 col-md-6">
+            <h3>{% t community_page.top_trading_modes %}</h3>
+            <div class="table-responsive">
+                <table class="table table-dark table-hover table-striped text-center" id="top-trading-modes">
+                    <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">{% t community_page.trading_mode %}</th>
+                        <th scope="col">{% t community_page.active_octobots %}</th>
+                    </tr>
+                    </thead>
+                    <tbody id="top-trading-modes-tbody">
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row my-5 mx-0 text-center w-100">
+    <p>
+        {% t community_page.thanks_to_the_community %}
+    </p>
+</div>

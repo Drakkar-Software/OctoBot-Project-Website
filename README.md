@@ -4,6 +4,7 @@ Built using [Jekyll](https://jekyllrb.com/docs/)
 
 ## Setup
 ```bash
+yarn install
 bundle install
 bundle exec jekyll serve
 ```

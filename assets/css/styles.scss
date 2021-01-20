@@ -1,3 +1,17 @@
 ---
 ---
-@import "main";
+$baseurl: "{{ site.baseurl }}";
+@import url('//fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+@import "variables";
+
+@import 'mdb-ui-kit/src/scss/free/_variables.scss';
+@import 'bootstrap/scss/bootstrap';
+@import 'mdb-ui-kit/src/scss/mdb.free.scss';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+
+@import "shared";
+@import "landing_page";
+@import "guides";
+@import "community";
+@import "about";

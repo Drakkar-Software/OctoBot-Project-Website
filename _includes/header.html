@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+        <h1>
+            <a href="/" class="navbar-brand ms-4">
+                <img src="/assets/images/octobot.png" alt="" height="30">
+                {% t global.octobot %}
+            </a>
+        </h1>
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+        >
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNav">
+            <ul class="navbar-nav">
+                {% for item in site.data.navigation %}
+                <a href="{{ item.link }}" class="nav-link link {% if page.url == item.link %}active{% endif %}">{% t item.name %}</a>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>

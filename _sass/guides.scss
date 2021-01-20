@@ -1,0 +1,17 @@
+// Place all the styles related to the guides controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.guides-intro-background {
+  color: white;
+  min-height: 20rem;
+
+  background-image: url($baseurl + "/assets/images/majordhomme.jpg");
+  max-height: 350px; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 0px;
+
+}

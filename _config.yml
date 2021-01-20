@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   OctoBot is an open source cryptocurrency trading robot
   designed to be easy to use and infinitely customizable.
 baseurl: "" # the subpath of your site, e.g. /blog
-logo: /assets/octobot_small.png
+logo: /assets/images/octobot_small.png
 url: "octobot.online" # the base hostname & protocol for your site, e.g. http://example.com
 author: "Drakkar-Software"
 twitter:
@@ -56,6 +56,11 @@ defaults:
     values:
       layout: "default"
 
+sass:
+  load_paths:
+    - _sass
+    - node_modules
+
 # Build settings
 theme: minima
 plugins:
@@ -68,6 +73,17 @@ plugins:
 languages: [ "fr", "en" ]
 
 exclude_from_localizations: [ "javascript", "images", "css", "scripts", "favicon.ico" ]
+
+include:
+  - node_modules/axios/dist/axios.min.js
+  - node_modules/axios/dist/axios.min.map
+  - node_modules/@popperjs/core/dist/umd/popper.min.js
+  - node_modules/@popperjs/core/dist/umd/popper.min.js.map
+  - node_modules/bootstrap/dist/js/bootstrap.min.js
+  - node_modules/bootstrap/dist/js/bootstrap.min.js.map
+  - node_modules/mdb-ui-kit/js/mdb.min.js
+  - node_modules/mdb-ui-kit/js/mdb.min.js.map
+  - node_modules/@fortawesome/fontawesome-free/js/all.js
 
 # Exclude from processing.
 # The following items will not be processed, by default.

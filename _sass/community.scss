@@ -1,0 +1,41 @@
+// Place all the styles related to the community controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.community-intro-background {
+  color: white;
+  min-height: 20rem;
+
+  background-image: url($baseurl + "/assets/images/majordhomme.jpg");
+  max-height: 350px; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 0px;
+
+}
+
+.community-bot-stats-label {
+  font-weight: bold;
+  font-size: large;
+}
+
+.community-bot-stats {
+  font-size: large;
+}
+
+.community-bot-first {
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.community-bot-stats-second {
+  font-size: large;
+  font-weight: bold;
+}
+
+.community-bot-third {
+  font-size: large;
+  font-weight: bold;
+}

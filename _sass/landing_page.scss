@@ -1,0 +1,104 @@
+// Place all the styles related to the landing_page controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+.part {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+@media screen and (min-width: 400px) {
+  .part {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.intro-background {
+  color: white;
+  min-height: 20rem;
+
+  background-image: url($baseurl + "/assets/images/somelier.jpg");
+  max-height: 547px; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 0px;
+
+}
+
+.strategies-background {
+  color: white;
+
+  background-image: asset-url("prof.jpg");
+  max-height: 547px; /* You must set a specified height */
+
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 0px;
+
+}
+
+.community-background {
+  background-color: #070707;
+}
+
+.part-image {
+  width: 8rem;
+}
+
+.part-image-sm {
+  max-width: 20rem;
+  max-height: 20rem;
+}
+
+.part-image-md {
+  max-width: 40rem;
+  max-height: 40rem;
+}
+
+.deploy_img {
+  height: 51px;
+  width: auto;
+}
+
+
+@media screen and (min-width: 400px) {
+  .part-image {
+    width: 18rem;
+  }
+  .part-image-sm {
+    width: 18rem;
+  }
+}
+.news-card {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: inherit;
+  background-color: inherit;
+}
+
+.news-link {
+  color: white
+}
+
+.news-link:hover {
+  box-shadow: 0 2px #b71c1c;
+  color: white
+}
+
+.bot-stats {
+  font-weight: bold;
+}
+
+.part-title {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
