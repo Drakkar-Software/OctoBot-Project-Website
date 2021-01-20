@@ -6,9 +6,7 @@ blog: Blog
 docs: Docs
 about: A propos de nous
 copyright: Copyright
-
-global:
-  octobot: OctoBot
+medium: Medium
 
 landing_page:
   tagline: "OctoBot: robot de trading open source gratuit"

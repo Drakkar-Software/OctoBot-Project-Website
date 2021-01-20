@@ -1,0 +1,28 @@
+<!-- trigger modal -->
+<a type="button" data-mdb-toggle="modal" data-mdb-target="#{{ include.rendered_image_path | replace: '.', '' | replace: '/', ''}}Modal">
+    <img src="{{ include.rendered_image_path }}"
+         class="{{ include.class_attr }}"
+         alt="{{ include.alt_attr }} "
+    >
+</a>
+
+<!-- Modal -->
+<div class="modal" id="{{ include.rendered_image_path | replace: '.', '' | replace: '/', '' }}Modal" tabindex="-1" role="dialog"
+     aria-labelledby="#{{ include.rendered_image_path }}ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content bg-dark">
+            <div class="modal-header">
+                <h5 class="modal-title" id="#{{ include.rendered_image_path }}ModalLabel">{% t include.title %}</h5>
+                <button type="button" class="close text-light" data-mdb-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body px-0 mx-0 pb-0">
+                <img src="{{ include.rendered_image_path }}"
+                     class="img-fluid"
+                     alt="{{ include.alt_attr}} "
+                >
+            </div>
+        </div>
+    </div>
+</div>
