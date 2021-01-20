@@ -4,10 +4,10 @@
   link: /guides/
 - name: community
   link: /community/
-- name: marketplace
-  link: /404/
-- name: blog
-  link: /404/
+#- name: marketplace
+#  link: /404/
+#- name: blog
+#  link: /404/
 - name: docs
   link: https://docs.octobot.online/
 - name: about
