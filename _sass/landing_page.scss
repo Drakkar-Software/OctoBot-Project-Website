@@ -35,7 +35,7 @@
 .strategies-background {
   color: white;
 
-  background-image: asset-url("prof.jpg");
+  background-image: url($baseurl + "/assets/images/prof.jpg");
   max-height: 547px; /* You must set a specified height */
 
   background-position: center; /* Center the image */

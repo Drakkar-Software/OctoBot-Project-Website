@@ -1,0 +1,24 @@
+<div class="card bg-dark col-12 col-sm-6 col-md-4">
+    <div class="d-flex justify-content-between flex-column h-100">
+        <div class="text-center my-2 my-md-4">
+            {% if include.image_link != "" %}
+            <a href="{{ include.image_link }}" target="_blank" rel="noopener">
+                <img src="{{ include.image }}" class="img-fluid card-img-top deploy_img ripple-surface" alt="{{ include.title }}">
+            </a>
+            {% else %}
+            <img src="{{ include.image }}" class="img-fluid card-img-top deploy_img ripple-surface" alt="{{ include.title }}">
+            {% endif %}
+        </div>
+        <div class="mx-0 mx-md-2 mx-lg-3 px-0">
+            <h5 class="card-title">{% t include.title %}</h5>
+            <p class="card-text">
+                {% t include.description %}
+            </p>
+        </div>
+        <div class="card-footer mx-0 mx-md-2 mx-lg-3 px-0">
+            <div class="text-center">
+                <a href="{{ include.link }}" target="_blank" rel="noopener" class="btn call-to-action-button ripple-surface">{% t include.link_text %}</a>
+            </div>
+        </div>
+    </div>
+</div>

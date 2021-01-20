@@ -1,0 +1,18 @@
+<div class="card news-card col-12 col-sm-6 col-md-4">
+    <a href="#" class="news-link d-flex align-items-stretch flex-column h-100">
+        <img src="assets/images/{{ include.article.image }}"
+             class="img-fluid"
+             alt="article image"
+        >
+        <div class="card-body">
+            <h5 class="card-title">{{ include.article.title }}</h5>
+            <h4 class="card-subtitle">{{ include.article.subtitle }}</h4>
+            <p class="card-text">
+                {{ include.article.content }}
+            </p>
+        </div>
+        <div class="card-footer font-weight-bold">
+            {% t medium %}: {{ include.article.date }}
+        </div>
+    </a>
+</div>
