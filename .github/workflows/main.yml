@@ -36,7 +36,7 @@ jobs:
           yarn install
           gem install bundler
           bundle install
-          jekyll build
+          JEKYLL_ENV=production jekyll build
 
       - name: Deploy 🚀
         if: github.event_name == 'push'
