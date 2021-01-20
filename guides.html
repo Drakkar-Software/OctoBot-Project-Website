@@ -1,0 +1,191 @@
+---
+title: Guides
+---
+
+<!--header-->
+<div class="part guides-intro-background">
+    <div class="background-mask p-0">
+        <div class="py-4 w-75 mx-auto text-center">
+            <h2 class="my-4">{% t guides_page.title %}</h2>
+            <h5>{% t guides_page.subtitle %}</h5>
+        </div>
+    </div>
+</div>
+
+<!--setup-->
+<div class="part">
+    <div class="row py-1 py-md-2">
+        <div class="col col-md-5">
+            <div>
+                <h3 class="border-bottom my-3 pb-2">{% t guides_page.installer_octobot %}</h3>
+                <div>
+                    {% t guides_page.install_methods_desc_html %}
+                </div>
+            </div>
+            <div>
+                {% include installation_methods.html %}
+            </div>
+        </div>
+        <div class="col-12 col-md-7 text-center my-auto">
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/large_web_interface.png"
+            class_attr="part-image-md w-100"
+            alt_attr="web interface preview"
+            title="guides_page.web_interface" %}
+        </div>
+    </div>
+</div>
+
+<!--configure octobot-->
+<div class="part">
+    <div class="row py-1 py-md-2">
+        <div class="col-12 col-md-7 text-center my-auto">
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/exchanges_config.png"
+            class_attr="part-image-md w-100"
+            alt_attr="exchanges configuration preview"
+            title="guides_page.exchanges_configuration" %}
+        </div>
+        <div class="col col-md-5">
+            <div>
+                <h3 class="border-bottom my-3 pb-2">{% t guides_page.configure_exchanges %}</h3>
+                <div>
+                    {% t guides_page.configure_exchanges_desc_html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="part">
+    <div class="row py-1 py-md-2">
+        <div class="col col-md-5">
+            <div>
+                <h3 class="border-bottom my-3 pb-2">{% t guides_page.configure_traded_pairs %}</h3>
+                <div>
+                    {% t guides_page.configure_traded_pairs_desc_html %}
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-7 text-center my-auto">
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/pairs_config.png"
+            class_attr="part-image-md w-100"
+            alt_attr="traded pairs configuration preview"
+            title="guides_page.traded_pairs_configuration" %}
+        </div>
+    </div>
+</div>
+<div class="part">
+    <div class="row py-1 py-md-2">
+        <div class="col-12 col-md-7 text-center my-auto">
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/trading_modes_config.png"
+            class_attr="part-image-md w-100"
+            alt_attr="trading mode configuration preview"
+            title="guides_page.trading_modes_configuration" %}
+        </div>
+        <div class="col col-md-5">
+            <div>
+                <h3 class="border-bottom my-3 pb-2">{% t guides_page.configure_trading_modes %}</h3>
+                <div>
+                    {% t guides_page.configure_trading_modes_desc %}
+                    <div class="mt-4">
+
+                        <a href="#trading-modes" class="btn call-to-action-button">
+                            {% t guides_page.more_info_on_evaluation_chain %}
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="part">
+    <div class="row py-1 py-md-2">
+        <div class="col col-md-5">
+            <div>
+                <h3 class="border-bottom my-3 pb-2">{% t guides_page.configure_communication_channels %}</h3>
+                <div>
+                    {% t guides_page.configure_communication_channels_desc_html %}
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-7 text-center my-auto">
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/telegram-interface.png"
+            class_attr="part-image-sm"
+            alt_attr="telegram interface"
+            title="landing_page.telegram_interface" %}
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/interfaces_config.png"
+            class_attr="part-image-md w-100"
+            alt_attr="telegram configuration preview"
+            title="guides_page.communication_channels_configuration" %}
+        </div>
+    </div>
+</div>
+<div class="part">
+    <div class="row py-1 py-md-2">
+        <div class="col-12 col-md-7 text-center my-auto">
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/backtesting.png"
+            class_attr="part-image-md w-100"
+            alt_attr="backtesting preview"
+            title="guides_page.backtesting_configuration" %}
+        </div>
+        <div class="col col-md-5">
+            <div>
+                <h3 class="border-bottom my-3 pb-2">{% t guides_page.configure_backtesting %}</h3>
+                <div>
+                    {% t guides_page.configure_backtesting_desc_html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="part mb-1 mb-md-5">
+    <div class="row py-1 py-md-2">
+        <div class="col col-md-5">
+            <h3 class="border-bottom my-3 pb-2" id="trading-modes">{% t guides_page.the_evaluation_chain %}</h3>
+            <div>
+                <h5> {% t guides_page.evaluators %} </h5>
+                <p>
+                    {% t guides_page.evaluators_desc_html %}
+                </p>
+            </div>
+            <div>
+                <h5> {% t guides_page.strategies %} </h5>
+                <p>
+                    {% t guides_page.strategies_desc %}
+                </p>
+            </div>
+            <div>
+                <h5> {% t guides_page.trading_modes %} </h5>
+                <p>
+                    {% t guides_page.trading_modes_desc %}
+                </p>
+            </div>
+        </div>
+        <div class="col-12 col-md-7 text-center my-auto">
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/chart.png"
+            class_attr="part-image-sm"
+            alt_attr="price chart with technical indicators"
+            title="guides_page.chart_with_TA" %}
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/evaluators.png"
+            class_attr="part-image-md w-100"
+            alt_attr="evaluators configuration preview"
+            title="guides_page.evaluators_configuration" %}
+        </div>
+    </div>
+</div>
+
+<div class="part pt-2 pt-md-5 my-2 my-md-5">
+    <h5>{% t guides_page.this_is_just_an_subset %}</h5>
+    <div class="text-center my-2 my-md-3">
+        <a href="/#try-octobot" class="btn btn-lg call-to-action-button">
+            {% t landing_page.try_octobot %}
+        </a>
+    </div>
+</div>
