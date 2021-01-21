@@ -12,7 +12,7 @@
             </p>
         </div>
         <div class="card-footer font-weight-bold">
-            {% t medium %}: {{ include.article.date }}
+            {% t medium %}: {{ include.article.date | date: "%Y-%m-%d"}}
         </div>
     </a>
 </div>
