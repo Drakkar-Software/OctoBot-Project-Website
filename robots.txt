@@ -1,1 +1,1 @@
-Sitemap: octobot.online/sitemap.xml
+Sitemap: https://www.octobot.online/sitemap.xml

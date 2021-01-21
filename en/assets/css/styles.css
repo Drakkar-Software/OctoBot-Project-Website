@@ -10073,6 +10073,8 @@ readers do not read off random characters that represent icons */
 
 .nav-link.link:hover { color: #b71c1c !important; /* material red-900*/ transition-duration: .3s; }
 
+.dropdown-item.link:hover { color: #b71c1c !important; /* material red-900*/ transition-duration: .3s; }
+
 .call-to-action-button { background-color: #b71c1c; color: white; }
 
 .call-to-action-button:hover { background-color: #7f0000; color: white; transition-duration: .15s; }
