@@ -25,6 +25,10 @@
   @include hover-colored;
 }
 
+.dropdown-item.link:hover {
+  @include hover-colored;
+}
+
 .call-to-action-button {
   background-color: #b71c1c;
   color: white;

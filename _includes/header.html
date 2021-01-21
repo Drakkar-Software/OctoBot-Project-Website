@@ -20,8 +20,34 @@
         <div class="collapse navbar-collapse justify-content-end pe-5" id="navbarNav">
             <ul class="navbar-nav">
                 {% for item in site.data.navigation %}
-                <a href="{{ item.link }}" class="nav-link link {% if page.url == item.link %}active{% endif %}">{% t item.name %}</a>
+                <a href="{% unless item.link contains 'http' %}{{ site.baseurl }}{% endunless %}{{ item.link }}" class="nav-link link {% if page.url == item.link %}active{% endif %}">{% t item.name %}</a>
                 {% endfor %}
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"
+                       href="#"
+                       id="langDropdown"
+                       role="button"
+                       data-mdb-toggle="dropdown"
+                       aria-expanded="false">
+<!--                        {% t switch_lang %}-->
+                        {% t site.lang %}
+                    </a>
+                    <!-- Dropdown menu -->
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="langDropdown">
+                        {% for language in site.languages %}
+                            {% if site.lang != language %}
+                                <li>
+                                    {% if site.languages[0] == language %}
+                                        <a href="{{ site.baseurl_root }}{{ page.url }}" class="dropdown-item bg-dark link">{% t language %}</a>
+                                    {% else %}
+                                        <a href="{{ site.baseurl_root }}/{{ language }}{{ page.url }}" class="dropdown-item bg-dark link">{% t language %}</a>
+                                    {% endif %}
+                                </li>
+                            {% endif %}
+                        {% endfor %}
+                    </ul>
+                </li>
             </ul>
         </div>
     </div>

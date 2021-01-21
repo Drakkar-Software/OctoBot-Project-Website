@@ -1,5 +1,7 @@
 ---
-title: OctoBot
+title: Home
+namespace: octobot
+permalink: /
 ---
 <!-- Intro: OctoBot in a glance (on pager) -->
 <div class="part intro-background">
@@ -76,7 +78,7 @@ title: OctoBot
                 <h6>{% t landing_page.each_strategy_is_testable %}</h6>
                 <p>{% t landing_page.story.the_transformation %}</p>
                 <div class="mt-4">
-                    <a href="/" class="btn outline-button"> {% t landing_page.usage_details %}</a>
+                    <a href="{% tl guides %}" class="btn outline-button"> {% t landing_page.usage_details %}</a>
                 </div>
             </div>
         </div>
@@ -141,7 +143,7 @@ title: OctoBot
         </div>
     </div>
     <div class="text-center">
-        <a href="/community" class="btn outline-button"> {% t landing_page.octobot_statistics %}</a>
+        <a href="{% tl community %}" class="btn outline-button"> {% t landing_page.octobot_statistics %}</a>
     </div>
 </div>
 

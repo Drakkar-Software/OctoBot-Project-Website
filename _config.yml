@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   designed to be easy to use and infinitely customizable.
 baseurl: "" # the subpath of your site, e.g. /blog
 logo: /assets/images/octobot_small.png
-url: "octobot.online" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.octobot.online" # the base hostname & protocol for your site, e.g. http://example.com
 author: "Drakkar-Software"
 twitter:
   username: DrakkarsOctoBot

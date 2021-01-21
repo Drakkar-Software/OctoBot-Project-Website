@@ -7,6 +7,8 @@ docs: Docs
 about: About us
 copyright: Copyright
 medium: Medium
+fr: French
+en: English
 
 landing_page:
   tagline: "OctoBot: Free open source trading robot"
