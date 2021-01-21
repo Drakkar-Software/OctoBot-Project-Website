@@ -1,12 +1,21 @@
 <!doctype html>
 <html>
     <head>
-        <title>{{ page.title }}</title>
+        <title>
+            {% if page.title contains 'OctoBot' %}
+            {{ site.title }}
+            {% else %}
+            {{ page.title }} | {{ site.title }}
+            {% endif %}
+        </title>
         <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <link rel="shortcut icon" type="image/png" href="/assets/images/octobot.png">
         {% feed_meta %}
         {% seo %}
+        <meta name="twitter:image" content="{{site.url}}/assets/images/octobot.png" />
+        <meta property="og:image" content="{{site.url}}/assets/images/octobot.png" />
+        <meta itemprop="image" content="{{site.url}}/assets/images/octobot.png" />
         <link rel="stylesheet" href="/assets/css/styles.css">
         {% if jekyll.environment == "production" %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
