@@ -51,7 +51,7 @@ landing_page:
   octobot_strategies_concept: |
     OctoBot is inifitely customizable: plenty of strategies are available, each of them can be customized.
     Whether you are a beginner, advanced or expert trader, you will be able to set OctoBot's strategies up your requirements.
-  discorver_strategies: "Discover OctoBot strategies"
+  discover_strategies: "Discover OctoBot strategies"
   news: "News"
   all_news_on_our_blog: "See all news on our blog"
   story:
@@ -276,3 +276,14 @@ about_page:
     mieux aux besoins des utilisateurs et s'oriente vers les
     fonctionnalités les plus pertinentes, tout en aidant ses nouveaux membres.
     Merci à la communauté pour ces idées et son aide.
+
+installations:
+  python:
+    title: Installer OctoBot directement depuis les sources Python
+    view_sources: Voir les sources
+  digital_ocean:
+    title: Déployez votre OctoBot en cloud sur DigitalOcean.com
+  docker:
+    title: Déployez simplement votre OctoBot en utilisant Docker
+  executable:
+    title: Lancez OctoBot sans installation, directement depuis l'exécutable OctoBot

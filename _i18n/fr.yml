@@ -54,7 +54,7 @@ landing_page:
   octobot_strategies_concept: |
     OctoBot est personalisable à l’infini: une multitude de stratégies est disponible, chaque stratégie est
     personalisable. Débutant, confirmé ou expert, il y en a pour tout le monde.
-  discorver_strategies: "Découvrir les stratégies"
+  discover_strategies: "Découvrir les stratégies dans OctoBot"
   news: "Les news"
   all_news_on_our_blog: "Voir les news sur notre blog"
   story:
@@ -224,7 +224,7 @@ about_page:
     octobot_creation:
       a_small_open_source_project: Un petit projet open source
       birth: |
-        En février 2018, dernière bulle des cryptocurrencies vient de se
+        En février 2018, une bulle des cryptocurrencies vient de se
         terminer, la consolidation commence. Guillaume et Herklos: fondateurs
         d'OctoBot réalisent que le trading basé sur l'analyse technique
         pure fonctionne de nouveau très bien. Après avoir cherché un outil
@@ -282,3 +282,14 @@ about_page:
     mieux aux besoins des utilisateurs et s'oriente vers les
     fonctionnalités les plus pertinentes, tout en aidant ses nouveaux membres.
     Merci à la communauté pour ces idées et son aide.
+
+installations:
+  python:
+    title: Installer OctoBot directement depuis les sources Python
+    view_sources: Voir les sources
+  digital_ocean:
+    title: Déployez votre OctoBot en cloud sur DigitalOcean.com
+  docker:
+    title: Déployez simplement votre OctoBot en utilisant Docker
+  executable:
+    title: Lancez OctoBot sans installation, directement depuis l'exécutable OctoBot
