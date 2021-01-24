@@ -108,14 +108,151 @@
         </div>
     </div>
 </nav>
-    <h1>Installer OctoBot directement depuis les sources Python</h1>
+    <!--header-->
+<div class="part about-intro-background">
+    <div class="background-mask p-0">
+        <div class="py-4 w-75 mx-auto text-center">
+            <h2 class="my-4">Installer OctoBot directement depuis les sources Python</h2>
+        </div>
+    </div>
+</div>
 
-<div class="text-center">
-    <a href="https://docs.octobot.online/pages/With-Python-only.html"
-       target="_blank"
-       rel="noopener"
-       class="btn call-to-action-button ripple-surface">
-        Voir les sources
+<div class="container mx-2 mx-md-auto w-100">
+    <div>
+        <h3>Déployez votre OctoBot dans depuis le code afin de pouvoir le lancer dans un environnement Python local, modifier ou examiner le bot.
+</h3>
+        <p class="mt-2 mt-md-4">1. Si vous n'avez pas déjà Python, <a href="https://www.python.org/downloads/" target="_blank" rel="noopener">
+installez Python en version 3.8</a>.
+</p>
+        <p class="mt-2 mb-1">2. Clonnez le dépôt OctoBot</p>
+        <strong>
+            <ul>
+                <li>
+                    git clone https://github.com/Drakkar-Software/OctoBot
+                </li>
+            </ul>
+        </strong>
+        <p class="mt-2 mb-1">3. Installez les dépendances python du robot</p>
+        <strong>
+            <ul>
+                <li>
+                    cd OctoBot
+                </li>
+                <li>
+                    python3 -m pip install -Ur requirements.txt
+                </li>
+                <li>
+                    python3 start.py tentacles --install --all
+                </li>
+            </ul>
+        </strong>
+        <p class="mt-2 mb-1">4. Lancez votre OctoBot via la commande: </p>
+        <strong>
+            <ul>
+                <li>
+                    python3 start.py
+                </li>
+            </ul>
+        </strong>
+        <p class="mt-2 mt-md-4">L'interface de management de votre OctoBot est accessible sur le port 5000 de votre système. <a href="http://localhost:5001/">http://localhost:5001/</a>
+            ou <a href="http://ip-address:5001/">http://ip-address:5001/</a></p>
+    </div>
+
+    <div class="text-center">
+        <a href="https://docs.octobot.online/pages/With-Python-only.html"
+           target="_blank"
+           rel="noopener"
+           class="btn outline-button ripple-surface">
+            Voir la documentation complète pour l'utilisation d'OctoBot avec les sources Python
+        </a>
+    </div>
+</div>
+
+
+<div class="container mt-4 mx-2 mx-md-auto w-100 text-center pb-5 border-bottom">
+    <i class="fas fa-check-circle process-step"></i>
+    <h4 class="pt-1 pt-md-3 mb-0">
+        Votre OctBot est prêt
+    </h4>
+</div>
+
+<div class="container mx-2 mx-md-auto w-100 text-center my-4">
+    <h4 class="pt-1 pt-md-3 mb-0">
+        Les méthodes d'installation d'OctoBot
+    </h4>
+    <div>
+        <div class="row my-4">
+    <div class="card bg-dark col-12 col-sm-6 col-md-4">
+    <div class="d-flex justify-content-between flex-column h-100">
+        <div class="text-center my-2 my-md-4">
+            
+            <img src="/assets/images/GitHub_Logo_White.png" class="img-fluid card-img-top deploy_img ripple-surface" alt="landing_page.using_the_latest_executable">
+            
+        </div>
+        <div class="mx-0 mx-md-2 mx-lg-3 px-0">
+            <h5 class="card-title">Avec l'exécutable</h5>
+            <p class="card-text">
+                Simplement téléchargez et démarrez l'exécutable correspondant à votre système pour
+lancer votre OctoBot directement chez vous.
+
+            </p>
+        </div>
+        <div class="card-footer mx-0 mx-md-2 mx-lg-3 px-0">
+            <div class="text-center">
+                <a href="/executable_installation/" class="btn call-to-action-button ripple-surface">Télécharger OctoBot</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="card bg-dark col-12 col-sm-6 col-md-4">
+    <div class="d-flex justify-content-between flex-column h-100">
+        <div class="text-center my-2 my-md-4">
+            
+            <a href="https://www.digitalocean.com/?refcode=40c9737100b1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste" target="_blank" rel="noopener">
+                <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_white.svg?utm_medium=opensource&utm_source=OctoBot" class="img-fluid card-img-top deploy_img ripple-surface" alt="landing_page.using_digital_ocean">
+            </a>
+            
+        </div>
+        <div class="mx-0 mx-md-2 mx-lg-3 px-0">
+            <h5 class="card-title">Avec Digital Ocean</h5>
+            <p class="card-text">
+                Déployez votre OctoBot en cloud sur DigitalOcean.com gratuitement pendant 60 jours
+en créant un compte via <a href="https://m.do.co/c/40c9737100b1" target="_blank" rel="noopener">ce lien</a>.
+
+            </p>
+        </div>
+        <div class="card-footer mx-0 mx-md-2 mx-lg-3 px-0">
+            <div class="text-center">
+                <a href="/digital_ocean_installation/" class="btn call-to-action-button ripple-surface">Déployer OctoBot en cloud</a>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="card bg-dark col-12 col-sm-6 col-md-4">
+    <div class="d-flex justify-content-between flex-column h-100">
+        <div class="text-center my-2 my-md-4">
+            
+            <img src="/assets/images/Docker-Logo-White-RGB_Horizontal.png" class="img-fluid card-img-top deploy_img ripple-surface" alt="landing_page.using_docker">
+            
+        </div>
+        <div class="mx-0 mx-md-2 mx-lg-3 px-0">
+            <h5 class="card-title">Avec Docker</h5>
+            <p class="card-text">
+                Déployez votre OctoBot sur l'environement de votre choix en une commande en utilisant Docker.
+
+            </p>
+        </div>
+        <div class="card-footer mx-0 mx-md-2 mx-lg-3 px-0">
+            <div class="text-center">
+                <a href="/docker_installation/" class="btn call-to-action-button ripple-surface">Déployer OctoBot avec Docker</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    </div>
+    Ou installez OctoBot <a href="/python_installation/">
+        directement via son code python.
     </a>
 </div>
     <footer class="text-lg-start">
