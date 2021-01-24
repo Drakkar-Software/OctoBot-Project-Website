@@ -212,8 +212,14 @@ guides_page:
     possibilités ouvertes par le robot est de l'essayer.
 
 about_page:
+  title: A propos d'OctoBot et de son équipe
   our_vision: Notre vision
   octobot_project_history: L'histoire du projet OctoBot
+  steps:
+    download_octobot: Téléchargez OctoBot
+    choose_exchange: Sélectionnez votre plateforme de trading
+    choose_strategy: Choisissez votre stratégie
+    octobot_is_ready: Votre OctoBot est prêt
   story:
     the_existing_world: |
       Trader devrait être à la portée de tous ceux qui s'y intéressent.
@@ -223,11 +229,13 @@ about_page:
       financiers et en tirer des bénéfices devrait être simple.
     octobot_creation:
       a_small_open_source_project: Un petit projet open source
-      birth: |
+      birth_1: |
         En février 2018, une bulle des cryptocurrencies vient de se
         terminer, la consolidation commence. Guillaume et Herklos: fondateurs
         d'OctoBot réalisent que le trading basé sur l'analyse technique
-        pure fonctionne de nouveau très bien. Après avoir cherché un outil
+        pure fonctionne de nouveau très bien.
+      birth_2: |
+        Après avoir cherché un outil
         pour automatiser ces trades pour optimiser leur exécution, ils se
         rendent compte qu'aucun robot open source ne permet de facilement
         faire cette simple tache. Herklos et Guillaume décident de développer
@@ -282,6 +290,11 @@ about_page:
     mieux aux besoins des utilisateurs et s'oriente vers les
     fonctionnalités les plus pertinentes, tout en aidant ses nouveaux membres.
     Merci à la communauté pour ces idées et son aide.
+  team_members:
+    herklos:
+      desc: Herklos est ............... blabla blablabla blablalb blablabla blablalb blablabla blablalb blablabla
+    guillaume:
+      desc: Guillaume est ............... blabla blablabla blablalb blablabla blablalb blablabla blablalb blablabla
 
 installations:
   python:

@@ -4,20 +4,65 @@ namespace: about
 permalink: /about/
 ---
 
+<!--header-->
+<div class="part about-intro-background">
+    <div class="background-mask p-0">
+        <div class="py-4 w-75 mx-auto text-center">
+            <h2 class="my-4">{% t about_page.title %}</h2>
+        </div>
+    </div>
+</div>
+
 <div class="container mx-2 mx-md-auto w-100">
     <div>
         <h2>{% t about_page.our_vision %}</h2>
         <p>{% t about_page.story.the_existing_world %}</p>
-        <div class="d-flex justify-content-center my-2 my-md-4">
-            <img src="/assets/images/somelier.jpg" class="story-image me-2" alt="somelier">
-        </div>
         <p>{% t about_page.story.the_guide %}</p>
+        <div class="d-flex flex-wrap justify-content-center text-center my-2 my-md-5">
+            <div class="mx-1 mt-2">
+                <i class="fas fa-download process-step"></i>
+                <p class="pt-1 pt-md-3 mb-0">
+                    1. {% t about_page.steps.download_octobot %}
+                </p>
+            </div>
+            <div class="align-self-center d-none d-md-block mx-2 mx-lg-4">
+                <i class="fas fa-arrow-right process-link"></i>
+            </div>
+            <div class="mx-1 mt-2">
+                <i class="fab fa-bitcoin process-step"></i>
+                <p class="pt-1 pt-md-3 mb-0">
+                    2. {% t about_page.steps.choose_exchange %}
+                </p>
+            </div>
+            <div class="align-self-center d-none d-md-block mx-2 mx-lg-4">
+                <i class="fas fa-arrow-right process-link"></i>
+            </div>
+            <div class="mx-1 mt-2">
+                <i class="fas fa-cogs process-step"></i>
+                <p class="pt-1 pt-md-3 mb-0">
+                    3. {% t about_page.steps.choose_strategy %}
+                </p>
+            </div>
+            <div class="align-self-center d-none d-md-block mx-2 mx-lg-4">
+                <i class="fas fa-arrow-right process-link"></i>
+            </div>
+            <div class="mx-1 mt-2">
+                <i class="fas fa-check-circle process-step"></i>
+                <p class="pt-1 pt-md-3 mb-0">
+                    {% t about_page.steps.octobot_is_ready %}
+                </p>
+            </div>
+        </div>
         <p>{% t about_page.story.the_new_world %}</p>
     </div>
     <div>
         <h2>{% t about_page.octobot_project_history %}</h2>
         <h5>{% t about_page.story.octobot_creation.a_small_open_source_project %}</h5>
-        <p>{% t about_page.story.octobot_creation.birth %}</p>
+        <p>{% t about_page.story.octobot_creation.birth_1 %}</p>
+        <div class="d-flex justify-content-center my-2 my-md-4">
+            <img src="/assets/images/trader.jpg" class="story-image me-2" alt="trader">
+        </div>
+        <p>{% t about_page.story.octobot_creation.birth_2 %}</p>
         <h5>{% t about_page.story.octobot_creation.community_birth %}</h5>
         <p>{% t about_page.story.octobot_creation.first_versions_p1 %}</p>
         <div class="d-flex justify-content-center my-2 my-md-4">
@@ -32,6 +77,19 @@ permalink: /about/
     <div>
         <h2>{% t about_page.the_octobot_team %}</h2>
         <p>{% t about_page.octobot_core_team_desc %}</p>
+        <div class="d-flex flex-wrap justify-content-center my-2 my-md-4">
+            {% include team_member_card.html
+            name="Herklos"
+            description="about_page.team_members.herklos.desc"
+            github="https://github.com/herklos"
+            avatar="/assets/images/herklos.jpg" %}
+            {% include team_member_card.html
+            name="Guillaume"
+            description="about_page.team_members.guillaume.desc"
+            github="https://github.com/GuillaumeDSM"
+            linkedin="https://www.linkedin.com/in/guillaume-minettedesaintmartin/"
+            avatar="/assets/images/guillaume.jpg" %}
+        </div>
         <p>{% t about_page.octobot_community_team_desc %}</p>
     </div>
 </div>
