@@ -316,7 +316,35 @@ fiabilité du robot.
             </div>
         </div>
         <div class="col-12 col-md-7 text-center my-auto">
-            <img src="/assets/images/majordhomme.jpg" class="part-image-sm" alt="alfred">
+            <!-- trigger modal -->
+<a type="button" data-mdb-toggle="modal" data-mdb-target="#assetsimagesbacktestingpngModal">
+    <img src="/assets/images/backtesting.png"
+         class="part-image-md w-100"
+         alt="backtesting "
+    >
+</a>
+
+<!-- Modal -->
+<div class="modal" id="assetsimagesbacktestingpngModal" tabindex="-1" role="dialog"
+     aria-labelledby="#/assets/images/backtesting.pngModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content bg-dark">
+            <div class="modal-header">
+                <h5 class="modal-title" id="#/assets/images/backtesting.pngModalLabel">Résultat de backtesting</h5>
+                <button type="button" class="close text-light" data-mdb-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body px-0 mx-0 pb-0">
+                <img src="/assets/images/backtesting.png"
+                     class="img-fluid"
+                     alt="backtesting "
+                >
+            </div>
+        </div>
+    </div>
+</div>
+
         </div>
     </div>
     <div class="row py-1 py-md-2">

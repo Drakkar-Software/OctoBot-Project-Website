@@ -10093,7 +10093,7 @@ readers do not read off random characters that represent icons */
 
 .intro-background { color: white; min-height: 20rem; background-image: url("/assets/images/somelier.jpg"); max-height: 547px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
 
-.strategies-background { color: white; background-image: url("/assets/images/prof.jpg"); max-height: 547px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
+.strategies-background { color: white; background-image: url("/assets/images/octobot.svg"); max-height: 547px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
 
 .community-background { background-color: #070707; }
 
@@ -10117,9 +10117,9 @@ readers do not read off random characters that represent icons */
 
 .part-title { margin-top: 2rem; margin-bottom: 2rem; text-align: center; }
 
-.guides-intro-background { color: white; min-height: 20rem; background-image: url("/assets/images/majordhomme.jpg"); max-height: 350px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
+.guides-intro-background { color: white; min-height: 20rem; background-image: url("/assets/images/cog_wheels.jpg"); max-height: 350px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
 
-.community-intro-background { color: white; min-height: 20rem; background-image: url("/assets/images/majordhomme.jpg"); max-height: 350px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
+.community-intro-background { color: white; min-height: 20rem; background-image: url("/assets/images/world_team.jpg"); max-height: 350px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
 
 .community-bot-stats-label { font-weight: bold; font-size: large; }
 
@@ -10131,7 +10131,7 @@ readers do not read off random characters that represent icons */
 
 .community-bot-third { font-size: large; font-weight: bold; }
 
-.about-intro-background { color: white; min-height: 20rem; background-image: url("/assets/images/octobot.png"); max-height: 350px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
+.about-intro-background { color: white; min-height: 20rem; background-image: url("/assets/images/octobot.svg"); max-height: 350px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
 
 .story-image { width: 25rem; }
 
