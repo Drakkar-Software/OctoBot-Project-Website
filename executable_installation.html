@@ -2,14 +2,21 @@
 title: Executable installation
 namespace: executable_installation
 permalink: /executable_installation/
----
-<h1>{% t installations.executable.title %}</h1>
 
-<div class="text-center">
-    <a href="https://docs.octobot.online/"
-       target="_blank"
-       rel="noopener"
-       class="btn call-to-action-button ripple-surface">
-        {% t landing_page.using_the_latest_executable_link_text %}
-    </a>
+subtitle: installations.executable.title
+layout: installation
+---
+<div class="container mx-2 mx-md-auto w-100">
+    <div>
+        <h3>{% t installations.executable.advantages %}</h3>
+        <p class="mt-2 mt-md-4">{% t installations.executable.step1 %}</p>
+        <div class="text-center">
+            {% include modalable_image.html
+            rendered_image_path="/assets/images/releases.png"
+            class_attr="part-image-md w-100"
+            alt_attr="octobot release example"
+            title="installations.executable.release_example" %}
+        </div>
+        <p class="mt-2">{% t installations.executable.step2 %}</p>
+    </div>
 </div>

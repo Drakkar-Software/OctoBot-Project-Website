@@ -1,3 +1,6 @@
+fr: French
+en: English
+
 octobot: OctoBot
 guides: Guides
 community: Community
@@ -7,8 +10,7 @@ docs: Docs
 about: About us
 copyright: Copyright
 medium: Medium
-fr: French
-en: English
+or: or
 
 landing_page:
   tagline: "OctoBot: Free open source trading robot"
@@ -295,10 +297,60 @@ about_page:
 installations:
   python:
     title: Installer OctoBot directement depuis les sources Python
+    advantages: |
+      Déployez votre OctoBot dans depuis le code afin de pouvoir le lancer dans un environnement Python local, modifier ou examiner le bot.
+    step1: |
+      1. Si vous n'avez pas déjà Python, <a href="https://www.python.org/downloads/" target="_blank" rel="noopener">
+      installez Python en version 3.8</a>.
+    step2: "2. Clonnez le dépôt OctoBot"
+    step3: "3. Installez les dépendances python du robot"
+    step4: "4. Lancez votre OctoBot via la commande: "
+    full_doc: Voir la documentation complète pour l'utilisation d'OctoBot avec les sources Python
     view_sources: Voir les sources
   digital_ocean:
     title: Déployez votre OctoBot en cloud sur DigitalOcean.com
+    advantages: |
+      Déployez facilement votre OctBot dans le cloud de Digital Ocean pour qu'il soit
+      en ligne 100% du temps.
+    step1: |
+      1. Si vous n'en avez pas déjà un, <a href="https://www.digitalocean.com/?refcode=40c9737100b1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste" target="_blank" rel="noopener">
+      créez un compte Digital Ocean</a>. Bénéficiez de 60 jours d'hébergement gratuits en utilisant ce lien.
+    step2: "2. Déployez la dernière version d'OctoBot via ce lien:"
+    step3: "3. Le déploiement de votre OctoBot commence, le processus dure une dixaine de minutes"
+    step4: |
+      4. Accédez à l'interface de management de votre OctoBot via le lien de votre application Digital Ocean,
+      ici "https://octobot-zoctx.ondigitalocean.app/"
+    build_example: Exemple de build d'un déploiement d'OctoBot sur Digital Ocean
+    terminal: Administrez votre OctoBot directement avec le terminal intégré à Digital Ocean.
+    docker_info: |
+      Le déploiement sur Digital Ocean utilise Docker. Pour administrer votre OctoBot, utilisez la console de votre
+      application Digital Ocean: vous serez connecté directement dans votre conteneur docker OctoBot.
   docker:
     title: Déployez simplement votre OctoBot en utilisant Docker
+    advantages: Gérez facilement votre OctoBot via docker dans un conteneur isolé
+    step1: |
+      1. Si vous n'avez pas <a href="https://www.docker.com/" target="_blank" rel="noopener"> Docker</a>,
+      l'installer sur votre système. Documentations pour
+      <a href="https://docs.docker.com/engine/install/ubuntu/" target="_blank" rel="noopener">
+      Ubuntu</a>, <a href="https://docs.docker.com/engine/install/debian/" target="_blank" rel="noopener">
+      Debian</a> et <a href="https://phoenixnap.com/kb/docker-on-raspberry-pi/" target="_blank" rel="noopener">
+      Raspberry pie</a>.
+    step2: "2. Téléchargez l'image Docker d'OctoBot avec la commande:"
+    step3: "3. Lancez OctoBot avec la commande:"
+    full_doc: Voir la documentation complète pour l'utilisation d'OctoBot avec Docker
   executable:
-    title: Lancez OctoBot sans installation, directement depuis l'exécutable OctoBot
+    title: Lancer OctoBot depuis l'exécutable
+    advantages: Un fichier à lancer et votre OctoBot démarre
+    release_example: Exécutables téléchargeables pour la version 0.4.0-beta2
+    step1: |
+      1. Rendez vous sur <a href="https://github.com/Drakkar-Software/OctoBot-Binary/releases" target="_blank" rel="noopener">
+      la page officielle des versions d'OctoBot</a> et téléchargez la dernière version correspondant à votre système:
+      Windows, Linux ou MacOS.
+    step2: |
+      2. Lancez l'exécutable téléchargé. OctoBot ouvre un terminal et installe son environement de configuration et
+      l'interface de management d' OctoBot s'ouvre automatiquement.
+  your_octobot_is_ready: Votre OctBot est prêt
+  install_methods: Les méthodes d'installation d'OctoBot
+  or_install_octobot: Ou installez OctoBot
+  directly_from_python: directement via son code python.
+  accessible_at: L'interface de management de votre OctoBot est accessible sur le port 5000 de votre système.

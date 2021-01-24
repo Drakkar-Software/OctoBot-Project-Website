@@ -2,14 +2,40 @@
 title: Docker installation
 namespace: docker_installation
 permalink: /docker_installation/
----
-<h1>{% t installations.docker.title %}</h1>
 
-<div class="text-center">
-    <a href="https://docs.octobot.online/pages/With-Docker.html"
-       target="_blank"
-       rel="noopener"
-       class="btn call-to-action-button ripple-surface">
-        {% t landing_page.using_docker_link_text %}
-    </a>
+subtitle: installations.docker.title
+layout: installation
+---
+<div class="container mx-2 mx-md-auto w-100">
+    <div>
+        <h3>{% t installations.docker.advantages %}</h3>
+        <p class="mt-2 mt-md-4">{% t installations.docker.step1 %}</p>
+        <p class="mt-2 mb-1">{% t installations.docker.step2 %}</p>
+        <strong>
+            <ul>
+                <li>
+                    docker pull drakkarsoftware/octobot:stable
+                </li>
+            </ul>
+        </strong>
+        <p class="mt-2 mb-1">{% t installations.docker.step3 %}</p>
+        <strong>
+            <ul>
+                <li>
+                    docker run -itd --name OctoBot -p 80:5001 -v $(pwd)/user:/octobot/user -v $(pwd)/tentacles:/octobot/tentacles -v $(pwd)/logs:/octobot/logs drakkarsoftware/octobot:stable
+                </li>
+            </ul>
+        </strong>
+        <p class="mt-2 mt-md-4">{% t installations.accessible_at %} <a href="http://localhost:5001/">http://localhost:5001/</a>
+            or <a href="http://ip-address:5001/">http://ip-address:5001/</a></p>
+    </div>
+
+    <div class="text-center">
+        <a href="https://docs.octobot.online/pages/With-Docker.html"
+           target="_blank"
+           rel="noopener"
+           class="btn outline-button ripple-surface">
+            {% t installations.docker.full_doc %}
+        </a>
+    </div>
 </div>

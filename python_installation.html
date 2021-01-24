@@ -2,14 +2,54 @@
 title: Python installation
 namespace: python_installation
 permalink: /python_installation/
----
-<h1>{% t installations.python.title %}</h1>
 
-<div class="text-center">
-    <a href="https://docs.octobot.online/pages/With-Python-only.html"
-       target="_blank"
-       rel="noopener"
-       class="btn call-to-action-button ripple-surface">
-        {% t installations.python.view_sources %}
-    </a>
+subtitle: installations.python.title
+layout: installation
+---
+<div class="container mx-2 mx-md-auto w-100">
+    <div>
+        <h3>{% t installations.python.advantages %}</h3>
+        <p class="mt-2 mt-md-4">{% t installations.python.step1 %}</p>
+        <p class="mt-2 mb-1">{% t installations.python.step2 %}</p>
+        <strong>
+            <ul>
+                <li>
+                    git clone https://github.com/Drakkar-Software/OctoBot
+                </li>
+            </ul>
+        </strong>
+        <p class="mt-2 mb-1">{% t installations.python.step3 %}</p>
+        <strong>
+            <ul>
+                <li>
+                    cd OctoBot
+                </li>
+                <li>
+                    python3 -m pip install -Ur requirements.txt
+                </li>
+                <li>
+                    python3 start.py tentacles --install --all
+                </li>
+            </ul>
+        </strong>
+        <p class="mt-2 mb-1">{% t installations.python.step4 %}</p>
+        <strong>
+            <ul>
+                <li>
+                    python3 start.py
+                </li>
+            </ul>
+        </strong>
+        <p class="mt-2 mt-md-4">{% t installations.accessible_at %} <a href="http://localhost:5001/">http://localhost:5001/</a>
+            {% t or %} <a href="http://ip-address:5001/">http://ip-address:5001/</a></p>
+    </div>
+
+    <div class="text-center">
+        <a href="https://docs.octobot.online/pages/With-Python-only.html"
+           target="_blank"
+           rel="noopener"
+           class="btn outline-button ripple-surface">
+            {% t installations.python.full_doc %}
+        </a>
+    </div>
 </div>
