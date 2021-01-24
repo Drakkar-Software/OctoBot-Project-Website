@@ -126,8 +126,6 @@ guides_page:
     directement l'exécutable ou son image docker et lancez le robot chez
     vous ou faites le fonctionner sur un serveur cloud. Il est aussi
     possible d'installer OctoBot
-    <a href="https://docs.octobot.online/pages/With-Python-only.html" target="_blank" rel="noopener">
-    directement via son code python</a>.
   web_interface: Dashboard d'OctoBot
   configure_octobot: Configurer OctoBot
   configure_exchanges: Configurer les plateformes d'échange
@@ -357,5 +355,5 @@ installations:
   your_octobot_is_ready: Votre OctBot est prêt
   install_methods: Les méthodes d'installation d'OctoBot
   or_install_octobot: Ou installez OctoBot
-  directly_from_python: directement via son code python.
+  directly_from_python: directement via son code Python.
   accessible_at: L'interface de management de votre OctoBot est accessible sur le port 5000 de votre système.
