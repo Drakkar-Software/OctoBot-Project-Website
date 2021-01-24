@@ -78,6 +78,7 @@ landing_page:
       outil vérifiable et améliorable à tout moment car open source
       et qui est testé depuis plusieur années; le projet a 3 ans.
   try_octobot_now: Essayez OctoBot dès à présent
+  backtesting_result: Résultat de backtesting
   using_the_latest_executable: Avec l'exécutable
   using_the_latest_executable_desc: |
     Simplement téléchargez et démarrez l'exécutable correspondant à votre système pour
