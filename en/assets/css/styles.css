@@ -10131,6 +10131,14 @@ readers do not read off random characters that represent icons */
 
 .community-bot-third { font-size: large; font-weight: bold; }
 
+.about-intro-background { color: white; min-height: 20rem; background-image: url("/en/assets/images/octobot.png"); max-height: 350px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
+
 .story-image { width: 25rem; }
+
+.process-step { font-size: 5rem; }
+
+.process-link { font-size: x-large; }
+
+.avatar_img { border-radius: 50%; height: 100px; width: auto; }
 
 /*# sourceMappingURL=styles.css.map */
