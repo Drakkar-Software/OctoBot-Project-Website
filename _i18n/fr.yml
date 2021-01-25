@@ -14,70 +14,70 @@ or: ou
 
 landing_page:
   tagline: "OctoBot: robot de trading open source gratuit"
-  title: "OctoBot est un robot de trading de cryptocurrencies open source."
-  subtitle: "Utilisez ou créez les stratégies de trading que vous voulez. Testez les et automatisez vos trades."
-  try_octobot: "Essayer OctoBot"
-  usage_details: "Détails sur l'utilisation d'OctoBot"
-  what_is_octobot: "OctoBot est un robot de trading conçu pour être facile d’utilisation et personalisable à l’infini."
-  octobot_is_opensource: "OctoBot est open source"
-  test_and_use_for_free: "Testez et utilisez le robot gratuitement, autant que vous voulez"
-  see_octobot_on: "Voir OctoBot sur"
-  github: "github"
-  setup_the_strategy_that_fits_you: "Mettez au point le robot qui vous correspond"
-  each_strategy_is_testable: "Chaque stratégie est testable avec des données du passé et temps réel."
-  dont_trust_verify: |
-    "Don't trust, very"
+  title: OctoBot est un robot de trading de cryptomonnaies open source.
+  subtitle: Utilisez ou créez les stratégies de trading que vous voulez. Testez les et automatisez vos trades.
+  try_octobot: Essayer OctoBot
+  usage_details: Détails sur l'utilisation d'OctoBot
+  what_is_octobot: OctoBot est un robot de trading conçu pour être facile d’utilisation et personalisable à l’infini.
+  octobot_is_opensource: OctoBot est open source"
+  test_and_use_for_free: Testez et utilisez le robot gratuitement, autant que vous voulez
+  see_octobot_on: Voir OctoBot sur"
+  github: github
+  setup_the_strategy_that_fits_you: Mettez au point le robot qui vous correspond
+  each_strategy_is_testable: Chaque stratégie est testable avec des données du passé et temps réel.
+  dont_trust_verify: Ne faites pas confiance, vérifiez
   octobot_is_just_like_cryptocurrencies: |
-    OctoBot est à l’image des cryptocurrencies: son fonctionnement est entièrement transparent.
+    OctoBot est à l’image des cryptomonnaies: son fonctionnement est entièrement transparent.
   built_for_performances: Développé pour la performance
   multi_layer_optimisations: Optimisation sur plusieurs niveaux
   optimisation_desc_html: |
     OctoBot est designé pour être très rapide et scalable tout en laissant le développement
-    d'extensions restant abordable pour un développeur débutant. Pour ca le robot est codé en
+    d'extensions abordable pour un développeur débutant. Pour ca le robot est codé en
     <a href="https://www.python.org/" target="_blank" rel="noopener">Python</a> selon une
     architecture asynchrone avec
     <a href="https://docs.python.org/3/library/asyncio.html" target="_blank" rel="noopener">asyncio</a>
     permettant d'optimiser le temps CPU. De plus, les procédures coûteuses en CPU ou en mémoire
     sont exécutées en code natif à la plateforme et optimisé grâce à
     <a href="https://cython.org/" target="_blank" rel="noopener">Cython</a>. Grâce à cette
-    architecture, OctoBot est tout à fait capable de fonctionner à 100% sur des environements minimals tels
+    architecture, OctoBot est tout à fait capable de fonctionner à 100% sur des environnements minimals tels
     que d'une <a href="https://www.raspberrypi.org/products/" target="_blank" rel="noopener">Raspberry Pi</a>.
-  the_octobot_community: "La communauté OctoBot"
-  web_interface: "Access your OctoBot from its web interface"
-  telegram_interface: "Control your OctoBot from anywhere using Telegram"
-  twitter_interface: "OctoBot can read and publish on Twitter"
-  telegram: "Telegram"
-  discord: "Discord"
-  bots_this_month: "Bots ce mois-ci"
-  bots_at_this_moment: "Bots aujourd'hui"
-  total_octobots: "OctoBots totaux"
-  octobot_statistics: "Voir les statistics de la communauté"
-  discover_octobot_strategies: "Découvrez les stratégies d’OctoBot"
+  the_octobot_community: La communauté OctoBot
+  web_interface: Access your OctoBot from its web interface
+  telegram_interface: Control your OctoBot from anywhere using Telegram
+  twitter_interface: OctoBot can read and publish on Twitter
+  telegram: Telegram
+  discord: Discord
+  bots_this_month: Bots ce mois-ci
+  bots_at_this_moment: Bots aujourd'hui
+  total_octobots: OctoBots totaux
+  octobot_statistics: Voir les statistics de la communauté
+  discover_octobot_strategies: Découvrez les stratégies d’OctoBot
   octobot_strategies_concept: |
     OctoBot est personalisable à l’infini: une multitude de stratégies est disponible, chaque stratégie est
     personalisable. Débutant, confirmé ou expert, il y en a pour tout le monde.
-  discover_strategies: "Découvrir les stratégies dans OctoBot"
-  news: "Les news"
-  all_news_on_our_blog: "Voir les news sur notre blog"
+  discover_strategies: Découvrir les stratégies dans OctoBot
+  news: Les news
+  all_news_on_our_blog: Voir les news sur notre blog
   story:
     the_obsticle: |
-      OctoBot est destiné aux personnes qui n'ont pas beaucoup de temps et qui n'accordent pas facilement
+      OctoBot est destiné aux personnes qui n'ont pas beaucoup de temps ou qui n'accordent pas facilement
       leur confiance aux projets du monde des cryptomonaies.
       Beaucoup de solutions d'automatisation existent mais sont compliquées à utiliser, cher, ne marchent
       pas toujours comme voulu ou sont réservés à des professionnels. D’autre part, lors qu'une tendance
-      est repérée, il est difficile d'en profiter au maximum: manuellement ca prend énormément de temps
+      est repérée, il est difficile d'en profiter au maximum: le trading est chronophage
       et automatiquement comment être sûr que le robot de trading sera fiable ?
     the_challenge: |
       Quelle est la valeur d'un investissement ou d'un trade si il vous empêche de dormir par peur
       d'une mauvaise décision? Comment s'assurer que le robot se comportera comme prévu ? La philosophie
-      d'OctoBot est d'être le plus transparent possible: le code est open source et les stratégies sont
-      toujours testables sur les données du passé et les données en temps réel afin de garantir la
-      fiabilité du robot.
+      d'OctoBot est d'être le plus transparent et fiable possible.
+    the_challenge_li_1: Le code est open source afin de pouvoir vérifier ce que fait le robot.
+    the_challenge_li_2: les stratégies sont testables sur les données du passé et les données
+      en temps réel pour garantir la fiabilité des stratégies.
     the_transformation: |
       En utilisant OctoBot, vous pourrez trader automatiquement, avec
-      a stratégie souhaitée, sur les marchés que vous voulez. Débutant
+      a stratégie que vous aurez choisi, sur les marchés que vous voulez. Débutant
       ou trader confirmé, toutes les stratégies d'OctoBot sont testables
-      à l'infini: utilisez simplement une configuration existante ou
+      à l'infini. Vous pouvez utiliser une configuration existante ou
       essayez et customisez vos stratégies jusqu'à trouver le niveau
       parfait avant de lancer le trading avec de l'argent réel et faire
       fructifier vos gains. En utilisant OctoBot, vous utiliser un
@@ -97,7 +97,7 @@ landing_page:
   using_digital_ocean_desc_link_text: Déployer OctoBot en cloud
   using_docker: Avec Docker
   using_docker_desc: |
-    Déployez votre OctoBot sur l'environement de votre choix en une commande en utilisant Docker.
+    Déployez votre OctoBot sur l'environnement de votre choix en une commande en utilisant Docker.
   using_docker_link_text: Déployer OctoBot avec Docker
 
 community_page:
@@ -141,7 +141,7 @@ guides_page:
   configure_traded_pairs: Configurer les cryptomonnaies à trader
   configure_traded_pairs_desc_html: |
     <p>Sélectionnez les cryptomonnaies à faire à trader par OctoBot. Il
-    est possible de sélectionner plusieurs pairs par cryptocurrency.
+    est possible de sélectionner plusieurs pairs par cryptomonnaie.
     OctoBot tradera avec le maximum de pairs sélectionnées lorsqu'elles
     seront disponibles sur les sites de trading utilisés.</p>
     <p>Voir
@@ -184,7 +184,7 @@ guides_page:
     <a href="https://docs.octobot.online/pages/Backtesting-and-strategy-optimization.html" target="_blank" rel="noopener">
     OctoBot docs</a> pour plus de détails sur le backtesting.</p>
   backtesting_configuration: Résultat de backtesting
-  the_evaluation_chain: La chaine d'évaluation d' OctoBot
+  the_evaluation_chain: La chaine d'évaluation d'OctoBot
   evaluators: Les évaluateurs
   evaluators_desc_html: |
     Les evaluateurs sont des agents autonomes qui publient une nouvelle
@@ -231,7 +231,7 @@ about_page:
     octobot_creation:
       a_small_open_source_project: Un petit projet open source
       birth_1: |
-        En février 2018, une bulle des cryptocurrencies vient de se
+        En février 2018, une bulle des cryptomonnaies vient de se
         terminer, la consolidation commence. Guillaume et Herklos: fondateurs
         d'OctoBot réalisent que le trading basé sur l'analyse technique
         pure fonctionne de nouveau très bien.
@@ -350,8 +350,8 @@ installations:
       la page officielle des versions d'OctoBot</a> et téléchargez la dernière version correspondant à votre système:
       Windows, Linux ou MacOS.
     step2: |
-      2. Lancez l'exécutable téléchargé. OctoBot ouvre un terminal et installe son environement de configuration et
-      l'interface de management d' OctoBot s'ouvre automatiquement.
+      2. Lancez l'exécutable téléchargé. OctoBot ouvre un terminal et installe son environnement de configuration et
+      l'interface de management d'OctoBot s'ouvre automatiquement.
   your_octobot_is_ready: Votre OctBot est prêt
   install_methods: Les méthodes d'installation d'OctoBot
   or_install_octobot: Ou installez OctoBot
