@@ -147,8 +147,8 @@ possible d'installer OctoBot
         <div class="mx-0 mx-md-2 mx-lg-3 px-0">
             <h5 class="card-title">Avec l'exécutable</h5>
             <p class="card-text">
-                Simplement téléchargez et démarrez l'exécutable correspondant à votre système pour
-lancer votre OctoBot directement chez vous.
+                Téléchargez et lancez simplement l'exécutable qui correspond à votre système pour lancer votre
+OctoBot depuis chez vous.
 
             </p>
         </div>
@@ -279,7 +279,7 @@ en créant un compte via <a href="https://m.do.co/c/40c9737100b1" target="_blank
             <div>
                 <h3 class="border-bottom my-3 pb-2">Configurer les plateformes d'échange</h3>
                 <div>
-                    <p>Ajoutez les plateformes d'échange sur lesquels OctoBot devra fonctionner.
+                    <p>Ajoutez les plateformes d'échange sur lesquelles OctoBot devra fonctionner.
 L'authentification à ces plateformes n'est pas nécessaire pour le mode de
 simulation de trading. Octobot peut générer un grand nombre de
 sites de trading simultanément avec des performances optimales.</p>
@@ -298,7 +298,7 @@ OctoBot docs</a> pour obtenir la liste des plateformes supportés.</p>
             <div>
                 <h3 class="border-bottom my-3 pb-2">Configurer les cryptomonnaies à trader</h3>
                 <div>
-                    <p>Sélectionnez les cryptomonnaies à faire à trader par OctoBot. Il
+                    <p>Sélectionnez les cryptomonnaies qu'OctoBot échangera pour vous. Il
 est possible de sélectionner plusieurs pairs par cryptomonnaie.
 OctoBot tradera avec le maximum de pairs sélectionnées lorsqu'elles
 seront disponibles sur les sites de trading utilisés.</p>
@@ -378,22 +378,23 @@ OctoBot docs</a> pour plus de détails sur la configuration des pairs
         </div>
         <div class="col col-md-5">
             <div>
-                <h3 class="border-bottom my-3 pb-2">Configurer le mode de trading a utiliser</h3>
+                <h3 class="border-bottom my-3 pb-2">Configurer le mode de trading à utiliser</h3>
                 <div>
-                    OctoBot propose différentes façons de trader: les trading modes.
+                    OctoBot propose différents modules de trading : les trading modes.
 Chaque trading mode est unique et propose une approche différente
 du trading. Certains sont risqués mais avec de fort potentiels de gains,
 d'autres se focalisent sur les micro fluctuations du marché pour
 tirer des bénéfices réguliers, d'autres encore attendent des sigaux
 d'autres plateformes comme trading view. Chaque trading mode est
 lui même configurable. Certain trading modes utilisent des stratégies
-et des évaluateurs: la chaine d'évaluation. Cette chaine permet de
-finement configurer OctoBot en choisisant d'utiliser des evaluateurs
-techniques comme le RSI ou le MACD.
+et des évaluateurs : <a href="#evaluation_chain">la chaine d'évaluation</a>.
+Cette chaine est entièrement configurable, vous pouvez choisir les evaluateurs techniques
+qui seront utilisés comme par exemple le RSI ou le MACD et même utiliser des évaluateurs
+basés sur des réseaux sociaux.
 
                     <div class="mt-4">
 
-                        <a href="#trading-modes" class="btn call-to-action-button">
+                        <a href="#evaluation_chain" class="btn call-to-action-button">
                             Plus de détails sur la chaine d'évaluation
                         </a>
                     </div>
@@ -410,7 +411,7 @@ techniques comme le RSI ou le MACD.
                 <div>
                     <p>Il est possible de commander à distance son OctoBot en le connectant à Telegram.
 Vérifiez ce que fait votre robot, regardez son portfolio, ses profits, lancez
-une vente d'urgence ... Accédez à votre OctoBot d'où vous voulez, quand vous voulez
+une vente d'urgence... Accédez à votre OctoBot d'où vous voulez, quand vous voulez
 grâce à son interface télégram.</p>
 <p>Voir
 <a href="https://docs.octobot.online/pages/Telegram-interface.html" target="_blank" rel="noopener">
@@ -518,8 +519,8 @@ OctoBot docs</a> pour plus de détails sur l'interface Telegram d'OctoBot.</p>
             <div>
                 <h3 class="border-bottom my-3 pb-2">Optimisez votre OctoBot avec le backtesting</h3>
                 <div>
-                    <p>Grâce à au backtesting, éprouvez votre OctoBot sur le données
-historiques des marchés que vous tradez. La plupart des configurations
+                    <p>Grâce au backtesting, éprouvez votre OctoBot sur les
+données historiques des marchés que vous tradez. La plupart des configurations
 d'OctoBot est testable en backtesting ! Optimisez la configuration de
 votre OctoBot dans les moindre détails pour maximiser vos profits.</p>
 <p>Voir
@@ -534,12 +535,12 @@ OctoBot docs</a> pour plus de détails sur le backtesting.</p>
 <div class="part mb-1 mb-md-5">
     <div class="row py-1 py-md-2">
         <div class="col col-md-5">
-            <h3 class="border-bottom my-3 pb-2" id="trading-modes">La chaine d'évaluation d'OctoBot</h3>
+            <h3 class="border-bottom my-3 pb-2" id="evaluation_chain">La chaine d'évaluation d'OctoBot</h3>
             <div>
                 <h5> Les évaluateurs </h5>
                 <p>
-                    Les evaluateurs sont des agents autonomes qui publient une nouvelle
-evaluation a chaque nouvelle donnée. Ils peuvent suivre l'évolution des
+                    Les evaluateurs sont des agents autonomes qui publient une nouvelle evaluation lors de
+chaque réception de nouvelle donnée. Ils peuvent suivre l'évolution des
 prix pour faire des analyses techniques (
 <a href="https://www.investopedia.com/terms/r/rsi.asp" target="_blank" rel="noopener">RSI</a>,
 <a href="https://www.investopedia.com/terms/b/bollingerbands.asp" target="_blank" rel="noopener">
@@ -553,7 +554,7 @@ suivre en temps réel des médias comme Twitter ou Telegram.
                 <p>
                     Les stratégies exploitent les évaluateurs pour émettre des signaux :
 acheter, vendre ou ne rien faire. Une stratégie est comparable à un
-cerveau et les évaluateurs à des senses: le cerveau décide quoi faire
+cerveau et les évaluateurs à des sens: le cerveau décide quoi faire
 des signaux qu'il recoit.
 
                 </p>
@@ -562,7 +563,7 @@ des signaux qu'il recoit.
                 <h5> Les modes de trading </h5>
                 <p>
                     Les trading modes recoivent les signaux des stratégies et se chargent
-de les interpréter pour effectuer les actions appropriées: positionnement
+de les interpréter pour effectuer les actions appropriées : positionnement
 d'un ordre, annulation d'un autre, récupération de profits.
 
                 </p>
@@ -633,8 +634,8 @@ d'un ordre, annulation d'un autre, récupération de profits.
 
 <div class="part pt-2 pt-md-5 my-2 my-md-5">
     <h5>Ces fonctionnalités ne sont qu'un exemple de tout ce qu'il est
-possible de faire avec OctoBot. Le meilleur moyen de se rendre compte des
-possibilités ouvertes par le robot est de l'essayer.
+possible de faire avec OctoBot. Le meilleur moyen de se rendre compte de
+l'éventail des possibilités disponible avec ce robot est de l'essayer dès maintenant.
 </h5>
     <div class="text-center my-2 my-md-3">
         <a href="/#try-octobot" class="btn btn-lg call-to-action-button">
