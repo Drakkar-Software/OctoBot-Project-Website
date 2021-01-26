@@ -1,8 +1,8 @@
 ---
 short_name: new_interface
-title: Nouvelle interface
-subtitle: OctoBot sur Discord
+title: New interface
+subtitle: OctoBot on Discord
 date: 2020-9-30
 image: prof.jpg
 ---
-Utilisez votre OctoBot directement depuis Discord.
+Use your OctoBot directly from Discord.

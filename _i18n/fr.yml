@@ -17,11 +17,11 @@ landing_page:
   title: OctoBot est un robot de trading de cryptomonnaies open source.
   subtitle: Utilisez ou créez les stratégies de trading que vous voulez. Testez les et automatisez vos trades.
   try_octobot: Essayer OctoBot
-  usage_details: Détails sur l'utilisation d'OctoBot
+  usage_details: Voir l'utilisation d'OctoBot en détails
   what_is_octobot: OctoBot est un robot de trading conçu pour être facile d’utilisation et personalisable à l’infini.
   octobot_is_opensource: OctoBot est open source
-  test_and_use_for_free: Testez et utilisez le robot gratuitement, autant que vous voulez
-  see_octobot_on: Voir OctoBot sur"
+  test_and_use_for_free: Testez et utilisez le robot gratuitement, autant que vous voulez.
+  see_octobot_on: Voir OctoBot sur
   github: github
   setup_the_strategy_that_fits_you: Mettez au point le robot qui vous correspond
   each_strategy_is_testable: Chaque stratégie est testable avec des données du passé et temps réel.
@@ -35,17 +35,14 @@ landing_page:
     d'extensions abordable pour un développeur débutant. Pour accomplir ses objectifs, le robot
     est developpé en
     <a href="https://www.python.org/" target="_blank" rel="noopener">Python</a> selon une
-    architecture asynchrone avec
+    architecture asynchrone utilisant
     <a href="https://docs.python.org/3/library/asyncio.html" target="_blank" rel="noopener">asyncio</a>
-    permettant d'optimiser le temps CPU. De plus, les procédures coûteuses en puissance machine ou en mémoire
-    sont exécutées en code natif à la plateforme et optimisé grâce à
-    <a href="https://cython.org/" target="_blank" rel="noopener">Cython</a>. Grâce à cette
+    qui permet d'optimiser le temps CPU. De plus, les procédures coûteuses en puissance machine ou en mémoire
+    sont exécutées en code natif optimal de votre système grâce à
+    <a href="https://cython.org/" target="_blank" rel="noopener">Cython</a>. Avec cette
     architecture, OctoBot est tout à fait capable de fonctionner à 100% sur des environnements minimaux tels
     d'une <a href="https://www.raspberrypi.org/products/" target="_blank" rel="noopener">Raspberry Pi</a>.
   the_octobot_community: La communauté OctoBot
-  web_interface: Access your OctoBot from its web interface
-  telegram_interface: Control your OctoBot from anywhere using Telegram
-  twitter_interface: OctoBot can read and publish on Twitter
   telegram: Telegram
   discord: Discord
   bots_this_month: Bots en activité ce mois-ci
@@ -78,7 +75,7 @@ landing_page:
       En utilisant OctoBot, vous pourrez trader automatiquement, avec
       a stratégie que vous aurez choisi, sur les marchés que vous voulez. Débutant
       ou trader confirmé, toutes les stratégies d'OctoBot sont testables
-      à l'infini. Vous pouvez utiliser une configuration existante ou
+      à l'infini, facilement. Vous pouvez utiliser une configuration existante ou
       essayez et customisez vos stratégies jusqu'à trouver le niveau
       parfait avant de lancer le trading avec de l'argent réel et faire
       fructifier vos gains. En utilisant OctoBot, vous utiliser un
