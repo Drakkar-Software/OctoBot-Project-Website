@@ -31,25 +31,26 @@ landing_page:
   built_for_performances: Développé pour la performance
   multi_layer_optimisations: Optimisation sur plusieurs niveaux
   optimisation_desc_html: |
-    OctoBot est designé pour être très rapide et scalable tout en laissant le développement
-    d'extensions abordable pour un développeur débutant. Pour ca le robot est codé en
+    OctoBot est architecturé pour être très rapide et adaptatif tout en laissant le développement
+    d'extensions abordable pour un développeur débutant. Pour accomplir ses objectifs, le robot
+    est developpé en
     <a href="https://www.python.org/" target="_blank" rel="noopener">Python</a> selon une
     architecture asynchrone avec
     <a href="https://docs.python.org/3/library/asyncio.html" target="_blank" rel="noopener">asyncio</a>
-    permettant d'optimiser le temps CPU. De plus, les procédures coûteuses en CPU ou en mémoire
+    permettant d'optimiser le temps CPU. De plus, les procédures coûteuses en puissance machine ou en mémoire
     sont exécutées en code natif à la plateforme et optimisé grâce à
     <a href="https://cython.org/" target="_blank" rel="noopener">Cython</a>. Grâce à cette
-    architecture, OctoBot est tout à fait capable de fonctionner à 100% sur des environnements minimals tels
-    que d'une <a href="https://www.raspberrypi.org/products/" target="_blank" rel="noopener">Raspberry Pi</a>.
+    architecture, OctoBot est tout à fait capable de fonctionner à 100% sur des environnements minimaux tels
+    d'une <a href="https://www.raspberrypi.org/products/" target="_blank" rel="noopener">Raspberry Pi</a>.
   the_octobot_community: La communauté OctoBot
   web_interface: Access your OctoBot from its web interface
   telegram_interface: Control your OctoBot from anywhere using Telegram
   twitter_interface: OctoBot can read and publish on Twitter
   telegram: Telegram
   discord: Discord
-  bots_this_month: Bots ce mois-ci
-  bots_at_this_moment: Bots aujourd'hui
-  total_octobots: OctoBots totaux
+  bots_this_month: Bots en activité ce mois-ci
+  bots_at_this_moment: Bots en train de trader
+  total_octobots: Bots déjà installés
   octobot_statistics: Voir les statistics de la communauté
   discover_octobot_strategies: Découvrez les stratégies d’OctoBot
   octobot_strategies_concept: |
@@ -87,8 +88,8 @@ landing_page:
   backtesting_result: Résultat de backtesting
   using_the_latest_executable: Avec l'exécutable
   using_the_latest_executable_desc: |
-    Simplement téléchargez et démarrez l'exécutable correspondant à votre système pour
-    lancer votre OctoBot directement chez vous.
+    Téléchargez et lancez simplement l'exécutable qui correspond à votre système pour lancer votre
+    OctoBot depuis chez vous.
   using_the_latest_executable_link_text: Télécharger OctoBot
   using_digital_ocean: Avec Digital Ocean
   using_digital_ocean_desc_html: |
@@ -105,9 +106,9 @@ community_page:
   subtitle: La communauté OctoBot aujourd'hui
   loading: Loading community data
   thanks_to_the_community: |
-    Grand merci à la communauté OctoBot pour contribuer à
+    Un grand merci à la communauté OctoBot pour contribuer à
     rendre le trading plus transparent par le partage de ses informations !
-  current_best_performers: Performance des meilleurs OctoBots du moment
+  current_best_performers: Performance des meilleurs OctoBots du moment, depuis leur dernier lancement
   best_profitability: Meilleur OctoBot
   second_profitability: Second meilleur aujourd'hui
   third_profitability: 3eme OctoBot
@@ -130,7 +131,7 @@ guides_page:
   configure_octobot: Configurer OctoBot
   configure_exchanges: Configurer les plateformes d'échange
   configure_exchanges_desc_html: |
-    <p>Ajoutez les plateformes d'échange sur lesquels OctoBot devra fonctionner.
+    <p>Ajoutez les plateformes d'échange sur lesquelles OctoBot devra fonctionner.
     L'authentification à ces plateformes n'est pas nécessaire pour le mode de
     simulation de trading. Octobot peut générer un grand nombre de
     sites de trading simultanément avec des performances optimales.</p>
@@ -140,7 +141,7 @@ guides_page:
   exchanges_configuration: Configuration des sites de trading
   configure_traded_pairs: Configurer les cryptomonnaies à trader
   configure_traded_pairs_desc_html: |
-    <p>Sélectionnez les cryptomonnaies à faire à trader par OctoBot. Il
+    <p>Sélectionnez les cryptomonnaies qu'OctoBot échangera pour vous. Il
     est possible de sélectionner plusieurs pairs par cryptomonnaie.
     OctoBot tradera avec le maximum de pairs sélectionnées lorsqu'elles
     seront disponibles sur les sites de trading utilisés.</p>
@@ -149,18 +150,19 @@ guides_page:
     OctoBot docs</a> pour plus de détails sur la configuration des pairs
     à trader.</p>
   traded_pairs_configuration: Configuration des cryptomonnaies à trader
-  configure_trading_modes: Configurer le mode de trading a utiliser
+  configure_trading_modes: Configurer le mode de trading à utiliser
   configure_trading_modes_desc: |
-    OctoBot propose différentes façons de trader: les trading modes.
+    OctoBot propose différents modules de trading : les trading modes.
     Chaque trading mode est unique et propose une approche différente
     du trading. Certains sont risqués mais avec de fort potentiels de gains,
     d'autres se focalisent sur les micro fluctuations du marché pour
     tirer des bénéfices réguliers, d'autres encore attendent des sigaux
     d'autres plateformes comme trading view. Chaque trading mode est
     lui même configurable. Certain trading modes utilisent des stratégies
-    et des évaluateurs: la chaine d'évaluation. Cette chaine permet de
-    finement configurer OctoBot en choisisant d'utiliser des evaluateurs
-    techniques comme le RSI ou le MACD.
+    et des évaluateurs : <a href="#evaluation_chain">la chaine d'évaluation</a>.
+    Cette chaine est entièrement configurable, vous pouvez choisir les evaluateurs techniques
+    qui seront utilisés comme par exemple le RSI ou le MACD et même utiliser des évaluateurs
+    basés sur des réseaux sociaux.
   trading_modes_configuration: Configuration du mode de trading à utiliser
   trading_modes_configuration_details: Configuration détaillée d'un mode de trading
   more_info_on_evaluation_chain: Plus de détails sur la chaine d'évaluation
@@ -168,7 +170,7 @@ guides_page:
   configure_communication_channels_desc_html: |
     <p>Il est possible de commander à distance son OctoBot en le connectant à Telegram.
     Vérifiez ce que fait votre robot, regardez son portfolio, ses profits, lancez
-    une vente d'urgence ... Accédez à votre OctoBot d'où vous voulez, quand vous voulez
+    une vente d'urgence... Accédez à votre OctoBot d'où vous voulez, quand vous voulez
     grâce à son interface télégram.</p>
     <p>Voir
     <a href="https://docs.octobot.online/pages/Telegram-interface.html" target="_blank" rel="noopener">
@@ -176,8 +178,8 @@ guides_page:
   communication_channels_configuration: Configurez les connexions de votre OctoBot
   configure_backtesting: Optimisez votre OctoBot avec le backtesting
   configure_backtesting_desc_html: |
-    <p>Grâce à au backtesting, éprouvez votre OctoBot sur le données
-    historiques des marchés que vous tradez. La plupart des configurations
+    <p>Grâce au backtesting, éprouvez votre OctoBot sur les
+    données historiques des marchés que vous tradez. La plupart des configurations
     d'OctoBot est testable en backtesting ! Optimisez la configuration de
     votre OctoBot dans les moindre détails pour maximiser vos profits.</p>
     <p>Voir
@@ -187,8 +189,8 @@ guides_page:
   the_evaluation_chain: La chaine d'évaluation d'OctoBot
   evaluators: Les évaluateurs
   evaluators_desc_html: |
-    Les evaluateurs sont des agents autonomes qui publient une nouvelle
-    evaluation a chaque nouvelle donnée. Ils peuvent suivre l'évolution des
+    Les evaluateurs sont des agents autonomes qui publient une nouvelle evaluation lors de
+    chaque réception de nouvelle donnée. Ils peuvent suivre l'évolution des
     prix pour faire des analyses techniques (
     <a href="https://www.investopedia.com/terms/r/rsi.asp" target="_blank" rel="noopener">RSI</a>,
     <a href="https://www.investopedia.com/terms/b/bollingerbands.asp" target="_blank" rel="noopener">
@@ -198,19 +200,19 @@ guides_page:
   strategies_desc: |
     Les stratégies exploitent les évaluateurs pour émettre des signaux :
     acheter, vendre ou ne rien faire. Une stratégie est comparable à un
-    cerveau et les évaluateurs à des senses: le cerveau décide quoi faire
+    cerveau et les évaluateurs à des sens: le cerveau décide quoi faire
     des signaux qu'il recoit.
   trading_modes: Les modes de trading
   trading_modes_desc: |
     Les trading modes recoivent les signaux des stratégies et se chargent
-    de les interpréter pour effectuer les actions appropriées: positionnement
+    de les interpréter pour effectuer les actions appropriées : positionnement
     d'un ordre, annulation d'un autre, récupération de profits.
   chart_with_TA: Graphique de prix avec bollinger bands et RSI par tradingview.com
   evaluators_configuration: Configuration des évaluateurs
   this_is_just_an_subset: |
     Ces fonctionnalités ne sont qu'un exemple de tout ce qu'il est
-    possible de faire avec OctoBot. Le meilleur moyen de se rendre compte des
-    possibilités ouvertes par le robot est de l'essayer.
+    possible de faire avec OctoBot. Le meilleur moyen de se rendre compte de
+    l'éventail des possibilités disponible avec ce robot est de l'essayer dès maintenant.
 
 about_page:
   title: A propos d'OctoBot et de son équipe
@@ -225,7 +227,7 @@ about_page:
     the_existing_world: |
       Trader devrait être à la portée de tous ceux qui s'y intéressent.
       Que ce soit pour investir à long terme dans des technologies que
-      vous avez a identifiées ou rapidement faire fructifier votre
+      vous avez avez identifiées ou rapidement faire fructifier votre
       patrimoine sur une tendance porteuse. Participer aux marchés
       financiers et en tirer des bénéfices devrait être simple.
     octobot_creation:
@@ -237,9 +239,9 @@ about_page:
         pure fonctionne de nouveau très bien.
       birth_2: |
         Après avoir cherché un outil
-        pour automatiser ces trades pour optimiser leur exécution, ils se
+        pour automatiser leurs trades et optimiser leur exécution, ils se
         rendent compte qu'aucun robot open source ne permet de facilement
-        faire cette simple tache. Herklos et Guillaume décident de développer
+        faire cette simple tâche. Herklos et Guillaume décident de développer
         un robot qui sera optimisé pour des stratégies d'analyses techniques
         et qui sera surtout gratuit et pratique.
       community_birth: Naissance de la communauté OctoBot
@@ -269,18 +271,18 @@ about_page:
       à ses différent niveaux de personnalisation.
     the_new_world: |
       Notre objectif est que les utilisateurs d'OctoBot puissent se concentrer sur ce
-      qui les intéressent: que ce soit explorer le monde des crypto pour trouver les prochaines perles
+      qui les intéressent : que ce soit explorer le monde des crypto pour trouver les prochaines perles
       rares ou optimiser leurs stratégies de trading. OctoBot gère leur portfolio
-      selon la stratégie qu'ils ont sélectionnée et éprouvée: les gains et les
+      selon la stratégie qu'ils ont sélectionnée et éprouvée : les gains et les
       risques sont maîtrisés par un outil fiable et transparent qui est toujours
       disponible pour eux.
   the_octobot_team: L'équipe d'OctoBot
   octobot_core_team_desc: |
     Depuis 3 ans, OctoBot est développé bénévolement par Herklos
-    et Guillaume: deux passionnés de l'univers des cryptomonnaies.
-    Ayant tous deux un background de développeur, ils on pu prendre le
+    et Guillaume : deux passionnés de l'univers des cryptomonnaies.
+    Ayant tous deux un background de développeur, ils ont pu prendre le
     temps de réaliser le robot et les éléments de l'écosystème au fil
-    des retours utilisateur. Cette période a permi de réaliser une base de code
+    des retours utilisateur. Cette période a permis de réaliser une base de code
     très solide pour le lancement tout en s'assurant que
     l'équipe comprend au mieux les besoins des utilisateurs pour faire
     évoluer OctoBot dans la meilleure direction.
@@ -290,7 +292,7 @@ about_page:
     cette communauté qu'OctoBot évolue continuellement pour répondre au
     mieux aux besoins des utilisateurs et s'oriente vers les
     fonctionnalités les plus pertinentes, tout en aidant ses nouveaux membres.
-    Merci à la communauté pour ces idées et son aide.
+    Merci à la communauté pour ses idées et son aide.
   team_members:
     herklos:
       desc: Herklos est ............... blabla blablabla blablalb blablabla blablalb blablabla blablalb blablabla
