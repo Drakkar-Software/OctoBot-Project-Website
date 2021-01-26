@@ -13,13 +13,13 @@ medium: Medium
 or: ou
 
 landing_page:
-  tagline: "OctoBot: robot de trading open source gratuit"
+  tagline: "OctoBot : robot de trading open source gratuit"
   title: OctoBot est un robot de trading de cryptomonnaies open source.
   subtitle: Utilisez ou créez les stratégies de trading que vous voulez. Testez les et automatisez vos trades.
   try_octobot: Essayer OctoBot
   usage_details: Détails sur l'utilisation d'OctoBot
   what_is_octobot: OctoBot est un robot de trading conçu pour être facile d’utilisation et personalisable à l’infini.
-  octobot_is_opensource: OctoBot est open source"
+  octobot_is_opensource: OctoBot est open source
   test_and_use_for_free: Testez et utilisez le robot gratuitement, autant que vous voulez
   see_octobot_on: Voir OctoBot sur"
   github: github
