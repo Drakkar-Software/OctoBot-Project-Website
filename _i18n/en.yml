@@ -97,118 +97,109 @@ landing_page:
   using_docker_link_text: Deploy OctoBot with Docker
 
 community_page:
-  title: Statistiques de la communauté OctoBot
-  subtitle: La communauté OctoBot en temps réel
+  title: The OctoBot community statistics
+  subtitle: The OctoBot community today
   loading: Loading community data
   thanks_to_the_community: |
-    Grand merci à la communauté OctoBot pour contribuer à
-    rendre le trading plus transparent par le partage de ses informations !
-  best_profitability: Meilleur OctoBot actuel
-  second_profitability: Second meilleur OctoBot
-  third_profitability: 3eme OctoBot
-  top_exchanges: Today's most used exchanges
+    Many thanks to the OctoBot community for contributing to make trading
+    more transparent and for sharing its data !
+  current_best_performers: Performances of the best OctoBots of the moment since they came online
+  top_exchanges: Most used exchanges
   exchange: Exchange
-  top_trading_modes: Today's most used trading modes
+  top_trading_modes: Most used trading modes
   trading_mode: Trading mode
   active_octobots: Active OctoBots
 
 guides_page:
-  title: Utiliser OctoBot
-  subtitle: Comment utiliser OctoBot a son plein potentiel
-  installer_octobot: Installer OctoBot
+  title: Using OctoBot
+  subtitle: How to use OctoBot at its full potential
+  install_octobot: Setting up OctoBot
   install_methods_desc_html: |
-    Plusieurs méthodes permettent de mettre en place OctoBot. Téléchargez
-    directement d'exécutable ou son image docker et lancez le robot chez
-    vous ou faites le fonctionner sur un serveur cloud. Il est aussi
-    possible d'installer OctoBot via son code python depuis le
-    <a href="https://github.com/Drakkar-Software/OctoBot" target="_blank" rel="noopener">
-    repository OctoBot</a>.
-  web_interface: Dashboard d'OctoBot
-  configure_octobot: Configurer OctoBot
-  configure_exchanges: Configurer les sites de trading
+    There are many ways to install OctoBot. You can directly download the executable
+    or its Docker image and start the robot directly from home or make it run in a
+    cloud server. It is also possible to install OctoBot
+  web_interface: OctoBot Dashboard
+  configure_octobot: Configure OctoBot
+  configure_exchanges: Configure exchanges
   configure_exchanges_desc_html: |
-    <p>Ajoutez les sites de trading sur lesquels OctoBot devra fonctionner.
-    L'authentification à ces sites n'est pas nécessaire pour le mode de
-    simulation de trading. Octobot peut générer un grand nombre de
-    sites de trading simultanément avec des performances optimales.</p>
-    <p>Voir
+    <p>Add exchanges on which OctoBot will work. Authentication of these exchanges
+    is not only mandatory for the trading simulator mode. OctoBot can handle a great
+    number of exchanges simultaneously with optimal performances.</p>
+    <p>See
     <a href="https://docs.octobot.online/pages/Exchanges.html#octobot-officially-supported-exchanges" target="_blank" rel="noopener">
-    OctoBot docs</a> pour obtenir la liste des sites supportés.</p>
-  exchanges_configuration: Configuration des sites de trading
-  configure_traded_pairs: Configurer les cryptomonnaies à trader
+    OctoBot docs</a> to get the list of supported exchanges.</p>
+  exchanges_configuration: Exchanges configuraiton
+  configure_traded_pairs: Configuration of the Cryptocurrencies that should be traded
   configure_traded_pairs_desc_html: |
-    <p>Sélectionnez les cryptomonnaies à faire à trader par OctoBot. Il
-    est possible de sélectionner plusieurs pairs par cryptocurrency.
-    OctoBot tradera avec le maximum de pairs sélectionnées lorsqu'elles
-    seront disponibles sur les sites de trading utilisés.</p>
-    <p>Voir
+    <p>Select the cryptocurrencies to be traded by OctoBot. It is possible to select
+    multiple trading pairs for each cryptocurrency. OctoBot will trade each of them
+    when avaible in exchanges.</p>
+    <p>See
     <a href="https://docs.octobot.online/pages/Configuration.html#cryptocurrencies" target="_blank" rel="noopener">
-    OctoBot docs</a> pour plus de détails sur la configuration des pairs
-    à trader.</p>
-  traded_pairs_configuration: Configuration des cryptomonnaies à trader
-  configure_trading_modes: Configurer le mode de trading a utiliser
-  trading_modes_configuration_details: Configuration détaillée d'un mode de trading
-  more_info_on_evaluation_chain: Plus de détails sur la chaine d'évaluation
+    OctoBot docs</a> for more details on trading pairs configuration.</p>
+  traded_pairs_configuration: Configuration of the cryptocurrencies to trade
+  configure_trading_modes: Configuration the trading mode to use
   configure_trading_modes_desc: |
-    OctoBot propose différentes façons de trader: les trading modes.
-    Chaque trading mode est unique et propose une approche différente
-    du trading. Certains sont risqués mais avec de fort potentiels de gains,
-    d'autres se focalisent sur les micro fluctuations du marché pour
-    tirer des bénéfices réguliers, d'autres encore attendent des sigaux
-    d'autres plateformes comme trading view. Chaque trading mode est
-    lui même configurable. Certain trading modes utilisent des stratégies
-    et des évaluateurs: la chaine d'évaluation. Cette chaine permet de
-    finement configurer OctoBot en choisisant d'utiliser des evaluateurs
-    techniques comme le RSI ou le MACD.
-  trading_modes_configuration: Configuration du mode de trading à utiliser
-  more_info_on_trading_modes: Plus de détails sur les modes de trading
-  configure_communication_channels: Discutez directement avec votre OctoBot
+    OctoBot has many way to trade: the trading modes.
+    Each trading mode is unique and consists in a different trading approach?
+    Some are risky but with a high gain potential, others are focusing on
+    small and steady gains. There are also trading modes that look for
+    signals from platforms such as <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
+    tradingview.com</a>. Trading modes are themselves configurable.
+    Some trading modes are using strategies and evaluators through
+    <a href="#evaluation_chain">the evaluation chain</a>. This chain
+    is entierly configurable. You can chose the technical evaluators
+    that should be used such as the RSI or the MACD and even use
+    evaluators based on social networks.
+  trading_modes_configuration: Configuration of the trading mode to use
+  more_info_on_evaluation_chain: More details on the evaluation chain
+  telegram_interface: Chat directly with your OctoBot using Telegram
+  configure_communication_channels: Chat directly with your OctoBot
   configure_communication_channels_desc_html: |
-    <p>Il est possible de commander à distance son OctoBot en le connectant à Telegram.
-    Vérifiez ce que fait votre robot, regardez son portfolio, ses profits, lancez
-    une vente d'urgence ... Accédez à votre OctoBot d'où vous voulez, quand vous voulez
-    grâce à son interface Telegram.</p>
-    <p>Voir
+    <p>It is possible to remotly command your OctoBot by connecting it to
+    <a href="https://telegram.org/" target="_blank" rel="noopener">Telegram</a>.
+    You can verify what is your robot doing, watch its portfolio, its profits,
+    trigger an emergency sell ... Access your OctoBot from wherever you want, whenever
+    you want thanks to its Telegram interface.</p>
+    <p>See
     <a href="https://docs.octobot.online/pages/Telegram-interface.html" target="_blank" rel="noopener">
-    OctoBot docs</a> pour plus de détails sur l'interface Telegram d'OctoBot.</p>
-  communication_channels_configuration: Configurez les connexions de votre OctoBot
-  configure_backtesting: Optimisez votre OctoBot avec le backtesting
+    OctoBot docs</a> for more details on the OctoBot Telegram interface.</p>
+  communication_channels_configuration: Configure your OctoBot's connections
+  configure_backtesting: Optimize your OctoBot using backtesting
   configure_backtesting_desc_html: |
-    <p>Grâce à au backtesting, éprouvez votre OctoBot sur le données
-    historiques des marchés que vous tradez. La plupart des configurations
-    d'OctoBot est testable en backtesting ! Optimisez la configuration de
-    votre OctoBot dans les moindre détails pour maximiser vos profits.</p>
-    <p>Voir
+    <p>Using OctoBot's backtesting, test your robot using historical data
+    from the markets you want to trade. Most OctoBot configurations are
+    testable in <a href="https://www.investopedia.com/terms/b/backtesting.asp" target="_blank" rel="noopener">
+    backtesting</a> ! Fine tune your bot's configuration up to the very last detail
+    and maximise your profits.</p>
+    <p>See
     <a href="https://docs.octobot.online/pages/Backtesting-and-strategy-optimization.html" target="_blank" rel="noopener">
-    OctoBot docs</a> pour plus de détails sur le backtesting.</p>
-  backtesting_configuration: Résultat de backtesting
-  the_evaluation_chain: La chaine d'évaluation d'OctoBot
-  evaluators: Les évaluateurs
+    OctoBot docs</a> for more details on backtesting.</p>
+  backtesting_configuration: Backtesting results
+  the_evaluation_chain: OctoBot's evaluation chain
+  evaluators: Evaluators
   evaluators_desc_html: |
-    Les evaluateurs sont des agents autonome qui publient une nouvelle
-    evaluation a chaque nouvelle donnée. Ils peuvent suivre l'évolution des
-    prix pour faire des analyses techniques (
-    <a href="https://www.investopedia.com/terms/r/rsi.asp" target="_blank" rel="noopener">RSI</a>,
+    Evaluators are autonomous workers that will publish a new evaluation
+    each time they get new data. They can follow prices for technical analysis
+    such as <a href="https://www.investopedia.com/terms/r/rsi.asp" target="_blank" rel="noopener">RSI</a> or
     <a href="https://www.investopedia.com/terms/b/bollingerbands.asp" target="_blank" rel="noopener">
-    Bollinger Bands</a> et tout autre évaluateur technique) ou même
-    suivre en temps réel des médias comme Twitter ou Telegram.
-  strategies: Les stratégies
+    Bollinger Bands</a> or just any major technical analysis tool. Evaluators can
+    also follow social medias such as Twitter or Telegram in real-time.
+  strategies: Strategies
   strategies_desc: |
-    Les stratégies exploitent les évaluateurs pour émettre des signaux :
-    acheter, vendre ou ne rien faire. Une stratégie est comparable à un
-    cerveau et les évaluateurs à des senses: le cerveau décide quoi faire
-    des signaux qu'il recoit.
-  trading_modes: Les modes de trading
+    Strategies are using evaluators to send buy, sell or neutral signals.
+    A strategy can be compared to a brain and evaluators to senses: the brain
+    decides what to do according to the data received from its senses.
+  trading_modes: Trading modes
   trading_modes_desc: |
-    Les trading modes recoivent les signaux des stratégies et se chargent
-    de les interpréter pour effectuer les actions appropriées: positionnement
-    d'un ordre, annulation d'un autre, récupération de profits.
-  chart_with_TA: Graphique de prix avec bollinger bands et RSI par tradingview.com
-  evaluators_configuration: Configuration des évaluateurs
+    Trading modes receive signals from strategies and are using them to trigger
+    an appropriate trading response. Upon strategy signals, trading modes will create
+    a new order, cancel an existing one or take profits for example.
+  chart_with_TA: Price chart including Bollinger Bands and RSI from tradingview.com
+  evaluators_configuration: Evaluators Configuration
   this_is_just_an_subset: |
-    Ces fonctionnalités ne sont qu'un exemple de tout ce qu'il est
-    possible de faire avec OctoBot. Le meilleur moyen de se rendre compte des
-    possibilités ouvertes par le robot est de l'essayer.
+    These features are only a subset of what is possible to achieve using OctoBot.
+    The best way to figure out the whole range of possibilities is to try the robot yourself.
 
 about_page:
   title: A propos d'OctoBot et de son équipe
@@ -352,5 +343,5 @@ installations:
   your_octobot_is_ready: Votre OctBot est prêt
   install_methods: Les méthodes d'installation d'OctoBot
   or_install_octobot: Ou installez OctoBot
-  directly_from_python: directement via son code python.
+  directly_from_python: directly from its python code.
   accessible_at: L'interface de management de votre OctoBot est accessible sur le port 5000 de votre système.
