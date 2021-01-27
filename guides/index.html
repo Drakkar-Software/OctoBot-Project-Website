@@ -86,18 +86,17 @@
                        role="button"
                        data-mdb-toggle="dropdown"
                        aria-expanded="false">
-<!--                        -->
                         Français
                     </a>
                     <!-- Dropdown menu -->
-                    <ul class="dropdown-menu bg-dark" aria-labelledby="langDropdown">
+                    <ul class="dropdown-menu shadow" aria-labelledby="langDropdown">
                         
                             
                         
                             
                                 <li>
                                     
-                                        <a href="/en/guides/" class="dropdown-item bg-dark link">Anglais</a>
+                                        <a href="/en/guides/" class="dropdown-item link bg-darker-hover">Anglais</a>
                                     
                                 </li>
                             
@@ -299,8 +298,8 @@ OctoBot docs</a> pour obtenir la liste des plateformes supportés.</p>
                 <h3 class="border-bottom my-3 pb-2">Configurer les cryptomonnaies à trader</h3>
                 <div>
                     <p>Sélectionnez les cryptomonnaies qu'OctoBot échangera pour vous. Il
-est possible de sélectionner plusieurs pairs par cryptomonnaie.
-OctoBot tradera avec le maximum de pairs sélectionnées lorsqu'elles
+est possible de sélectionner plusieurs pairs de trading par cryptomonnaie.
+OctoBot tradera avec l'ensemble des paires sélectionnées lorsqu'elles
 seront disponibles sur les sites de trading utilisés.</p>
 <p>Voir
 <a href="https://docs.octobot.online/pages/Configuration.html#cryptocurrencies" target="_blank" rel="noopener">
@@ -385,7 +384,9 @@ Chaque trading mode est unique et propose une approche différente
 du trading. Certains sont risqués mais avec de fort potentiels de gains,
 d'autres se focalisent sur les micro fluctuations du marché pour
 tirer des bénéfices réguliers, d'autres encore attendent des sigaux
-d'autres plateformes comme trading view. Chaque trading mode est
+d'autres plateformes comme
+<a href="https://www.tradingview.com/" target="_blank" rel="noopener">
+tradingview.com</a> . Chaque trading mode est
 lui même configurable. Certain trading modes utilisent des stratégies
 et des évaluateurs : <a href="#evaluation_chain">la chaine d'évaluation</a>.
 Cette chaine est entièrement configurable, vous pouvez choisir les evaluateurs techniques
@@ -409,7 +410,8 @@ basés sur des réseaux sociaux.
             <div>
                 <h3 class="border-bottom my-3 pb-2">Discutez directement avec votre OctoBot</h3>
                 <div>
-                    <p>Il est possible de commander à distance son OctoBot en le connectant à Telegram.
+                    <p>Il est possible de commander à distance son OctoBot en le connectant à
+<a href="https://telegram.org/" target="_blank" rel="noopener">Telegram</a>.
 Vérifiez ce que fait votre robot, regardez son portfolio, ses profits, lancez
 une vente d'urgence... Accédez à votre OctoBot d'où vous voulez, quand vous voulez
 grâce à son interface télégram.</p>
@@ -435,7 +437,7 @@ OctoBot docs</a> pour plus de détails sur l'interface Telegram d'OctoBot.</p>
     <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
         <div class="modal-content bg-dark">
             <div class="modal-header">
-                <h5 class="modal-title" id="#/assets/images/telegram-interface.pngModalLabel"></h5>
+                <h5 class="modal-title" id="#/assets/images/telegram-interface.pngModalLabel">Discutez directement avec votre OctoBot sur Telegram</h5>
                 <button type="button" class="close text-light" data-mdb-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -521,7 +523,9 @@ OctoBot docs</a> pour plus de détails sur l'interface Telegram d'OctoBot.</p>
                 <div>
                     <p>Grâce au backtesting, éprouvez votre OctoBot sur les
 données historiques des marchés que vous tradez. La plupart des configurations
-d'OctoBot est testable en backtesting ! Optimisez la configuration de
+d'OctoBot est testable en
+<a href="https://www.investopedia.com/terms/b/backtesting.asp" target="_blank" rel="noopener">
+backtesting</a> ! Optimisez la configuration de ! Optimisez la configuration de
 votre OctoBot dans les moindre détails pour maximiser vos profits.</p>
 <p>Voir
 <a href="https://docs.octobot.online/pages/Backtesting-and-strategy-optimization.html" target="_blank" rel="noopener">
@@ -541,10 +545,10 @@ OctoBot docs</a> pour plus de détails sur le backtesting.</p>
                 <p>
                     Les evaluateurs sont des agents autonomes qui publient une nouvelle evaluation lors de
 chaque réception de nouvelle donnée. Ils peuvent suivre l'évolution des
-prix pour faire des analyses techniques (
-<a href="https://www.investopedia.com/terms/r/rsi.asp" target="_blank" rel="noopener">RSI</a>,
+prix pour appliquer des analyses techniques telles que le
+<a href="https://www.investopedia.com/terms/r/rsi.asp" target="_blank" rel="noopener">RSI</a> ou les
 <a href="https://www.investopedia.com/terms/b/bollingerbands.asp" target="_blank" rel="noopener">
-Bollinger Bands</a> et tout autre évaluateur technique) ou même
+Bollinger Bands</a> ou encore tout autre évaluateur technique. Les evaluateurs peuvent même
 suivre en temps réel des médias comme Twitter ou Telegram.
 
                 </p>

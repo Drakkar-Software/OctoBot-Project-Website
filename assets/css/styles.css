@@ -10067,6 +10067,12 @@ readers do not read off random characters that represent icons */
 
 .bg-dark { background-color: #121212 !important; }
 
+.bg-darker { background-color: #070707; }
+
+.bg-darker-hover { background-color: #121212; }
+
+.bg-darker-hover:hover { background-color: #070707; }
+
 .link { color: white; }
 
 .link:hover { color: #b71c1c !important; /* material red-900*/ transition-duration: .3s; }
@@ -10094,8 +10100,6 @@ readers do not read off random characters that represent icons */
 .intro-background { color: white; min-height: 20rem; background-image: url("/assets/images/somelier.jpg"); max-height: 547px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
 
 .strategies-background { color: white; background-image: url("/assets/images/octobot.svg"); max-height: 547px; /* You must set a specified height */ background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }
-
-.darker-background { background-color: #070707; }
 
 .part-image { width: 8rem; }
 
