@@ -30,18 +30,17 @@
                        role="button"
                        data-mdb-toggle="dropdown"
                        aria-expanded="false">
-<!--                        {% t switch_lang %}-->
                         {% t site.lang %}
                     </a>
                     <!-- Dropdown menu -->
-                    <ul class="dropdown-menu bg-dark" aria-labelledby="langDropdown">
+                    <ul class="dropdown-menu shadow" aria-labelledby="langDropdown">
                         {% for language in site.languages %}
                             {% if site.lang != language %}
                                 <li>
                                     {% if site.languages[0] == language %}
-                                        <a href="{{ site.baseurl_root }}{{ page.url }}" class="dropdown-item bg-dark link">{% t language %}</a>
+                                        <a href="{{ site.baseurl_root }}{{ page.url }}" class="dropdown-item link bg-darker-hover">{% t language %}</a>
                                     {% else %}
-                                        <a href="{{ site.baseurl_root }}/{{ language }}{{ page.url }}" class="dropdown-item bg-dark link">{% t language %}</a>
+                                        <a href="{{ site.baseurl_root }}/{{ language }}{{ page.url }}" class="dropdown-item link bg-darker-hover">{% t language %}</a>
                                     {% endif %}
                                 </li>
                             {% endif %}

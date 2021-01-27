@@ -9,6 +9,17 @@
   background-color: #121212 !important;
 }
 
+.bg-darker {
+  background-color: #070707;
+}
+
+.bg-darker-hover {
+  background-color: #121212;
+  &:hover {
+    background-color: #070707;
+  }
+}
+
 @mixin hover-colored {
   color: #b71c1c !important; /* material red-900*/
   transition-duration: .3s;
