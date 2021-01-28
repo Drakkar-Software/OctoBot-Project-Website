@@ -314,12 +314,13 @@ installations:
   python:
     title: Installer OctoBot directement depuis les sources Python
     advantages: |
-      Déployez votre OctoBot dans depuis le code afin de pouvoir le lancer dans un environnement Python local, modifier ou examiner le bot.
+      Déployez votre OctoBot depuis le code afin de pouvoir le lancer dans un environnement Python local,
+      modifier ou examiner le robot.
     step1: |
       1. Si vous n'avez pas déjà Python, <a href="https://www.python.org/downloads/" target="_blank" rel="noopener">
       installez Python en version 3.8</a>.
     step2: "2. Clonnez le dépôt OctoBot"
-    step3: "3. Installez les dépendances python du robot"
+    step3: "3. Installez les dépendances Python du robot"
     step4: "4. Lancez votre OctoBot via la commande: "
     full_doc: Voir la documentation complète pour l'utilisation d'OctoBot avec les sources Python
     view_sources: Voir les sources
@@ -340,7 +341,7 @@ installations:
     terminal: Administrez votre OctoBot directement avec le terminal intégré à Digital Ocean.
     docker_info: |
       Le déploiement sur Digital Ocean utilise Docker. Pour administrer votre OctoBot, utilisez la console de votre
-      application Digital Ocean: vous serez connecté directement dans votre conteneur docker OctoBot.
+      application Digital Ocean: vous serez connecté directement dans votre conteneur Dcker OctoBot.
   docker:
     title: Déployez simplement votre OctoBot en utilisant Docker
     advantages: Gérez facilement votre OctoBot via docker dans un conteneur isolé
@@ -352,15 +353,15 @@ installations:
       Debian</a> et <a href="https://phoenixnap.com/kb/docker-on-raspberry-pi/" target="_blank" rel="noopener">
       Raspberry pie</a>.
     step2: "2. Téléchargez l'image Docker d'OctoBot avec la commande:"
-    step3: "3. Lancez OctoBot avec la commande:"
+    step3: "3. Lancez votre OctoBot avec la commande:"
     full_doc: Voir la documentation complète pour l'utilisation d'OctoBot avec Docker
   executable:
-    title: Lancer OctoBot depuis l'exécutable
+    title: Lancer votre OctoBot depuis l'exécutable
     advantages: Un fichier à lancer et votre OctoBot démarre
     release_example: Exécutables téléchargeables pour la version 0.4.0-beta2
     step1: |
       1. Rendez vous sur <a href="https://github.com/Drakkar-Software/OctoBot-Binary/releases" target="_blank" rel="noopener">
-      la page officielle des versions d'OctoBot</a> et téléchargez la dernière version correspondant à votre système:
+      la page officielle des versions d'OctoBot</a> et téléchargez la dernière version correspondant à votre système :
       Windows, Linux ou MacOS.
     step2: |
       2. Lancez l'exécutable téléchargé. OctoBot ouvre un terminal et installe son environnement de configuration et
@@ -369,4 +370,4 @@ installations:
   install_methods: Les méthodes d'installation d'OctoBot
   or_install_octobot: Ou installez OctoBot
   directly_from_python: directement via son code Python.
-  accessible_at: L'interface de management de votre OctoBot est accessible sur le port 5000 de votre système.
+  accessible_at: L'interface de management de votre OctoBot est accessible sur le port 5001 de votre système.
