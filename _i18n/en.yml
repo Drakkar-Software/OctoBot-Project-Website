@@ -202,14 +202,14 @@ guides_page:
     The best way to figure out the whole range of possibilities is to try the robot yourself.
 
 about_page:
-  title: A propos d'OctoBot et de son équipe
+  title: About OctoBot and its team
   our_vision: Our vision
-  octobot_project_history: L'histoire du projet OctoBot
+  octobot_project_history: The OctoBot project
   steps:
-    download_octobot: Téléchargez OctoBot
-    choose_exchange: Sélectionnez votre plateforme de trading
-    choose_strategy: Choisissez votre stratégie
-    octobot_is_ready: Votre OctoBot est prêt
+    download_octobot: Download OctoBot
+    choose_exchange: Select your exchanges
+    choose_strategy: Choose your strategy
+    octobot_is_ready: Your OctoBot is ready
   story:
     the_existing_world: |
       Trading should be accessible to anyone who is interested in it.
@@ -217,73 +217,76 @@ about_page:
       in or quickly grow your wealth in promising trends. Take part in
       financial markets and profit from it should be simple.
     octobot_creation:
-      a_small_open_source_project: Un petit projet open source
+      a_small_open_source_project: A small open source project
       birth_1: |
-        En février 2018, une bulle des cryptocurrencies vient de se
-        terminer, la consolidation commence. Guillaume et Herklos: fondateurs
-        d'OctoBot réalisent que le trading basé sur l'analyse technique
-        pure fonctionne de nouveau très bien.
+        February 2018, the cryptocurrency bubble just popped, a large
+        correction as starting. Guillaume and Herklos: OctoBot's founders
+        realise that pure technical analysis based trading starts to works
+        well again.
       birth_2: |
-        Après avoir cherché un outil
-        pour automatiser ces trades pour optimiser leur exécution, ils se
-        rendent compte qu'aucun robot open source ne permet de facilement
-        faire cette simple tache. Herklos et Guillaume décident de développer
-        un robot qui sera optimisé pour des stratégies d'analyses techniques
-        et qui sera surtout gratuit et pratique.
-      community_birth: Naissance de la communauté OctoBot
+        After searching for a tool able automate and optimize their trades,
+        they realise that no open source robot allows to easily do this
+        achieve task. Herklos and Guillaume decide to develop a robot that
+        will be optimized for technical analysis based strategies and most
+        of all free and easy to use.
+      community_birth: Birth of the OctoBot community
       first_versions_p1: |
-        Grâce à sa présence sur github.com, OctoBot commence à attirer
-        quelques utilisateur, si bien que début 2019, la communauté OctoBot
-        voit le jour. Au fil du temps (et sans communication de la part de
-        l'équipe autre que la présence sur github.com), la communauté s'agrandit.
+        Thanks to its
+        <a href="https://github.com/Drakkar-Software/OctoBot" target="_blank" rel="noopener">
+        presence on github.com</a>, OctoBot starts to grab users' attention.
+        Slowly but steadily, the OctoBot user base grows and in early 2019, the
+        OctoBot community was born. With time (and no communication except for the
+        github.com repository), the community continue to get larger and larger.
       first_versions_p2: |
-        En 2020 OctoBot le nombre moyen d'OctoBots actifs simultanément passe
-        à 100 et le projet atteint le niveau de maturité suffisant pour aborder
-        la phase suivante.
-      ecosystem_launch: Lancement de l'écosystème
+        In 2020, there was in average more than 100 simultaneous active users
+        at all time. At the same time, the OctoBot project reaches a point from which
+        the next step can start.
+      ecosystem_launch: Launch of the ecosystem
       ecosystem: |
-        Après ces deux années de feedbacks utilisateurs, OctoBot est maintenant
-        suffisament stable et fonctionnel pour que le projet prenne de l'envergure.
-        2021 marque le lancement de l'écosystème OctoBot: Le robot open source
-        gratuit trade pour ses utilisateurs, la marketplace permet à ces utilisateurs
-        d'essayer et de partager de nouvelles stratégies et extentions et enfin
-        les données d'utilisation de la communauté permettent
-        aux utilisateurs d'apprendre les uns des autres.
+        After two years of user feedbacks, OctoBot is now stable and reliable enough
+        for the project to scale. 2021 is the year the OctoBot ecosystem launches:
+      ecosystem_item_1: OctoBot, the free open source robot that trades for its users
+      ecosystem_item_2: |
+        The OctoBot Marketplace which allows OctoBot users to try and share
+        strategies and extensions
+      ecosystem_item_3: The OctoBot community usage data which enables users to learn from one to another
     the_guide: |
-      Avec OctoBot, vous pouvez gratuitement et simplement tester
-      et utiliser les stratégies qui vous ressemblent. OctoBot vous
-      permet de facilement expérimenter les stratégies sur les marchés
-      que vous voulez, que vous soyez débutant ou trader aguerri grâce
-      à ses différent niveaux de personnalisation.
+      With OctoBot, you can simply and for free test and use the strategies
+      that fit you. OctoBot enables you to easily experiment strategies on
+      the markets you want thanks to it's adaptable customization depth.
+      No matter if you are a beginning or experienced trader, you can
+      experiment with OctoBot and customize it at as you wish.
     the_new_world: |
-      Notre objectif est que les utilisateurs d'OctoBot peuvent se concentrer sur ce
-      qui les intéressent: que ce soit explorer le monde des crypto pour trouver les prochaines perles
-      rares ou optimiser leurs stratégies de trading. OctoBot gère leur portfolio
-      selon la stratégie qu'ils ont sélectionnée et éprouvée: les gains et les
-      risques sont maîtrisés par un outil fiable et transparent qui est toujours
-      disponible pour eux.
+      Our goal is that OctoBot users can focus of what matters to them, whether it
+      is to explore the crypto world to find the hidden gems or optimize their
+      trading strategies. OctoBot is managing their trading portfolio according to
+      the strategy they selected and tested before using their real money.
+      Gains and risks are handled by a realiable and transparent tool that is
+      always available and by their side.
   the_octobot_team: The OctoBot team
   octobot_core_team_desc: |
-    Depuis 3 ans, OctoBot est développé bénévolement par Herklos
-    et Guillaume: deux passionnés de l'univers des cryptomonnaies.
-    Ayant tous deux un background de développeur, ils on pu prendre le
-    temps de réaliser le robot et les éléments de l'écosystème au fil
-    des retours utilisateur. Cette période a permi de réaliser une base de code
-    très solide pour le lancement tout en s'assurant que
-    l'équipe comprend au mieux les besoins des utilisateurs pour faire
-    évoluer OctoBot dans la meilleure direction.
+    For now 3 years, OctoBot is developed without funding by Herklos
+    and Guillaume: two passionate about the crypto world. Both have
+    a developer background that allowed them to create OctoBot and the
+    elements of the ecosystem based on their ideas and strong user feedbacks.
+    All this time allowed to develop a very strong code base while in
+    the mean time being able to focus of user need and make OctoBot
+    evolve in the right direction.
   octobot_community_team_desc: |
-    L'équipe OctoBot, c'est aussi la communauté de ses utilisateurs
-    dont certains sont présents depuis plusieurs années. C'est grâce à
-    cette communauté qu'OctoBot évolue continuellement pour répondre au
-    mieux aux besoins des utilisateurs et s'oriente vers les
-    fonctionnalités les plus pertinentes, tout en aidant ses nouveaux membres.
-    Merci à la communauté pour ces idées et son aide.
+    The OctoBot team is also made of the community of its users,
+    some of them are part of the community for years now.
+    It is thanks to this community that OctoBot keeps evolving to answer
+    best the users' needs and is growing towards the most useful features.
+    Finally, this community is also about all the support brought to
+    its new members using the
+    <a href="https://t.me/joinchat/F9cyfxV97ZOaXQ47H5dRWw" target="_blank" rel="noopener">Telegram</a>
+    and <a href="https://discord.com/invite/vHkcb8W" target="_blank" rel="noopener">Discord</a> channels.
+    Thank you to the OctoBot community for its help and ideas.
   team_members:
     herklos:
-      desc: Herklos est ............... blabla blablabla blablalb blablabla blablalb blablabla blablalb blablabla
+      desc: Herklos is ............... blabla blablabla blablalb blablabla blablalb blablabla blablalb blablabla
     guillaume:
-      desc: Guillaume est ............... blabla blablabla blablalb blablabla blablalb blablabla blablalb blablabla
+      desc: Guillaume is ............... blabla blablabla blablalb blablabla blablalb blablabla blablalb blablabla
 
 installations:
   python:
