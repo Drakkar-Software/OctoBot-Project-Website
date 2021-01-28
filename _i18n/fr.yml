@@ -341,7 +341,7 @@ installations:
     terminal: Administrez votre OctoBot directement avec le terminal intégré à Digital Ocean.
     docker_info: |
       Le déploiement sur Digital Ocean utilise Docker. Pour administrer votre OctoBot, utilisez la console de votre
-      application Digital Ocean: vous serez connecté directement dans votre conteneur Dcker OctoBot.
+      application Digital Ocean: vous serez connecté directement dans votre conteneur Docker OctoBot.
   docker:
     title: Déployez simplement votre OctoBot en utilisant Docker
     advantages: Gérez facilement votre OctoBot via docker dans un conteneur isolé
