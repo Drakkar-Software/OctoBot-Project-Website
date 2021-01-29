@@ -70,7 +70,7 @@ landing_page:
       is to be as transparent and reliable as possible.
     the_challenge_li_1: the code is open source in order to be able to verify what the robot is doing
     the_challenge_li_2: |
-      strategies are testable on past data and on real time data to ensure any strategy
+      strategies are testable on past data and on real time data to ensure their
       reliability
     the_transformation: |
       By using OctoBot, your will be able to automate your trade with the strategy you chose

@@ -70,7 +70,7 @@ landing_page:
       d'OctoBot est d'être le plus transparent et fiable possible.
     the_challenge_li_1: Le code est open source afin de pouvoir vérifier ce que fait le robot.
     the_challenge_li_2: les stratégies sont testables sur les données du passé et les données
-      en temps réel pour garantir la fiabilité des stratégies.
+      en temps réel pour garantir leur fiabilité.
     the_transformation: |
       En utilisant OctoBot, vous pourrez trader automatiquement, avec
       a stratégie que vous aurez choisi, sur les marchés que vous voulez. Débutant
