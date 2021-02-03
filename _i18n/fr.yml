@@ -61,12 +61,12 @@ landing_page:
       OctoBot est destiné aux personnes qui n'ont pas beaucoup de temps ou qui n'accordent pas facilement
       leur confiance aux projets du monde des cryptomonaies.
       Beaucoup de solutions d'automatisation existent mais sont compliquées à utiliser, cher, ne marchent
-      pas toujours comme voulu ou sont réservés à des professionnels. D’autre part, lors qu'une tendance
-      est repérée, il est difficile d'en profiter au maximum: le trading est chronophage
-      et automatiquement comment être sûr que le robot de trading sera fiable ?
+      pas toujours comme voulu ou sont réservées à des professionnels. D’autre part, lors qu'une tendance
+      est repérée, il est difficile d'en profiter au maximum : le trading est chronophage
+      et quand il est automatisé comment être sûr que le robot sera fiable ?
     the_challenge: |
-      Quelle est la valeur d'un investissement ou d'un trade si il vous empêche de dormir par peur
-      d'une mauvaise décision? Comment s'assurer que le robot se comportera comme prévu ? La philosophie
+      Quelle est la valeur d'un investissement ou d'un trade s'il vous empêche de dormir par peur
+      d'une mauvaise décision ? Comment s'assurer que le robot se comportera comme prévu ? La philosophie
       d'OctoBot est d'être le plus transparent et fiable possible.
     the_challenge_li_1: Le code est open source afin de pouvoir vérifier ce que fait le robot.
     the_challenge_li_2: les stratégies sont testables sur les données du passé et les données
@@ -153,7 +153,7 @@ guides_page:
     tirer des bénéfices réguliers, d'autres encore attendent des sigaux
     d'autres plateformes comme
     <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
-    tradingview.com</a> . Chaque trading mode est
+    tradingview.com</a>. Chaque trading mode est
     lui même configurable. Certain trading modes utilisent des stratégies
     et des évaluateurs : <a href="#evaluation_chain">la chaine d'évaluation</a>.
     Cette chaine est entièrement configurable, vous pouvez choisir les evaluateurs techniques
@@ -168,7 +168,7 @@ guides_page:
     <a href="https://telegram.org/" target="_blank" rel="noopener">Telegram</a>.
     Vérifiez ce que fait votre robot, regardez son portfolio, ses profits, lancez
     une vente d'urgence... Accédez à votre OctoBot d'où vous voulez, quand vous voulez
-    grâce à son interface télégram.</p>
+    grâce à son interface Telegram.</p>
     <p>Voir
     <a href="https://docs.octobot.online/pages/Telegram-interface.html" target="_blank" rel="noopener">
     OctoBot docs</a> pour plus de détails sur l'interface Telegram d'OctoBot.</p>
@@ -179,7 +179,7 @@ guides_page:
     données historiques des marchés que vous tradez. La plupart des configurations
     d'OctoBot est testable en
     <a href="https://www.investopedia.com/terms/b/backtesting.asp" target="_blank" rel="noopener">
-    backtesting</a> ! Optimisez la configuration de ! Optimisez la configuration de
+    backtesting</a> ! Optimisez la configuration de
     votre OctoBot dans les moindre détails pour maximiser vos profits.</p>
     <p>Voir
     <a href="https://docs.octobot.online/pages/Backtesting-and-strategy-optimization.html" target="_blank" rel="noopener">
@@ -199,7 +199,7 @@ guides_page:
   strategies_desc: |
     Les stratégies exploitent les évaluateurs pour émettre des signaux :
     acheter, vendre ou ne rien faire. Une stratégie est comparable à un
-    cerveau et les évaluateurs à des sens: le cerveau décide quoi faire
+    cerveau et les évaluateurs à des sens : le cerveau décide quoi faire
     des signaux qu'il recoit.
   trading_modes: Les modes de trading
   trading_modes_desc: |
@@ -341,7 +341,7 @@ installations:
     terminal: Administrez votre OctoBot directement avec le terminal intégré à Digital Ocean.
     docker_info: |
       Le déploiement sur Digital Ocean utilise Docker. Pour administrer votre OctoBot, utilisez la console de votre
-      application Digital Ocean: vous serez connecté directement dans votre conteneur Docker OctoBot.
+      application Digital Ocean : vous serez connecté directement dans votre conteneur Docker OctoBot.
   docker:
     title: Déployez simplement votre OctoBot en utilisant Docker
     advantages: Gérez facilement votre OctoBot via docker dans un conteneur isolé
@@ -352,8 +352,8 @@ installations:
       Ubuntu</a>, <a href="https://docs.docker.com/engine/install/debian/" target="_blank" rel="noopener">
       Debian</a> et <a href="https://phoenixnap.com/kb/docker-on-raspberry-pi/" target="_blank" rel="noopener">
       Raspberry pie</a>.
-    step2: "2. Téléchargez l'image Docker d'OctoBot avec la commande:"
-    step3: "3. Lancez votre OctoBot avec la commande:"
+    step2: "2. Téléchargez l'image Docker d'OctoBot avec la commande :"
+    step3: "3. Lancez votre OctoBot avec la commande :"
     full_doc: Voir la documentation complète pour l'utilisation d'OctoBot avec Docker
   executable:
     title: Lancer votre OctoBot depuis l'exécutable
