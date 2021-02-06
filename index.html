@@ -4,128 +4,130 @@ page_title: octobot
 namespace: octobot
 permalink: /
 ---
-<!-- Intro: OctoBot in a glance (on pager) -->
-<div class="part intro-background">
-    <div class="background-mask p-0">
-        <div class="py-4 w-75 mx-auto text-center">
-            <h2 class="my-4">{% t landing_page.tagline %}</h2>
-            <h5>{% t landing_page.title %}</h5>
-            <div class="">
-                {% t landing_page.subtitle %}
-            </div>
-            <div class="mt-4">
-                <a href="#try-octobot" class="btn call-to-action-button">{% t landing_page.try_octobot %}</a>
+<div class="bg-black">
+    <!-- Intro: OctoBot in a glance (on pager) -->
+    <div class="part video-background">
+        <div class="top-video">
+            <video autoplay muted loop class="video-banner">
+                <source src="/assets/videos/banner.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="intro-text p-0">
+            <div class="mb-1 mb-md-4 w-75 mx-auto text-center">
+                <div class="">
+                    <a href="#try-octobot" class="btn call-to-action-button">{% t landing_page.try_octobot %}</a>
+                </div>
             </div>
         </div>
     </div>
-</div>
 
-<!-- What is OctoBot: differentiator & core features -->
-<div class="part">
-    <div class="row py-1 py-md-2">
-        <div class="col col-md-5">
-            <!-- What is OctoBot -->
-            <div>
-                <h3 class="border-bottom my-3 pb-2">{% t octobot %}</h3>
+    <!-- What is OctoBot: differentiator & core features -->
+    <div class="part gradient">
+        <div class="row py-1 py-md-2">
+            <div class="col col-md-5">
+                <!-- What is OctoBot -->
                 <div>
-                    {% t landing_page.what_is_octobot %}
+                    <h3 class="border-bottom my-3 pb-2">{% t octobot %}</h3>
+                    <div>
+                        {% t landing_page.what_is_octobot %}
+                    </div>
+                </div>
+                <!-- Differentiator -->
+                <div>
+                    <h3 class="border-bottom my-3 pb-2">{% t landing_page.octobot_is_opensource %}</h3>
+                    <div>
+                        <h6>{% t landing_page.test_and_use_for_free %}</h6>
+                        <p>{% t landing_page.story.the_obsticle %}</p>
+                        <p>
+                            <a href="https://github.com/Drakkar-Software/OctoBot"
+                               class="btn outline-button" target="_blank" rel="noopener">
+                                {% t landing_page.see_octobot_on %} <i class="fab fa-github"></i> {% t landing_page.github %}
+                            </a>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <!-- Differentiator -->
-            <div>
-                <h3 class="border-bottom my-3 pb-2">{% t landing_page.octobot_is_opensource %}</h3>
-                <div>
-                    <h6>{% t landing_page.test_and_use_for_free %}</h6>
-                    <p>{% t landing_page.story.the_obsticle %}</p>
-                    <p>
-                        <a href="https://github.com/Drakkar-Software/OctoBot"
-                           class="btn outline-button" target="_blank" rel="noopener">
-                            {% t landing_page.see_octobot_on %} <i class="fab fa-github"></i> {% t landing_page.github %}
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="col-12 offset-md-1 col-md-5 text-center my-auto">
-            <div class="ratio ratio-16x9">
-                <iframe
-                        width="560"
-                        height="315"
-                        src="https://www.youtube.com/embed/i_ax8g4ov4A?autoplay=1&loop=1&start=2&iv_load_policy=3&rel=0&showinfo=0"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        autoplay="1"
-                        allowfullscreen
-                ></iframe>
-            </div>
-        </div>
-    </div>
-    <!-- Features -->
-    <div class="row py-1 py-md-2">
-        <div class="col-12 col-md-7 text-center px-0 my-auto">
-            {% include modalable_image.html
-            rendered_image_path="/assets/images/telegram-interface.png"
-            class_attr="part-image-sm"
-            alt_attr="telegram interface"
-            title="guides_page.telegram_interface" %}
-            {% include modalable_image.html
-            rendered_image_path="/assets/images/twitter-interface.png"
-            class_attr="part-image-sm"
-            alt_attr="twitter interface"
-            title="landing_page.twitter_interface" %}
-            {% include modalable_image.html
-            rendered_image_path="/assets/images/web_interface.jpg"
-            class_attr="part-image-sm"
-            alt_attr="web interface"
-            title="landing_page.web_interface" %}
-        </div>
-        <div class="col col-md-5">
-            <div>
-                <h3 class="border-bottom my-3 pb-2">{% t landing_page.setup_the_strategy_that_fits_you %}</h3>
-                <h6>{% t landing_page.each_strategy_is_testable %}</h6>
-                <p>{% t landing_page.story.the_transformation %}</p>
-                <div class="mt-4">
-                    <a href="{% tl guides %}" class="btn outline-button"> {% t landing_page.usage_details %}</a>
+            <div class="col-12 offset-md-1 col-md-5 text-center my-auto">
+                <div class="ratio ratio-16x9">
+                    <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/i_ax8g4ov4A?autoplay=0&loop=1&start=2&iv_load_policy=3&rel=0&showinfo=0"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            autoplay="1"
+                            allowfullscreen
+                    ></iframe>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row py-1 py-md-2">
-        <div class="col col-md-5">
-            <div>
-                <h3 class="border-bottom my-3 pb-2">{% t landing_page.dont_trust_verify %}</h3>
+        <!-- Features -->
+        <div class="row py-1 py-md-2">
+            <div class="col-12 col-md-7 text-center px-0 my-auto">
+                {% include modalable_image.html
+                rendered_image_path="/assets/images/telegram-interface.png"
+                class_attr="part-image-sm"
+                alt_attr="telegram interface"
+                title="guides_page.telegram_interface" %}
+                {% include modalable_image.html
+                rendered_image_path="/assets/images/twitter-interface.png"
+                class_attr="part-image-sm"
+                alt_attr="twitter interface"
+                title="landing_page.twitter_interface" %}
+                {% include modalable_image.html
+                rendered_image_path="/assets/images/web_interface.jpg"
+                class_attr="part-image-sm"
+                alt_attr="web interface"
+                title="landing_page.web_interface" %}
+            </div>
+            <div class="col col-md-5">
                 <div>
-                    <h6>{% t landing_page.octobot_is_just_like_cryptocurrencies %}</h6>
-                    <p class="mb-1">{% t landing_page.story.the_challenge %}</p>
-                    <ul>
-                        <li>
-                            {% t landing_page.story.the_challenge_li_1 %}
-                        </li>
-                        <li>
-                            {% t landing_page.story.the_challenge_li_2 %}
-                        </li>
-                    </ul>
+                    <h3 class="border-bottom my-3 pb-2">{% t landing_page.setup_the_strategy_that_fits_you %}</h3>
+                    <h6>{% t landing_page.each_strategy_is_testable %}</h6>
+                    <p>{% t landing_page.story.the_transformation %}</p>
+                    <div class="mt-4">
+                        <a href="{% tl guides %}" class="btn outline-button"> {% t landing_page.usage_details %}</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-7 text-center my-auto">
-            {% include modalable_image.html
-            rendered_image_path="/assets/images/backtesting.png"
-            class_attr="part-image-md w-100"
-            alt_attr="backtesting"
-            title="landing_page.backtesting_result" %}
-        </div>
-    </div>
-    <div class="row py-1 py-md-2">
-        <div class="col-12 col-md-7 text-center my-auto">
-            <img src="/assets/images/python-logo-inkscape.svg" class="part-image-sm" alt="python">
-        </div>
-        <div class="col col-md-5">
-            <div>
-                <h3 class="border-bottom my-3 pb-2">{% t landing_page.built_for_performances %}</h3>
+        <div class="row py-1 py-md-2">
+            <div class="col col-md-5">
                 <div>
-                    <h6>{% t landing_page.multi_layer_optimisations %}</h6>
-                    <p>{% t landing_page.optimisation_desc_html %}</p>
+                    <h3 class="border-bottom my-3 pb-2">{% t landing_page.dont_trust_verify %}</h3>
+                    <div>
+                        <h6>{% t landing_page.octobot_is_just_like_cryptocurrencies %}</h6>
+                        <p class="mb-1">{% t landing_page.story.the_challenge %}</p>
+                        <ul>
+                            <li>
+                                {% t landing_page.story.the_challenge_li_1 %}
+                            </li>
+                            <li>
+                                {% t landing_page.story.the_challenge_li_2 %}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-7 text-center my-auto">
+                {% include modalable_image.html
+                rendered_image_path="/assets/images/backtesting.png"
+                class_attr="part-image-md w-100"
+                alt_attr="backtesting"
+                title="landing_page.backtesting_result" %}
+            </div>
+        </div>
+        <div class="row py-1 py-md-2">
+            <div class="col-12 col-md-7 text-center my-auto">
+                <img src="/assets/images/python-logo-inkscape.svg" class="part-image-sm" alt="python">
+            </div>
+            <div class="col col-md-5">
+                <div>
+                    <h3 class="border-bottom my-3 pb-2">{% t landing_page.built_for_performances %}</h3>
+                    <div>
+                        <h6>{% t landing_page.multi_layer_optimisations %}</h6>
+                        <p>{% t landing_page.optimisation_desc_html %}</p>
+                    </div>
                 </div>
             </div>
         </div>
