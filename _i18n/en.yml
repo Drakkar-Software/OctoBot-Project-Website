@@ -284,9 +284,15 @@ about_page:
     Thank you to the OctoBot community for its help and ideas.
   team_members:
     herklos:
-      desc: Herklos is ............... blabla blablabla blablalb blablabla blablalb blablabla blablalb blablabla
+      desc: |
+        Herklos is passionate about development and trading. He is convinced of the benefits
+        of open source ecosystems and contributes to many projects. He is also very interested
+        in artificial intelligence and aims to make it accessible for everyone with OctoBot.
     guillaume:
-      desc: Guillaume is ............... blabla blablabla blablalb blablabla blablalb blablabla blablalb blablabla
+      desc: |
+        Guillaume loves new technologies. When he discovered the crypto world, he became
+        because instantly a fan. Being a developper at heart, with OctoBot, he intends to
+        help the largest amount of people to benefit the most from their investment.
 
 installations:
   python:
