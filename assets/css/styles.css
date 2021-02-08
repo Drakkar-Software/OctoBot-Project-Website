@@ -10101,8 +10101,6 @@ readers do not read off random characters that represent icons */
 
 .video-banner { width: 100%; height: 100%; }
 
-.intro-text { z-index: 999; }
-
 .gradient { background-color: black; background: linear-gradient(180deg, transparent 20px, #121212 110px); }
 
 .video-background { background-color: black; color: white; background-position: center; /* Center the image */ background-repeat: no-repeat; /* Do not repeat the image */ background-size: cover; /* Resize the background image to cover the entire container */ padding: 0px; }

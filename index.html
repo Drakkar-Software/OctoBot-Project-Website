@@ -111,11 +111,13 @@
     <!-- Intro: OctoBot in a glance (on pager) -->
     <div class="part video-background">
         <div class="top-video">
-            <video autoplay muted loop class="video-banner">
-                <source src="/assets/videos/banner.mp4" type="video/mp4">
+            <video autoplay muted loop class="video-banner"
+                   poster="/assets/videos/banner_poster.jpg"
+                   data-fallback-poster="/assets/videos/fallback_banner_poster.jpg"
+                   data-src="/assets/videos/banner.mp4">
             </video>
         </div>
-        <div class="intro-text p-0">
+        <div class="p-0">
             <div class="mb-1 mb-md-4 w-75 mx-auto text-center">
                 <div class="">
                     <a href="#try-octobot" class="btn call-to-action-button">Essayer OctoBot</a>
@@ -161,7 +163,7 @@ et quand il est automatisé comment être sûr que le robot sera fiable ?
                     <iframe
                             width="560"
                             height="315"
-                            src="https://www.youtube.com/embed/i_ax8g4ov4A?autoplay=0&loop=1&start=2&iv_load_policy=3&rel=0&showinfo=0"
+                            src="https://www.youtube.com/embed/pRge5nR7Mbg?autoplay=0&loop=1&start=2&iv_load_policy=3&rel=0&showinfo=0"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             autoplay="1"
@@ -472,7 +474,7 @@ en créant un compte via <a href="https://m.do.co/c/40c9737100b1" target="_blank
 </div>
 
 <!-- Les stratégies utilisables sur OctoBot -->
-<div class="part strategies-background">
+<div class="part strategies-background mb-0">
     <div class="background-mask px-0 pt-5">
         <div class="py-4 w-75 mx-auto">
             <h2 class="mb-4">Découvrez les stratégies d’OctoBot</h2>
@@ -487,77 +489,6 @@ personalisable. Débutant, confirmé ou expert, il y en a pour tout le monde.
                 </a>
             </div>
         </div>
-    </div>
-</div>
-
-<!-- News -->
-<div class="part my-4">
-    <h2 class="part-title">Les news</h2>
-    <div class="row">
-        
-            <div class="card news-card col-12 col-sm-6 col-md-4">
-    <a href="#" class="news-link d-flex align-items-stretch flex-column h-100">
-        <img src="/assets/images/prof.jpg"
-             class="img-fluid"
-             alt="article image"
-        >
-        <div class="card-body">
-            <h5 class="card-title">New interface</h5>
-            <h4 class="card-subtitle">OctoBot on Discord</h4>
-            <p class="card-text">
-                <p>Use your OctoBot directly from Discord.</p>
-
-            </p>
-        </div>
-        <div class="card-footer font-weight-bold">
-            Medium: 2020-09-30
-        </div>
-    </a>
-</div>
-        
-            <div class="card news-card col-12 col-sm-6 col-md-4">
-    <a href="#" class="news-link d-flex align-items-stretch flex-column h-100">
-        <img src="/assets/images/prof.jpg"
-             class="img-fluid"
-             alt="article image"
-        >
-        <div class="card-body">
-            <h5 class="card-title">New strategy</h5>
-            <h4 class="card-subtitle">Arbitrage without withdrawal</h4>
-            <p class="card-text">
-                <p>Benefit from price differences between exchanges.</p>
-
-            </p>
-        </div>
-        <div class="card-footer font-weight-bold">
-            Medium: 2020-11-25
-        </div>
-    </a>
-</div>
-        
-            <div class="card news-card col-12 col-sm-6 col-md-4">
-    <a href="#" class="news-link d-flex align-items-stretch flex-column h-100">
-        <img src="/assets/images/prof.jpg"
-             class="img-fluid"
-             alt="article image"
-        >
-        <div class="card-body">
-            <h5 class="card-title">Discover a strategy</h5>
-            <h4 class="card-subtitle">Staggered orders</h4>
-            <p class="card-text">
-                <p>Regularly earn money using small price changes.</p>
-
-            </p>
-        </div>
-        <div class="card-footer font-weight-bold">
-            Medium: 2020-12-03
-        </div>
-    </a>
-</div>
-        
-    </div>
-    <div class="text-end m-4 py-2">
-        <button type="button" class="btn outline-button">Voir les news sur notre blog</button>
     </div>
 </div>
 
