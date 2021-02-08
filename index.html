@@ -8,11 +8,13 @@ permalink: /
     <!-- Intro: OctoBot in a glance (on pager) -->
     <div class="part video-background">
         <div class="top-video">
-            <video autoplay muted loop class="video-banner">
-                <source src="/assets/videos/banner.mp4" type="video/mp4">
+            <video autoplay muted loop class="video-banner"
+                   poster="/assets/videos/banner_poster.jpg"
+                   data-fallback-poster="/assets/videos/fallback_banner_poster.jpg"
+                   data-src="/assets/videos/banner.mp4">
             </video>
         </div>
-        <div class="intro-text p-0">
+        <div class="p-0">
             <div class="mb-1 mb-md-4 w-75 mx-auto text-center">
                 <div class="">
                     <a href="#try-octobot" class="btn call-to-action-button">{% t landing_page.try_octobot %}</a>
@@ -52,7 +54,7 @@ permalink: /
                     <iframe
                             width="560"
                             height="315"
-                            src="https://www.youtube.com/embed/i_ax8g4ov4A?autoplay=0&loop=1&start=2&iv_load_policy=3&rel=0&showinfo=0"
+                            src="https://www.youtube.com/embed/pRge5nR7Mbg?autoplay=0&loop=1&start=2&iv_load_policy=3&rel=0&showinfo=0"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             autoplay="1"
