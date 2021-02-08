@@ -175,7 +175,7 @@ permalink: /
 </div>
 
 <!-- Les stratégies utilisables sur OctoBot -->
-<div class="part strategies-background">
+<div class="part strategies-background mb-0">
     <div class="background-mask px-0 pt-5">
         <div class="py-4 w-75 mx-auto">
             <h2 class="mb-4">{% t landing_page.discover_octobot_strategies %}</h2>
@@ -188,18 +188,5 @@ permalink: /
                 </a>
             </div>
         </div>
-    </div>
-</div>
-
-<!-- News -->
-<div class="part my-4">
-    <h2 class="part-title">{% t landing_page.news %}</h2>
-    <div class="row">
-        {% for article in site.articles %}
-            {% include article_preview.html article=article %}
-        {% endfor %}
-    </div>
-    <div class="text-end m-4 py-2">
-        <button type="button" class="btn outline-button">{% t landing_page.all_news_on_our_blog %}</button>
     </div>
 </div>
