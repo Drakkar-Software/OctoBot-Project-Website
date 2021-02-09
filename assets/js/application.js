@@ -33,11 +33,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 
     const fetchTopProfitabilities = async (profit_1, profit_2, profit_3, lastDayMinUptime) => {
-        try {
-            const response = await axios.get(`${metricsURL}/top/profitabilities/${lastDayMinUptime}/3`);
-            fillTopProfits(profit_1, profit_2, profit_3, response.data)
-        } catch (error) {
-            console.log(error);
+        if (profit_1 !== null || profit_2 !== null || profit_3 !== null){
+            try {
+                const response = await axios.get(`${metricsURL}/top/profitabilities/${lastDayMinUptime}/3`);
+                fillTopProfits(profit_1, profit_2, profit_3, response.data)
+            } catch (error) {
+                console.log(error);
+            }
         }
     }
 
@@ -67,9 +69,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
     }
 
     const fillTopProfits = (profit_1, profit_2, profit_3, topProfits) => {
-        profit_1.innerText = formatProfits(topProfits[0]);
-        profit_2.innerText = formatProfits(topProfits[1]);
-        profit_3.innerText = formatProfits(topProfits[2]);
+        [profit_1, profit_2, profit_3].forEach((profitElement, index) => {
+            if (profitElement !== null){
+                profitElement.innerText = formatProfits(topProfits[index]);
+            }
+        })
     }
 
     const formatProfits = (profit_value) => {

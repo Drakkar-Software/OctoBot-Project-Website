@@ -1,0 +1,11 @@
+<div class="part my-4">
+    <h2 class="part-title">{% t landing_page.news %}</h2>
+    <div class="row">
+        {% for article in site.articles %}
+        {% include article_preview.html article=article %}
+        {% endfor %}
+    </div>
+    <div class="text-end m-4 py-2">
+        <button type="button" class="btn outline-button">{% t landing_page.all_news_on_our_blog %}</button>
+    </div>
+</div>
