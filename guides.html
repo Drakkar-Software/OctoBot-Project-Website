@@ -15,7 +15,7 @@ permalink: /guides/
 </div>
 
 <!--setup-->
-<div class="part">
+<div id="installation" class="part">
     <div class="row py-1 py-md-2">
         <div class="col col-md-5">
             <div>
@@ -42,7 +42,7 @@ permalink: /guides/
 </div>
 
 <!--configure octobot-->
-<div class="part">
+<div id="exchanges" class="part">
     <div class="row py-1 py-md-2">
         <div class="col-12 col-md-7 text-center my-auto">
             {% include modalable_image.html
@@ -61,7 +61,7 @@ permalink: /guides/
         </div>
     </div>
 </div>
-<div class="part">
+<div id="traded_pairs" class="part">
     <div class="row py-1 py-md-2">
         <div class="col col-md-5">
             <div>
@@ -80,7 +80,7 @@ permalink: /guides/
         </div>
     </div>
 </div>
-<div class="part">
+<div id="trading_modes" class="part">
     <div class="row py-1 py-md-2">
         <div class="col-12 col-md-5 offset-md-2 mx-auto">
             <div class="ratio ratio-16x9">
@@ -112,7 +112,7 @@ permalink: /guides/
         </div>
     </div>
 </div>
-<div class="part">
+<div id="telegram" class="part">
     <div class="row py-1 py-md-2">
         <div class="col col-md-5">
             <div>
@@ -146,7 +146,7 @@ permalink: /guides/
         </div>
     </div>
 </div>
-<div class="part">
+<div id="backtesting" class="part">
     <div class="row py-1 py-md-2">
         <div class="col-12 col-md-7 text-center my-auto">
             {% include modalable_image.html
@@ -165,10 +165,10 @@ permalink: /guides/
         </div>
     </div>
 </div>
-<div class="part mb-1 mb-md-5">
+<div id="evaluation_chain" class="part mb-1 mb-md-5">
     <div class="row py-1 py-md-2">
         <div class="col col-md-5">
-            <h3 class="border-bottom my-3 pb-2" id="evaluation_chain">{% t guides_page.the_evaluation_chain %}</h3>
+            <h3 class="border-bottom my-3 pb-2">{% t guides_page.the_evaluation_chain %}</h3>
             <div>
                 <h5> {% t guides_page.evaluators %} </h5>
                 <p>
@@ -206,7 +206,7 @@ permalink: /guides/
 <div class="part pt-2 pt-md-5 my-2 my-md-5 text-center">
     <h5>{% t guides_page.this_is_just_an_subset %}</h5>
     <div class="my-2 my-md-3">
-        <a href="{% tl octobot %}#try-octobot" class="btn btn-lg call-to-action-button">
+        <a href="{% tl octobot %}#try_octobot" class="btn btn-lg call-to-action-button">
             {% t landing_page.try_octobot %}
         </a>
     </div>
