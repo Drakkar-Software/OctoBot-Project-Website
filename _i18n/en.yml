@@ -13,9 +13,6 @@ medium: Medium
 or: or
 
 landing_page:
-  tagline: "OctoBot: Free open source trading robot"
-  title: OctoBot is an open source cryptocurrency trading robot.
-  subtitle: Use or create the trading strategies you want. Test them and automate your trades.
   try_octobot: Try OctoBot
   usage_details: See how to use OctoBot in details
   what_is_octobot: OctBot is a trading robot which is designed to be easy to use and infinitely customizable.
@@ -24,7 +21,7 @@ landing_page:
   see_octobot_on: See OctoBot on
   github: github
   setup_the_strategy_that_fits_you: Set up the strategy that fits you best
-  each_strategy_is_testable: Each strategy can be tested using past data or in live simulations.
+  each_strategy_is_testable: Each strategy can be tested using past data or on live simulations.
   dont_trust_verify: |
     "Don't trust, verify"
   octobot_is_just_like_cryptocurrencies: |
@@ -32,16 +29,17 @@ landing_page:
   built_for_performances: Built for performances
   multi_layer_optimisations: Multi-layer optimization
   optimisation_desc_html: |
-    OctoBot is designed to be very fast and scalable while letting extension development easily
-    accessible for an unexperienced developers. To achieve this, OctoBot is developed in
+    <p>OctoBot is designed to be very fast and scalable while letting extension development easily
+    accessible for unexperienced developers. To achieve this, OctoBot is developed in
     <a href="https://www.python.org/" target="_blank" rel="noopener">Python</a> following an
     asynchronous architecture using
     <a href="https://docs.python.org/3/library/asyncio.html" target="_blank" rel="noopener">asyncio</a>
-    which enables CPU time optimization. Furthermore, computation and memory intensive processes are
+    which enables CPU time optimization.</p>
+    <p>Furthermore, computation and memory intensive processes are
     executed using your system's optimal native code thanks to
     <a href="https://cython.org/" target="_blank" rel="noopener">Cython</a>. With this architecture, OctoBot
     is able to work at 100% capacity in minimal environments such as on a
-    <a href="https://www.raspberrypi.org/products/" target="_blank" rel="noopener">Raspberry Pi</a>.
+    <a href="https://www.raspberrypi.org/products/" target="_blank" rel="noopener">Raspberry Pi</a>.</p>
   the_octobot_community: The OctoBot community
   telegram: Telegram
   discord: Discord
@@ -59,27 +57,30 @@ landing_page:
   all_news_on_our_blog: See all news on our blog
   story:
     the_obsticle: |
-      OctoBot is built for people who don't have much time or do not easily trust the crypto-world projects
+      <p>OctoBot is built for people who don't have much time or do not easily trust the crypto-world projects.
       Many trading automation tools exist but most of them are complicated to use, expensive, do not
-      behave as intended or are meant to be used by profesional traders. Moreover, when a favorable trend
+      behave as intended or are meant to be used by profesional traders.</p>
+      <p>Moreover, when a favorable trend
       is spotted, it can be difficult to maximise profit from it: trading takes a lot of time and when it's
-      done automatically how to be sure that the robot will do what it is supposed to ?
+      done automatically how to be sure that the robot will do what it is supposed to ?</p>
     the_challenge: |
-      Which value has an investment or a trade if it prevents you from sleeping because you are affraid
-      of a potential bad decision ? How to be sure the robot will behave as expected ? OctoBot's philosophy
-      is to be as transparent and reliable as possible.
+      <p>Which value has an investment or a trade if it prevents you from sleeping because you are afraid
+      of a potential bad decision ?</p>
+      <p>How to be sure the robot will behave as expected ? OctoBot's philosophy
+      is to be as transparent and reliable as possible.</p>
     the_challenge_li_1: the code is open source in order to be able to verify what the robot is doing
     the_challenge_li_2: |
-      strategies are testable on past data and on real time data to ensure their
+      strategies are testable on past and real time data to ensure their
       reliability
     the_transformation: |
-      By using OctoBot, your will be able to automate your trade with the strategy you chose
-      and the markets you want. Wether you are a beginning or an expert trader, each strategy
-      is testable as much as you want, easily. You can use an existing setup or try and customize
+      <p>By using OctoBot, you will be able to automate your trades with the strategy you have chosen
+      and the markets you want. Whether you are a beginner or an expert trader, each strategy
+      is testable easily without any limit.</p>
+      <p>You can use an existing setup or try and customize
       your own until you identify the perfect settings for your trading goals and proceed with
-      real money trading and make real gains. By using OctoBot, you a robot that is verifiable
-      and can be improved at any moment since it is open source and is now tested for many years:
-      the OctoBot project is now 3 years old.
+      real money trading and make real gains. With OctoBot, you use a robot that is verifiable
+      and can be improved at any moment since it is open source and is now tested for many years.
+      The OctoBot project was started in 2018.</p>
   try_octobot_now: Try OctoBot now
   backtesting_result: Backtesting results
   using_the_latest_executable: Using the executable
@@ -214,21 +215,20 @@ about_page:
     the_existing_world: |
       Trading should be accessible to anyone who is interested in it.
       Whether it is to invest for the long term in technologies you believe
-      in or quickly grow your wealth in promising trends. Take part in
-      financial markets and profit from it should be simple.
+      in or to quickly grow your wealth in promising trends: we believe that taking part in
+      financial markets and profiting from it should be simple.
     octobot_creation:
       a_small_open_source_project: A small open source project
       birth_1: |
         February 2018, the cryptocurrency bubble just popped, a large
-        correction as starting. Guillaume and Herklos: OctoBot's founders
-        realise that pure technical analysis based trading starts to works
+        correction as started. Guillaume and Herklos (OctoBot's founders)
+        realise that pure technical analysis based trading starts to work
         well again.
       birth_2: |
         After searching for a tool able automate and optimize their trades,
-        they realise that no open source robot allows to easily do this
-        achieve task. Herklos and Guillaume decide to develop a robot that
-        will be optimized for technical analysis based strategies and most
-        of all free and easy to use.
+        they realise that no open source robot allows to easily achieve this
+        task. Herklos and Guillaume decide to develop a robot that
+        will be optimized for technical analysis based strategies and easy to use.
       community_birth: Birth of the OctoBot community
       first_versions_p1: |
         Thanks to its
@@ -251,21 +251,21 @@ about_page:
         strategies and extensions
       ecosystem_item_3: The OctoBot community usage data which enables users to learn from one to another
     the_guide: |
-      With OctoBot, you can simply and for free test and use the strategies
+      With OctoBot, you can simply test and use the strategies
       that fit you. OctoBot enables you to easily experiment strategies on
-      the markets you want thanks to it's adaptable customization depth.
+      the markets you want thanks to its adaptable customization depth.
       No matter if you are a beginning or experienced trader, you can
       experiment with OctoBot and customize it at as you wish.
     the_new_world: |
-      Our goal is that OctoBot users can focus of what matters to them, whether it
-      is to explore the crypto world to find the hidden gems or optimize their
-      trading strategies. OctoBot is managing their trading portfolio according to
+      Our goal is to enable users to focus on what matters to them, whether it
+      is to explore the crypto world to find hidden gems or to optimize their
+      trading strategies. OctoBot manages their trading portfolio according to
       the strategy they selected and tested before using their real money.
       Gains and risks are handled by a realiable and transparent tool that is
       always available and by their side.
   the_octobot_team: The OctoBot team
   octobot_core_team_desc: |
-    For now 3 years, OctoBot is developed without funding by Herklos
+    Since 2018, OctoBot is developed without funding by Herklos
     and Guillaume: two passionate about the crypto world. Both have
     a developer background that allowed them to create OctoBot and the
     elements of the ecosystem based on their ideas and strong user feedbacks.
@@ -273,15 +273,15 @@ about_page:
     the mean time being able to focus of user need and make OctoBot
     evolve in the right direction.
   octobot_community_team_desc: |
-    The OctoBot team is also made of the community of its users,
+    <p>The OctoBot team is also made of the community of its users,
     some of them are part of the community for years now.
     It is thanks to this community that OctoBot keeps evolving to answer
-    best the users' needs and is growing towards the most useful features.
-    Finally, this community is also about all the support brought to
+    best the users' needs and is growing towards the most useful features.</p>
+    <p>Finally, this community is also about all the support brought to
     its new members using the
     <a href="https://t.me/joinchat/F9cyfxV97ZOaXQ47H5dRWw" target="_blank" rel="noopener">Telegram</a>
     and <a href="https://discord.com/invite/vHkcb8W" target="_blank" rel="noopener">Discord</a> channels.
-    Thank you to the OctoBot community for its help and ideas.
+    Thank you to the OctoBot community for its help and ideas.</p>
   team_members:
     herklos:
       desc: |
