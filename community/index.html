@@ -15,7 +15,7 @@
 <meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Community" />
 <meta name="author" content="Drakkar-Software" />
-<meta property="og:locale" content="fr" />
+<meta property="og:locale" content="en" />
 <meta name="description" content="OctoBot is an open source cryptocurrency trading robot designed to be easy to use and infinitely customizable." />
 <meta property="og:description" content="OctoBot is an open source cryptocurrency trading robot designed to be easy to use and infinitely customizable." />
 <link rel="canonical" href="https://www.octobot.online/community/" />
@@ -72,11 +72,11 @@
                 
                 <a href="/guides/" class="nav-link link ">Guides</a>
                 
-                <a href="/community/" class="nav-link link active">Communauté</a>
+                <a href="/community/" class="nav-link link active">Community</a>
                 
                 <a href="https://docs.octobot.online/" class="nav-link link ">Docs</a>
                 
-                <a href="/about/" class="nav-link link ">A propos de nous</a>
+                <a href="/about/" class="nav-link link ">About us</a>
                 
 
                 <li class="nav-item dropdown">
@@ -86,7 +86,7 @@
                        role="button"
                        data-mdb-toggle="dropdown"
                        aria-expanded="false">
-                        Français
+                        English
                     </a>
                     <!-- Dropdown menu -->
                     <ul class="dropdown-menu shadow" aria-labelledby="langDropdown">
@@ -96,7 +96,7 @@
                             
                                 <li>
                                     
-                                        <a href="/en/community/" class="dropdown-item link bg-darker-hover">Anglais</a>
+                                        <a href="/fr/community/" class="dropdown-item link bg-darker-hover">French</a>
                                     
                                 </li>
                             
@@ -111,8 +111,8 @@
 <div class="part community-intro-background">
     <div class="background-mask p-0">
         <div class="py-4 w-75 mx-auto text-center">
-            <h2 class="my-4">Statistiques de la communauté OctoBot</h2>
-            <h5>La communauté OctoBot aujourd'hui</h5>
+            <h2 class="my-4">The OctoBot community statistics</h2>
+            <h5>The OctoBot community today</h5>
         </div>
     </div>
 </div>
@@ -123,32 +123,32 @@
     <div class="spinner-grow text-danger" role="status"></div>
     <div class="spinner-grow text-danger" role="status"></div>
     <div class="spinner-grow text-danger" role="status"></div>
-    <h3>Chargement des données de la communauté</h3>
+    <h3>Loading community data</h3>
     <!--  spacer-->
     <div class="py-5 my-5"></div>
     <div class="py-5 my-5"></div>
 </div>
 
 <div id="fetched-part" class="part d-none">
-    <div>
+    <div id="current_bots">
         <div>
             <div class="d-flex flex-wrap justify-content-center my-4 w-100">
                 <div class="community-bot-stats-label my-1 text-center mx-2 mx-md-4">
-                    <span class="badge bg-primary community-bot-stats" id="monthly-bots">?</span> Bots en activité ce mois-ci
+                    <span class="badge bg-primary community-bot-stats" id="monthly-bots">?</span> Active bots this month
                 </div>
                 <div class="community-bot-stats-label my-1 mx-2 mx-md-4">
-                    <span class="badge bg-primary community-bot-stats" id="daily-bots">?</span> Bots en train de trader
+                    <span class="badge bg-primary community-bot-stats" id="daily-bots">?</span> Currently trading bots
                 </div>
                 <div class="community-bot-stats-label my-1 mx-2 mx-md-4">
-                    <span class="badge bg-primary community-bot-stats" id="all-bots">?</span> Bots déjà installés
+                    <span class="badge bg-primary community-bot-stats" id="all-bots">?</span> Already installed bots
                 </div>
             </div>
         </div>
     </div>
 
     <div class="row my-2 my-md-5">
-        <div class="col-12 col-md-6">
-            <h3>Plateformes de trading les plus utilisées</h3>
+        <div id="exchanges" class="col-12 col-md-6">
+            <h3>Most used exchanges</h3>
             <div class="table-responsive">
 
             </div>
@@ -156,8 +156,8 @@
                 <thead>
                 <tr>
                     <th scope="col">#</th>
-                    <th scope="col">Plateforme</th>
-                    <th scope="col">OctoBots actifs</th>
+                    <th scope="col">Exchange</th>
+                    <th scope="col">Active OctoBots</th>
                 </tr>
                 </thead>
                 <tbody id="top-exchanges-tbody" class="text-capitalize">
@@ -165,15 +165,15 @@
             </table>
         </div>
 
-        <div class="col-12 col-md-6">
-            <h3>Modes de trading les plus utilisés</h3>
+        <div id="trading_modes" class="col-12 col-md-6">
+            <h3>Most used trading modes</h3>
             <div class="table-responsive">
                 <table class="table table-dark table-hover table-striped text-center" id="top-trading-modes">
                     <thead>
                     <tr>
                         <th scope="col">#</th>
-                        <th scope="col">Mode de trading</th>
-                        <th scope="col">OctoBots actifs</th>
+                        <th scope="col">Trading mode</th>
+                        <th scope="col">Active OctoBots</th>
                     </tr>
                     </thead>
                     <tbody id="top-trading-modes-tbody">
@@ -186,8 +186,8 @@
 
 <div class="row my-5 mx-0 text-center w-100">
     <p>
-        Un grand merci à la communauté OctoBot pour contribuer à
-rendre le trading plus transparent par le partage de ses informations !
+        Many thanks to the OctoBot community for contributing to make trading
+more transparent and for sharing its data !
 
     </p>
 </div>
