@@ -17,7 +17,7 @@ permalink: /
         <div class="p-0">
             <div class="mb-1 mb-md-4 w-75 mx-auto text-center">
                 <div class="">
-                    <a href="#try-octobot" class="btn call-to-action-button">{% t landing_page.try_octobot %}</a>
+                    <a href="#try_octobot" class="btn call-to-action-button">{% t landing_page.try_octobot %}</a>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@ permalink: /
 
     <!-- What is OctoBot: differentiator & core features -->
     <div class="part gradient">
-        <div class="row py-1 py-md-2">
+        <div id="octobot" class="row py-1 py-md-2">
             <div class="col col-md-5">
                 <!-- What is OctoBot -->
                 <div>
@@ -64,7 +64,7 @@ permalink: /
             </div>
         </div>
         <!-- Features -->
-        <div class="row py-1 py-md-2">
+        <div id="setup" class="row py-1 py-md-2">
             <div class="col-12 col-md-7 text-center px-0 my-auto">
                 {% include modalable_image.html
                 rendered_image_path="/assets/images/telegram-interface.png"
@@ -93,7 +93,7 @@ permalink: /
                 </div>
             </div>
         </div>
-        <div class="row py-1 py-md-2">
+        <div id="philosophy" class="row py-1 py-md-2">
             <div class="col col-md-5">
                 <div>
                     <h3 class="border-bottom my-3 pb-2">{% t landing_page.dont_trust_verify %}</h3>
@@ -119,7 +119,7 @@ permalink: /
                 title="landing_page.backtesting_result" %}
             </div>
         </div>
-        <div class="row py-1 py-md-2">
+        <div id="performances" class="row py-1 py-md-2">
             <div class="col-12 col-md-7 text-center my-auto">
                 <img src="/assets/images/python-logo-inkscape.svg" class="part-image-sm" alt="python">
             </div>
@@ -136,7 +136,7 @@ permalink: /
     </div>
 </div>
 
-<div id="try-octobot" class="part bg-darker py-2 py-md-4">
+<div id="try_octobot" class="part bg-darker py-2 py-md-4">
     <div class="part-title">
         <h2>{% t landing_page.try_octobot_now %}</h2>
     </div>
@@ -144,7 +144,7 @@ permalink: /
 </div>
 
 <!-- OctoBot community -->
-<div class="part py-2 py-md-4">
+<div id="community" class="part py-2 py-md-4">
     <div class="part-title">
         <h2>{% t landing_page.the_octobot_community %}</h2>
     </div>
@@ -177,7 +177,7 @@ permalink: /
 </div>
 
 <!-- Les stratégies utilisables sur OctoBot -->
-<div class="part strategies-background mb-0">
+<div id="strategies" class="part strategies-background mb-0">
     <div class="background-mask px-0 pt-5">
         <div class="py-4 w-75 mx-auto">
             <h2 class="mb-4">{% t landing_page.discover_octobot_strategies %}</h2>

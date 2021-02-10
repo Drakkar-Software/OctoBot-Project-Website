@@ -27,7 +27,7 @@ permalink: /community/
 </div>
 
 <div id="fetched-part" class="part d-none">
-    <div>
+    <div id="current_bots">
         <div>
             <div class="d-flex flex-wrap justify-content-center my-4 w-100">
                 <div class="community-bot-stats-label my-1 text-center mx-2 mx-md-4">
@@ -44,7 +44,7 @@ permalink: /community/
     </div>
 
     <div class="row my-2 my-md-5">
-        <div class="col-12 col-md-6">
+        <div id="exchanges" class="col-12 col-md-6">
             <h3>{% t community_page.top_exchanges %}</h3>
             <div class="table-responsive">
 
@@ -62,7 +62,7 @@ permalink: /community/
             </table>
         </div>
 
-        <div class="col-12 col-md-6">
+        <div id="trading_modes" class="col-12 col-md-6">
             <h3>{% t community_page.top_trading_modes %}</h3>
             <div class="table-responsive">
                 <table class="table table-dark table-hover table-striped text-center" id="top-trading-modes">
