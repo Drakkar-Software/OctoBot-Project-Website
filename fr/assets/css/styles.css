@@ -10093,7 +10093,7 @@ readers do not read off random characters that represent icons */
 
 .footer-icons > a { margin-right: 0.125rem; margin-left: 0.125rem; }
 
-.part { margin-top: .5rem; margin-bottom: .5rem; padding-left: 1rem; padding-right: 1rem; }
+.part { margin-top: .5rem; margin-bottom: .5rem; padding-left: 1rem; padding-right: 1rem; text-align: justify; text-justify: inter-word; }
 
 .top-video { height: 100%; }
 
