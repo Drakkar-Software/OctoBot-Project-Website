@@ -151,6 +151,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 video.setAttribute('poster', video.getAttribute("data-fallback-poster"));
             }
 
+            const enableLoadingPoster = () => {
+                video.setAttribute('poster', video.getAttribute("data-loading-poster"));
+            }
+
             const loadVideo = () => {
                 const video = document.querySelector(".video-banner");
 
@@ -160,6 +164,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
                     while (video.firstChild) {
                         video.removeChild(video.firstChild);
                     }
+                }else{
+                    enableLoadingPoster();
                 }
 
                 // Add source tags if not already present
