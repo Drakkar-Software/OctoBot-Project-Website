@@ -44,9 +44,9 @@ landing_page:
   the_octobot_community: La communauté OctoBot
   telegram: Telegram
   discord: Discord
-  bots_this_month: Bots en activité ce mois-ci
-  bots_at_this_moment: Bots en train de trader
-  total_octobots: Bots déjà installés
+  bots_this_month: OctoBots en activité ce mois-ci
+  bots_at_this_moment: OctoBots en train de trader
+  total_octobots: OctoBots déjà installés
   octobot_statistics: Voir les statistics de la communauté
   discover_octobot_strategies: Découvrez les stratégies d’OctoBot
   octobot_strategies_concept: |
