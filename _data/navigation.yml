@@ -10,5 +10,7 @@
 #  link: /404/
 - name: docs
   link: https://docs.octobot.online/
+- name: feature_suggestion
+  link: https://feedback.octobot.online/
 - name: about
   link: /about/
