@@ -344,7 +344,7 @@ installations:
     advantages: One file and your OctoBot starts
     release_example: Downloadable executables for the 0.4.0-beta2 version
     step1: |
-      1. Go to <a href="https://github.com/Drakkar-Software/OctoBot-Binary/releases" target="_blank" rel="noopener">
+      1. Go to <a href="https://github.com/Drakkar-Software/OctoBot-Binary/releases/latest" target="_blank" rel="noopener">
       OctoBot's official releases page</a> and download the latest version for your system: Windows, Linux or MacOS.
     step2: |
       2. Start the downloaded executable. OctoBot opens a terminal and installs its configuration environment and
