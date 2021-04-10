@@ -346,6 +346,7 @@ installations:
     step1: |
       1. Go to <a href="https://github.com/Drakkar-Software/OctoBot/releases/latest" target="_blank" rel="noopener">
       OctoBot's official releases page</a> and download the latest version for your system: Windows, Linux or MacOS.
+      You can even use OctoBot on <a href="https://www.raspberrypi.org/"target="_blank" rel="noopener"> Raspberry pie</a>.
     step2: |
       2. Start the downloaded executable. OctoBot opens a terminal and installs its configuration environment and
       the OctoBot management interface opens automatically.
