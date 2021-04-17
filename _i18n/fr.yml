@@ -23,7 +23,7 @@ landing_page:
   see_octobot_on: Voir OctoBot sur
   github: github
   setup_the_strategy_that_fits_you: Mettez au point le robot qui vous correspond
-  each_strategy_is_testable: Chaque stratégie est testable avec des données du passé et temps réel.
+  each_strategy_is_testable: Chaque stratégie est testable en temps réel ou avec des données du passé.
   dont_trust_verify: Ne faites pas confiance, vérifiez
   octobot_is_just_like_cryptocurrencies: |
     OctoBot est à l’image des cryptomonnaies: son fonctionnement est entièrement transparent.
@@ -59,8 +59,8 @@ landing_page:
   story:
     the_obsticle: |
       <p>OctoBot est destiné aux personnes qui n'ont pas beaucoup de temps ou qui n'accordent pas facilement
-      leur confiance aux projets du monde des cryptomonaies.
-      Beaucoup de solutions d'automatisation existent mais sont compliquées à utiliser, cher, ne marchent
+      leur confiance aux projets du monde des cryptomonnaies.
+      Beaucoup de solutions d'automatisation existent mais sont compliquées à utiliser, sont chères, ne marchent
       pas toujours comme voulu ou sont réservées à des professionnels.</p>
       <p>D’autre part, lors qu'une tendance
       est repérée, il est difficile d'en profiter au maximum : le trading est chronophage
@@ -75,15 +75,15 @@ landing_page:
       en temps réel pour garantir leur fiabilité.
     the_transformation: |
       <p>En utilisant OctoBot, vous pourrez trader automatiquement, avec
-      a stratégie que vous aurez choisi, sur les marchés que vous voulez. Débutant
-      ou trader confirmé, toutes les stratégies d'OctoBot sont testables
-      à l'infini, facilement.</p>
+      la stratégie que vous aurez choisi, sur les marchés que vous voulez. Débutant
+      ou trader confirmé, toutes les stratégies d'OctoBot sont facilement testables
+      à l'infini.</p>
       <p>Vous pouvez utiliser une configuration existante ou
-      essayez et customisez vos stratégies jusqu'à trouver le niveau
+      essayer et customiser vos stratégies jusqu'à trouver le niveau
       parfait avant de lancer le trading avec de l'argent réel et faire
-      fructifier vos gains. En utilisant OctoBot, vous utiliser un
-      outil vérifiable et améliorable à tout moment car open source
-      et qui est testé depuis plusieur années. Le projet a commencé en 2018.</p>
+      fructifier vos gains. En utilisant OctoBot, vous utilisez un
+      outil vérifiable et améliorable à tout moment car il est open source
+      et fiable car il est activement testé depuis plusieurs années. Le projet a commencé en 2018.</p>
   try_octobot_now: Essayez OctoBot dès à présent
   backtesting_result: Résultat de backtesting
   using_the_latest_executable: Avec l'exécutable
@@ -106,7 +106,7 @@ community_page:
   subtitle: La communauté OctoBot aujourd'hui
   loading: Chargement des données de la communauté
   thanks_to_the_community: |
-    Un grand merci à la communauté OctoBot pour contribuer à
+    Un grand merci à la communauté OctoBot de contribuer à
     rendre le trading plus transparent par le partage de ses informations !
   current_best_performers: Performance des meilleurs OctoBots du moment, depuis leur dernier lancement
   top_exchanges: Plateformes de trading les plus utilisées
@@ -153,7 +153,7 @@ guides_page:
     Chaque trading mode est unique et propose une approche différente
     du trading. Certains sont risqués mais avec de fort potentiels de gains,
     d'autres se focalisent sur les micro fluctuations du marché pour
-    tirer des bénéfices réguliers, d'autres encore attendent des sigaux
+    tirer des bénéfices réguliers, d'autres encore attendent des signaux
     d'autres plateformes comme
     <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
     tradingview.com</a>. Chaque trading mode est
@@ -203,10 +203,10 @@ guides_page:
     Les stratégies exploitent les évaluateurs pour émettre des signaux :
     acheter, vendre ou ne rien faire. Une stratégie est comparable à un
     cerveau et les évaluateurs à des sens : le cerveau décide quoi faire
-    des signaux qu'il recoit.
+    des signaux qu'il reçoit.
   trading_modes: Les modes de trading
   trading_modes_desc: |
-    Les trading modes recoivent les signaux des stratégies et se chargent
+    Les trading modes reçoivent les signaux des stratégies et se chargent
     de les interpréter pour effectuer les actions appropriées : positionnement
     d'un ordre, annulation d'un autre, récupération de profits.
   chart_with_TA: Graphique de prix avec bollinger bands et RSI par tradingview.com
@@ -229,15 +229,15 @@ about_page:
     the_existing_world: |
       Trader devrait être à la portée de tous ceux qui s'y intéressent.
       Que ce soit pour investir à long terme dans des technologies que
-      vous avez avez identifiées ou rapidement faire fructifier votre
+      vous avez identifié ou pour faire fructifier rapidement votre
       patrimoine sur une tendance porteuse: pour nous, participer aux marchés
       financiers et en tirer des bénéfices devrait être simple.
     octobot_creation:
       a_small_open_source_project: Un petit projet open source
       birth_1: |
-        En février 2018, une bulle des cryptomonnaies vient de se
-        terminer, la consolidation commence. Guillaume et Herklos: fondateurs
-        d'OctoBot réalisent que le trading basé sur l'analyse technique
+        En février 2018, une bulle spéculative des cryptomonnaies vient d'éclater,
+        la consolidation commence. Guillaume et Herklos, fondateurs
+        d'OctoBot, réalisent que le trading basé sur l'analyse technique
         pure fonctionne de nouveau très bien.
       birth_2: |
         Après avoir cherché un outil
@@ -251,7 +251,7 @@ about_page:
         Grâce à sa
         <a href="https://github.com/Drakkar-Software/OctoBot" target="_blank" rel="noopener">
         présence sur github.com</a>, OctoBot commence à attirer
-        quelques utilisateur, si bien que début 2019, la communauté OctoBot
+        quelques utilisateurs, si bien que début 2019, la communauté OctoBot
         voit le jour. Au fil du temps (et sans communication de la part de
         l'équipe autre que la présence sur github.com), la communauté s'agrandit.
       first_versions_p2: |
@@ -261,16 +261,16 @@ about_page:
       ecosystem_launch: Lancement de l'écosystème
       ecosystem: |
         Après ces deux années de feedbacks utilisateurs, OctoBot est maintenant
-        suffisament stable et fonctionnel pour que le projet prenne de l'envergure.
-        2021 marque le lancement de l'écosystème OctoBot: Le robot open source
-        gratuit trade pour ses utilisateurs, la marketplace permet à ces utilisateurs
-        d'essayer et de partager de nouvelles stratégies et extentions et enfin
+        suffisamment stable et fonctionnel pour que le projet prenne de l'envergure.
+        2021 marque le lancement de l'écosystème OctoBot : le robot open source
+        gratuit trade pour ses utilisateurs. La marketplace permet à ces utilisateurs
+        d'essayer et de partager de nouvelles stratégies et extensions. Enfin
         les données d'utilisation de la communauté permettent
         aux utilisateurs d'apprendre les uns des autres.
       ecosystem_item_1: OctoBot, robot open source gratuit trade pour ses utilisateurs
       ecosystem_item_2: |
-        L' OctoBot Marketplace qui permet à ces utilisateurs
-        d'essayer et de partager de nouvelles stratégies et extentions
+        L'OctoBot Marketplace qui permet à ces utilisateurs
+        d'essayer et de partager de nouvelles stratégies et extensions
       ecosystem_item_3: Les données d'utilisation de la communauté OctoBot qui permettent
         aux utilisateurs d'apprendre les uns des autres
     the_guide: |
@@ -278,14 +278,14 @@ about_page:
       et utiliser les stratégies qui vous ressemblent. OctoBot vous
       permet de facilement expérimenter les stratégies sur les marchés
       que vous voulez, que vous soyez débutant ou trader aguerri grâce
-      à ses différent niveaux de personnalisation.
+      à ses différents niveaux de personnalisation.
     the_new_world: |
       Notre objectif est que les utilisateurs d'OctoBot puissent se concentrer sur ce
-      qui les intéressent : que ce soit explorer le monde des crypto pour trouver les prochaines perles
+      qui les intéresse : explorer le monde des crypto pour trouver les prochaines perles
       rares ou optimiser leurs stratégies de trading. OctoBot gère leur portfolio de trading
       selon la stratégie qu'ils ont sélectionnée et éprouvée avant d'utiliser leur argent réel.
       Les gains et les risques sont maîtrisés par un outil fiable et transparent qui est toujours
-      disponible et de leur côté.
+      disponible et à leur côté.
   the_octobot_team: L'équipe d'OctoBot
   octobot_core_team_desc: |
     Depuis 2018, OctoBot est développé bénévolement par Herklos
@@ -297,10 +297,10 @@ about_page:
     l'équipe comprend au mieux les besoins des utilisateurs pour faire
     évoluer OctoBot dans la meilleure direction.
   octobot_community_team_desc: |
-    <p>L'équipe OctoBot, c'est aussi la communauté de ses utilisateurs
+    <p>L'équipe OctoBot, c'est aussi sa communauté d'utilisateurs
     dont certains sont présents depuis plusieurs années. C'est grâce à
     cette communauté qu'OctoBot évolue continuellement pour répondre au
-    mieux aux besoins des utilisateurs et s'oriente vers les
+    mieux aux besoins des utilisateurs et s'orienter vers les
     fonctionnalités les plus pertinentes.</p>
     <p>Enfin, la communauté OctoBot, c'est aussi toute l'aide apportée
     à ses nouveaux membres via les canaux
@@ -316,9 +316,9 @@ about_page:
         la rendre accessible pour tous avec OctoBot.
     guillaume:
       desc: |
-        Guillaume adore les nouvelles technologies. En découvrant l'univers de cryptomonnaies,
-        il en est instanément devenu fan. Développeur dans l'ame, avec OctoBot, il compte
-        aider un maximum de personnes à profiter au mieux leurs investissements.
+        Guillaume adore les nouvelles technologies. En découvrant l'univers des cryptomonnaies,
+        il en est instantanément devenu fan. Développeur dans l'âme, avec OctoBot, il compte
+        aider un maximum de personnes à profiter au mieux de leurs investissements.
 
 installations:
   python:
@@ -329,7 +329,7 @@ installations:
     step1: |
       1. Si vous n'avez pas déjà Python, <a href="https://www.python.org/downloads/" target="_blank" rel="noopener">
       installez Python en version 3.8</a>.
-    step2: "2. Clonnez le dépôt OctoBot"
+    step2: "2. Clonez le dépôt OctoBot"
     step3: "3. Installez les dépendances Python du robot"
     step4: "4. Lancez votre OctoBot via la commande: "
     full_doc: Voir la documentation complète pour l'utilisation d'OctoBot avec les sources Python
@@ -337,7 +337,7 @@ installations:
   digital_ocean:
     title: Déployez votre OctoBot en cloud sur DigitalOcean.com
     advantages: |
-      Déployez facilement votre OctBot dans le cloud de Digital Ocean pour qu'il soit
+      Déployez facilement votre OctoBot dans le cloud de Digital Ocean pour qu'il soit
       en ligne 100% du temps.
     step1: |
       1. Si vous n'en avez pas déjà un, <a href="https://www.digitalocean.com/?refcode=40c9737100b1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste" target="_blank" rel="noopener">
@@ -357,7 +357,7 @@ installations:
     advantages: Gérez facilement votre OctoBot via docker dans un conteneur isolé
     step1: |
       1. Si vous n'avez pas <a href="https://www.docker.com/" target="_blank" rel="noopener"> Docker</a>,
-      l'installer sur votre système. Documentations pour
+      installez le sur votre système. Documentations pour
       <a href="https://docs.docker.com/engine/install/ubuntu/" target="_blank" rel="noopener">
       Ubuntu</a>, <a href="https://docs.docker.com/engine/install/debian/" target="_blank" rel="noopener">
       Debian</a> et <a href="https://phoenixnap.com/kb/docker-on-raspberry-pi/" target="_blank" rel="noopener">
