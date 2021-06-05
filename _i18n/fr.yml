@@ -352,6 +352,22 @@ installations:
     docker_info: |
       Le déploiement sur Digital Ocean utilise Docker. Pour administrer votre OctoBot, utilisez la console de votre
       application Digital Ocean : vous serez connecté directement dans votre conteneur Docker OctoBot.
+  okteto:
+    title: Déployez votre OctoBot en cloud sur okteto.com
+    advantages: |
+      Déployez et testez OctoBot dans le cloud Okteto: ça ne prendra que quelques secondes.
+    step1: |
+      1. <a href="https://cloud.okteto.com/#/login" target="_blank" rel="noopener">Inscrivez-vous sur Okteto</a>,
+      vous pouvez simplement utiliser votre compte github.
+    step2: "2. Déployez la dernière version d'OctoBot en utilisant ce lien:"
+    step3: "3. Le déploiment de votre OctoBot est en cours, le processus ne dure que quelques secondes."
+    step4: |
+      4. Accédez à l'interface de management de votre OctoBot en utilisant le lien de l'application Okteto, ici "https://octobot-guillaumedsm.cloud.okteto.net/"
+    build_example: Exemple de déploiement d'OctoBot sur Okteto
+    terminal: Accédez aux logs de votre OctoBot directement depuis le Okteto
+    additonal_info: |
+      Les déploiement gratuits sur Okteto sont temporaires: ils sont un excellent moyen de rapidement essayer OctoBot
+      mais ne durent que 24 heures. Utiliser un compte developer pro vous permettra d'avoir un déploiement permanent.
   docker:
     title: Déployez simplement votre OctoBot en utilisant Docker
     advantages: Gérez facilement votre OctoBot via docker dans un conteneur isolé
