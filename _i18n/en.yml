@@ -322,10 +322,26 @@ installations:
     step4: |
       4. Access the management interface of your OctoBot using your Digital Ocean app link, here "https://octobot-zoctx.ondigitalocean.app/"
     build_example: Exemple of an OctoBot deployment build on Digital Ocean
-    terminal: Manage you OctoBot installation directly from the Digital Ocean integrated terminal
+    terminal: Manage your OctoBot installation directly from the Digital Ocean integrated terminal
     docker_info: |
       Deployments on Digital Ocean are using Docker. In order to manage your OctoBot, use the terminal of your
       Digital Ocean app: you will be connected directly into your OctoBot Docker container.
+  okteto:
+    title: Deploy OctoBot in the cloud on okteto.com
+    advantages: |
+      Easily deploy and test OctoBot in the Okteto cloud: will be online in a few seconds.
+    step1: |
+      1. <a href="https://cloud.okteto.com/#/login" target="_blank" rel="noopener">Register on Okteto</a>,
+      you can simply use your github account.
+    step2: "2. Deploy the last version of OctoBot using this link:"
+    step3: "3. Your OctoBot's deployment is starting, it will only take a few seconds."
+    step4: |
+      4. Access the management interface of your OctoBot using your Okteto app link, here "https://octobot-guillaumedsm.cloud.okteto.net/"
+    build_example: Exemple of an OctoBot deployment build on Okteto
+    terminal: Access your OctoBot logs directly from the integrated terminal
+    additonal_info: |
+      Free deployments on Okteto are temporary: they are a great way to quickly try OctoBot but will last only for 24 hours.
+      Using a developer pro account will enable you to have a permanent deployment.
   docker:
     title: Simply deploy your OctoBot using Docker
     advantages: Easily manage your OctoBot thanks to an isolated Docker container
