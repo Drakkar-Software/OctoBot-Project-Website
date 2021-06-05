@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<!--header-->
+<div class="part about-intro-background mt-0">
+    <div class="background-mask p-0">
+        <div class="py-4 w-75 mx-auto text-center">
+            <h2 class="my-4">{% t page.subtitle %}</h2>
+        </div>
+    </div>
+</div>
+
+{{ content }}
+
+<div class="container mx-md-auto w-100 text-center my-4">
+    <h4 class="pt-1 pt-md-3 mb-0">
+        {% t installations.install_methods %}
+    </h4>
+    <div>
+        {% include installation_methods.html %}
+    </div>
+    {% t installations.or_install_octobot %} <a href="{% tl python_installation %}">
+        {% t installations.directly_from_python %}
+    </a>
+</div>

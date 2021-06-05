@@ -89,6 +89,14 @@ landing_page:
   using_the_latest_executable_desc: |
     Simply download and start the executable for your system and launch your OctoBot directly from home.
   using_the_latest_executable_link_text: Download OctoBot
+  using_a_cloud: Using a cloud
+  using_a_cloud_desc_html: |
+    Deploy your OctoBot in the cloud for free using one of the automated cloud deployements options
+  using_a_cloud_desc_link_text: Deploy OctoBot in the cloud
+  using_okteto: Using Okteto
+  using_okteto_desc: |
+    Deploy your OctoBot within a few seconds in the Okteto cloud for free using your github account
+  using_okteto_link_text: Deploy OctoBot in the cloud
   using_digital_ocean: Using Digital Ocean
   using_digital_ocean_desc_html: |
     Deploy your OctoBot in the cloud for free on DigitalOcean.com for 60 days by registering using
@@ -309,6 +317,10 @@ installations:
     step4: "4. Start your OctoBot using this command:"
     full_doc: See the full documentation on running OctoBot from Python sources
     view_sources: See source code
+  cloud:
+    title: Deploy OctoBot in the cloud
+    advantages: |
+      Easily deploy your OctoBot for free in the cloud and it will be online 100% of the time.
   digital_ocean:
     title: Deploy OctoBot in the cloud on DigitalOcean.com
     advantages: |
