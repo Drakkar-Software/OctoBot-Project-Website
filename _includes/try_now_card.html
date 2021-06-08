@@ -1,7 +1,9 @@
 <div class="card bg-transparent  col-12 col-sm-6 col-md-4">
     <div class="d-flex justify-content-between flex-column h-100">
         <div class="text-center my-2 my-md-4">
-            {% if include.image_link != "" %}
+            {% if include.icon != "" %}
+            <i class="{{ include.icon }}"></i>
+            {% elsif include.image_link != "" %}
             <a href="{{ include.image_link }}" target="_blank" rel="noopener">
                 <img src="{{ include.image }}" class="img-fluid card-img-top deploy_img ripple-surface" alt="{{ include.title }}">
             </a>

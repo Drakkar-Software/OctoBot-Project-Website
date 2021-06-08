@@ -353,6 +353,7 @@ installations:
     terminal: Access your OctoBot logs directly from the integrated terminal
     additonal_info: |
       Free deployments on Okteto are temporary: they are a great way to quickly try OctoBot but will last only for 24 hours.
+      It is nevertheless possible to restart your OctoBot instance by pressing the "Wake All" button.
       Using a developer pro account will enable you to have a permanent deployment.
   docker:
     title: Simply deploy your OctoBot using Docker

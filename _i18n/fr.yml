@@ -93,7 +93,7 @@ landing_page:
   using_the_latest_executable_link_text: Télécharger OctoBot
   using_a_cloud: En cloud
   using_a_cloud_desc_html: |
-    Déployez votre OctoBot gratuitement dans le cloud en uitilisant un des déploiements automatisés
+    Déployez votre OctoBot gratuitement dans le cloud en utilisant un des déploiements automatisés
   using_a_cloud_desc_link_text: Déployer OctoBot en cloud
   using_okteto: Avec Okteto
   using_okteto_desc: |
@@ -378,8 +378,10 @@ installations:
     build_example: Exemple de déploiement d'OctoBot sur Okteto
     terminal: Accédez aux logs de votre OctoBot directement depuis le Okteto
     additonal_info: |
-      Les déploiement gratuits sur Okteto sont temporaires: ils sont un excellent moyen de rapidement essayer OctoBot
-      mais ne durent que 24 heures. Utiliser un compte developer pro vous permettra d'avoir un déploiement permanent.
+      Les déploiements gratuits sur Okteto sont temporaires: ils sont un excellent moyen de rapidement essayer OctoBot
+      mais ne durent que 24 heures.
+      Il est néamoins possible de redémarrer votre OctoBot en pressant le bouton "Wake All".
+      Utiliser un compte developer pro vous permettra d'avoir un déploiement permanent.
   docker:
     title: Déployez simplement votre OctoBot en utilisant Docker
     advantages: Gérez facilement votre OctoBot via docker dans un conteneur isolé
