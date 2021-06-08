@@ -16,6 +16,9 @@
 <loc>https://www.octobot.online/about/</loc>
 </url>
 <url>
+<loc>https://www.octobot.online/cloud_installation/</loc>
+</url>
+<url>
 <loc>https://www.octobot.online/community/</loc>
 </url>
 <url>
@@ -32,6 +35,9 @@
 </url>
 <url>
 <loc>https://www.octobot.online/</loc>
+</url>
+<url>
+<loc>https://www.octobot.online/okteto_installation/</loc>
 </url>
 <url>
 <loc>https://www.octobot.online/python_installation/</loc>
