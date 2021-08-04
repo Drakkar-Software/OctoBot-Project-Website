@@ -140,7 +140,7 @@ guides_page:
     is not only mandatory for the trading simulator mode. OctoBot can handle a great
     number of exchanges simultaneously with optimal performances.</p>
     <p>See
-    <a href="https://docs.octobot.online/pages/Exchanges.html#octobot-officially-supported-exchanges" target="_blank" rel="noopener">
+    <a href="https://exchanges.docs.octobot.online/" target="_blank" rel="noopener">
     OctoBot docs</a> to get the list of supported exchanges.</p>
   exchanges_configuration: Exchanges configuraiton
   configure_traded_pairs: Configuration of the Cryptocurrencies that should be traded
@@ -149,7 +149,7 @@ guides_page:
     multiple trading pairs for each cryptocurrency. OctoBot will trade each of them
     when avaible in exchanges.</p>
     <p>See
-    <a href="https://docs.octobot.online/pages/Configuration.html#cryptocurrencies" target="_blank" rel="noopener">
+    <a href="https://docs.octobot.online/configuration/profile-configuration#currencies" target="_blank" rel="noopener">
     OctoBot docs</a> for more details on trading pairs configuration.</p>
   traded_pairs_configuration: Configuration of the cryptocurrencies to trade
   configure_trading_modes: Configuration the trading mode to use
@@ -176,7 +176,7 @@ guides_page:
     trigger an emergency sell ... Access your OctoBot from wherever you want, whenever
     you want thanks to its Telegram interface.</p>
     <p>See
-    <a href="https://docs.octobot.online/pages/Telegram-interface.html" target="_blank" rel="noopener">
+    <a href="https://docs.octobot.online/interfaces/telegram-interface" target="_blank" rel="noopener">
     OctoBot docs</a> for more details on the OctoBot Telegram interface.</p>
   communication_channels_configuration: Configure your OctoBot's connections
   configure_backtesting: Optimize your OctoBot using backtesting
@@ -187,7 +187,7 @@ guides_page:
     backtesting</a> ! Fine tune your bot's configuration up to the very last detail
     and maximise your profits.</p>
     <p>See
-    <a href="https://docs.octobot.online/pages/Backtesting-and-strategy-optimization.html" target="_blank" rel="noopener">
+    <a href="https://docs.octobot.online/advanced_usage/backtesting-and-strategy-optimization" target="_blank" rel="noopener">
     OctoBot docs</a> for more details on backtesting.</p>
   backtesting_configuration: Backtesting results
   the_evaluation_chain: OctoBot's evaluation chain
