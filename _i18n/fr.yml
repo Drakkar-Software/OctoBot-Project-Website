@@ -116,6 +116,9 @@ community_page:
   thanks_to_the_community: |
     Un grand merci à la communauté OctoBot de contribuer à
     rendre le trading plus transparent par le partage de ses informations !
+  coming_soon: Bientôt
+  soon_share_tentacles_html: |
+    Explorez les tentacles et profiles créés par la communauté sur <a href="https://community.octobot.online/">community.octobot.online</a>.
   current_best_performers: Performance des meilleurs OctoBots du moment, depuis leur dernier lancement
   top_exchanges: Plateformes de trading les plus utilisées
   exchange: Plateforme
