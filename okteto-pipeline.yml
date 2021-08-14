@@ -1,0 +1,6 @@
+icon: https://raw.githubusercontent.com/Drakkar-Software/OctoBot/assets/octopus.png
+deploy:
+  - echo "" >> .env
+  - echo "DOCKER_IMAGE=okteto.dev/octobot-project-website:latest" >> .env
+  - okteto build -t okteto.dev/octobot-project-website:latest --file Dockerfile .
+  - okteto stack deploy --wait --file okteto-stack.yaml
