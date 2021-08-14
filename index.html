@@ -194,3 +194,14 @@ permalink: /
         </div>
     </div>
 </div>
+
+<!-- News -->
+<div class="part my-4">
+    <h2 class="part-title">{% t landing_page.news %}</h2>
+    <div class="row">
+        <div class="col-md-2"></div> <!--remove when 3 articles-->
+        {% for post in site.posts %}
+        {% include article_preview.html article=post %}
+        {% endfor %}
+    </div>
+</div>

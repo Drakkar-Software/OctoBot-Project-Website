@@ -1,8 +1,9 @@
 <div class="card news-card col-12 col-sm-6 col-md-4">
-    <a href="#" class="news-link d-flex align-items-stretch flex-column h-100">
+    <a href="{{include.article.link}}" target="_blank" rel="noopener"
+       class="news-link d-flex align-items-stretch flex-column h-100">
         <img src="/assets/images/{{ include.article.image }}"
              class="img-fluid"
-             alt="article image"
+             alt="{{include.article.short_name}}_cover"
         >
         <div class="card-body">
             <h5 class="card-title">{{ include.article.title }}</h5>
@@ -11,8 +12,8 @@
                 {{ include.article.content }}
             </p>
         </div>
-        <div class="card-footer font-weight-bold">
-            {% t medium %}: {{ include.article.date | date: "%Y-%m-%d"}}
+        <div class="card-footer font-weight-bold text-end">
+            {{ include.article.date | date: "%Y-%m-%d"}}
         </div>
     </a>
 </div>
