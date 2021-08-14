@@ -2,7 +2,7 @@ FROM  jekyll/jekyll:4.2.0
 
 WORKDIR /app
 
-COPY . ./
+COPY --chown=jekyll:jekyll . ./
 
 RUN yarn install \
     && gem install bundler \
