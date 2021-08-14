@@ -2,7 +2,7 @@
 layout: post
 short_name: okteto_previews
 title: Preview OctoBot evolutions on Okteto
-subtitle: OctoBot on Oktoto previews
+subtitle: OctoBot on Okteto previews
 date: 2021-08-14
 image: posts/okteto_octobot_cover.webp
 link: https://bit.ly/3AL1bZN
