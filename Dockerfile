@@ -2,7 +2,8 @@ FROM  jekyll/jekyll:4.2.0
 
 WORKDIR /app
 
-COPY --chown=jekyll:jekyll . ./
+COPY . ./
+COPY --chown=jekyll:jekyll Gemfile.lock Gemfile.lock
 
 RUN yarn install \
     && gem install bundler \
