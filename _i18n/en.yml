@@ -14,6 +14,10 @@ medium: Medium
 or: or
 follow_octobot_on: Follow OctoBot on
 
+# categories
+they_talk_about_octobot: They talk about OctoBot
+news: News
+
 landing_page:
   try_octobot: Try OctoBot
   usage_details: See how to use OctoBot in details
@@ -55,8 +59,6 @@ landing_page:
     Whether you are a beginner, advanced or expert trader, you will be able to set OctoBot's strategies
     up your requirements.
   discover_strategies: Discover OctoBot strategies
-  news: News
-  they_talk_about_octobot: They talk about OctoBot
   all_news_on_our_blog: See all news on our blog
   story:
     the_obsticle: |

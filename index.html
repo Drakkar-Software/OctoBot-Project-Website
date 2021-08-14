@@ -196,12 +196,14 @@ permalink: /
 </div>
 
 <!-- News -->
-<div class="part my-4">
-    <h2 class="part-title">{% t landing_page.they_talk_about_octobot %}</h2>
-    <div class="row">
-        <div class="col-md-2"></div> <!--remove when 3 articles-->
-        {% for post in site.posts %}
-        {% include article_preview.html article=post %}
-        {% endfor %}
+{% for category in site.categories %}
+    <div class="part my-4">
+        <div class="row">
+            <h2 class="part-title">{% t category[0] %}</h2>
+            <div class="col-md-2"></div> <!--remove when 3 articles-->
+            {% for post in category[1] %}
+                {% include article_preview.html article=post %}
+            {% endfor %}
+        </div>
     </div>
-</div>
+{% endfor %}
