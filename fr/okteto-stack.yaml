@@ -1,0 +1,11 @@
+services:
+  octobot:
+    public: true
+    image: $DOCKER_IMAGE
+    replicas: 1
+    ports:
+      - 4000
+    resources:
+      cpu: 1
+      memory: 3Gi
+      storage: 1Gi
