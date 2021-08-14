@@ -6,7 +6,7 @@ subtitle: OctoBot sur Oktoto previews
 date: 2021-08-14
 image: posts/okteto_octobot_cover.webp
 link: https://okteto.com/blog/octobot-and-okteto/
-categories: news
+categories: they_talk_about_octobot
 external: true
 ---
 
