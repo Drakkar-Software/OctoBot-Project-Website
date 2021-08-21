@@ -24,6 +24,11 @@ bootstrap@^5.0.0-beta1:
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.0.0-beta1.tgz#18135001a452b3ec38b344ac638a1f9549285ee7"
   integrity sha512-UrHApw/WRmT7l2rlDdn5iXr7Jps/LlMZtJlLn9G41aGDfss48hyDeYyHtX1C6NHKVcmdUarGG+ve0LZB5iHyTQ==
 
+emailjs-com@^3.0.1:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/emailjs-com/-/emailjs-com-3.2.0.tgz#a53cb22f1bc433c701c84c53d8b56eefd5ce7111"
+  integrity sha512-Prbz3E1usiAwGjMNYRv6EsJ5c373cX7/AGnZQwOfrpNJrygQJ15+E9OOq4pU8yC977Z5xMetRfc3WmDX6RcjAA==
+
 follow-redirects@^1.10.0:
   version "1.13.1"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"

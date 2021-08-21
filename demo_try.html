@@ -10,13 +10,20 @@ subtitle: try.demo.title
         <h3>{% t try.demo.title %}</h3>
     </div>
     <div class="row">
-        <form>
+        <form id="get_demo_links">
             <div class="form-group">
                 <label for="inputEmail">{% t try.email_address %}</label>
-                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="{% t try.enter_email %}">
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                       placeholder="{% t try.enter_email %}">
                 <small id="emailHelp" class="form-text text-muted">{% t try.email_never_shared %}</small>
             </div>
-            <button type="submit" class="btn btn-primary">{% t try.email_receive_link %}</button>
+            <button type="submit" class="btn btn-primary" onclick="emailjs.sendForm('x7ADz3u7TSM8dt7s9Jzv', 'template_x5cwao7', '#get_demo_links', 'user_EEQZEQGFmXRmOBFawdjpg')
+    .then(function(response) {
+       console.log('SUCCESS!', response.status, response.text);
+    }, function(error) {
+       console.log('FAILED...', error);
+    });">{% t try.email_receive_link %}
+            </button>
         </form>
     </div>
 </div>

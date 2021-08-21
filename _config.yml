@@ -84,6 +84,7 @@ include:
   - node_modules/mdb-ui-kit/js/mdb.min.js
   - node_modules/mdb-ui-kit/js/mdb.min.js.map
   - node_modules/@fortawesome/fontawesome-free/js/all.js
+  - node_modules/emailjs-com/dist/email.js
 
 # Exclude from processing.
 # The following items will not be processed, by default.
