@@ -87,11 +87,16 @@ landing_page:
       and can be improved at any moment since it is open source and is now tested for many years.
       The OctoBot project was started in 2018.</p>
   try_octobot_now: Try OctoBot now
+  install_octobot_now: Install your OctoBot now
   backtesting_result: Backtesting results
   using_the_latest_executable: Using the executable
   using_the_latest_executable_desc: |
     Simply download and start the executable for your system and launch your OctoBot directly from home.
   using_the_latest_executable_link_text: Download OctoBot
+  using_a_demo: Using a demo
+  using_a_demo_desc: |
+    Use an already deployed OctoBot in the cloud to test it now
+  using_a_demo_link_text: Test a demo OctoBot
   using_a_cloud: Using a cloud
   using_a_cloud_desc_html: |
     Deploy your OctoBot in the cloud for free using one of the automated cloud deployements options
@@ -390,3 +395,11 @@ installations:
   or_install_octobot: Or install OctoBot
   directly_from_python: directly from its python code.
   accessible_at: The management interface of your OctoBot is available on port 5001 of your system.
+
+try:
+  email_address: Email address
+  enter_email: Enter email
+  email_receive_link: Receive a demo link
+  email_never_shared: We'll never share your email with anyone else.
+  demo:
+    title: Get a link to test OctoBot now
