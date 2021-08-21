@@ -1,0 +1,22 @@
+---
+title: Try now with demo
+namespace: demo_try
+permalink: /demo_try/
+
+subtitle: try.demo.title
+---
+<div class="container mx-md-auto w-100">
+    <div>
+        <h3>{% t try.demo.title %}</h3>
+    </div>
+    <div class="row">
+        <form>
+            <div class="form-group">
+                <label for="inputEmail">{% t try.email_address %}</label>
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="{% t try.enter_email %}">
+                <small id="emailHelp" class="form-text text-muted">{% t try.email_never_shared %}</small>
+            </div>
+            <button type="submit" class="btn btn-primary">{% t try.email_receive_link %}</button>
+        </form>
+    </div>
+</div>
