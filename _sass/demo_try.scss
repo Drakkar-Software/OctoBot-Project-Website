@@ -1,0 +1,149 @@
+form.EWF__form {
+    background:#121212;
+    padding-top:60px;
+    padding-left:60px;
+    padding-bottom:60px;
+    padding-right:60px;
+    border-radius:4px;
+    box-sizing:border-box;
+    box-shadow:0px 0px 0px rgba(0, 0, 0, 0);
+}
+form.EWF__form p {
+    color:#ffffff;
+    text-align:left;
+    line-height:14px;
+    font-size:12px;
+    font-family:Muli, Helvetica, Arial, "sans serif";
+    font-style:normal;
+    font-weight:normal;
+    margin:12px 0;
+}
+form.EWF__form .EWF__header {
+    background:transparent;
+    padding-top:20px;
+    color:#ffffff;
+    padding-left:20px;
+    padding-bottom:20px;
+    padding-right:20px;
+    text-align:center;
+    line-height:34px;
+    font-size:32px;
+    font-family:Nunito, Helvetica, Arial, "sans serif";
+    margin:0;
+    font-style:normal;
+    font-weight:bold;
+}
+form.EWF__form label {
+    line-height:18px;
+    font-size:16px;
+    color:#ffffff;
+    font-family:Nunito, Helvetica, Arial, "sans serif";
+    text-align:left;
+    display:block;
+    font-style:normal;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+form.EWF__form input {
+    background:#ffffff;
+    padding-top:12px;
+    color:#a3a3a3;
+    padding-left:12px;
+    padding-bottom:12px;
+    padding-right:12px;
+    border-radius:2px;
+    line-height:18px;
+    font-size:16px;
+    font-family:Arial;
+    text-align:left;
+    border:0;
+    width:100%;
+    max-width:100%;
+    display:block;
+    font-style:normal;
+    font-weight:normal;
+}
+form.EWF__form input::placeholder {
+    color:#a3a3a3;
+    font-size:14px;
+    background: #ffffff;
+}
+form.EWF__form .EWF__subscribe {
+    background:#b71c1c;
+    padding-top:12px;
+    line-height:18px;
+    font-size:16px;
+    color:#ffffff;
+    padding-left:12px;
+    padding-bottom:12px;
+    padding-right:12px;
+    border-radius:32px;
+    font-family:Arial;
+    border:0;
+    display:inline-block;
+    width:auto;
+    max-width:100%;
+    font-style:normal;
+    font-weight:normal;
+}
+.EWF__form .webform-options {
+    text-align:center;
+}
+form.EWF__form .inputs > div {
+    margin-bottom:1rem;
+}
+form.EWF__form * {
+    box-sizing:border-box;
+}
+form.EWF__form fieldset {
+    display:block;
+    padding:0;
+    margin:0;
+}
+form.EWF__form .checkboxes input[type="checkbox"] {
+    border: 1px solid #CFD6DB;
+    border-radius: 4px;
+    padding: 12px;
+    width: 0;
+    display: inline-block;
+    margin-right: 20px;
+}
+form.EWF__form .checkboxes input[type="checkbox"]:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Warstwa_1' x='0px' y='0px' viewBox='0 0 16 16' style='enable-background:new 0 0 16 16;' xml:space='preserve' width='16' height='16'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:none;%7D .st1%7Bfill:%23FFFFFF;stroke:%23CFD6DB;%7D%0A%3C/style%3E%3Cg transform='translate(-925 -324)'%3E%3Cg transform='translate(925 324)'%3E%3Cpath class='st0' d='M4,0h8c2.2,0,4,1.8,4,4v8c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z'/%3E%3Cpath class='st1' d='M4,0.5h8c1.9,0,3.5,1.6,3.5,3.5v8c0,1.9-1.6,3.5-3.5,3.5H4c-1.9,0-3.5-1.6-3.5-3.5V4C0.5,2.1,2.1,0.5,4,0.5z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-color: #fff;
+    width: 16px;
+    height: 16px;
+    content: '';
+    display: block;
+    cursor: pointer;
+    border-radius: 4px;
+}
+form.EWF__form .checkboxes input[type="checkbox"]:hover:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;stroke:%235457ff;stroke-width:2px;%7D.b%7Bstroke:none;%7D.c%7Bfill:none;%7D%3C/style%3E%3C/defs%3E%3Cg transform='translate(-925 -324)'%3E%3Cg class='a' transform='translate(925 324)'%3E%3Crect class='b' width='16' height='16' rx='4'/%3E%3Crect class='c' x='1' y='1' width='14' height='14' rx='3'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    background-color: #fff;
+}
+form.EWF__form .checkboxes input[type="checkbox"]:checked:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' id='Warstwa_1' x='0px' y='0px' viewBox='0 0 16 16' style='enable-background:new 0 0 16 16;' xml:space='preserve' width='16' height='16'%3E%3Cstyle type='text/css'%3E .st0%7Bfill:none;%7D .st1%7Bfill:%23FFFFFF;stroke:%235457FF;%7D .st2%7Bfill:%2332325C;%7D%0A%3C/style%3E%3Cg transform='translate(-925 -324)'%3E%3Cg transform='translate(925 324)'%3E%3Cpath class='st0' d='M4,0h8c2.2,0,4,1.8,4,4v8c0,2.2-1.8,4-4,4H4c-2.2,0-4-1.8-4-4V4C0,1.8,1.8,0,4,0z'/%3E%3Cpath class='st1' d='M4,0.5h8c1.9,0,3.5,1.6,3.5,3.5v8c0,1.9-1.6,3.5-3.5,3.5H4c-1.9,0-3.5-1.6-3.5-3.5V4C0.5,2.1,2.1,0.5,4,0.5z'/%3E%3C/g%3E%3Cpath class='st2' d='M938,328.9l-0.8-0.8c-0.1-0.1-0.1-0.1-0.2,0c0,0,0,0,0,0l-5.6,5.9l-2.3-2.4c-0.1-0.1-0.1-0.1-0.2,0 c0,0,0,0,0,0l-0.8,0.8c-0.1,0.1-0.1,0.2,0,0.2l3.2,3.3c0.1,0.1,0.1,0.1,0.2,0c0,0,0,0,0,0l6.5-6.9C938,329,938,328.9,938,328.9z'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #fff;
+}
+form.EWF__form .checkboxes input[type="checkbox"]:hover:checked:before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cdefs%3E%3Cstyle%3E.a%7Bfill:%23fff;stroke:%235457ff;stroke-width:2px;%7D.b%7Bfill:%2332325c;%7D.c%7Bstroke:none;%7D.d%7Bfill:none;%7D%3C/style%3E%3C/defs%3E%3Cg transform='translate(-925 -324)'%3E%3Cg class='a' transform='translate(925 324)'%3E%3Crect class='c' width='16' height='16' rx='4'/%3E%3Crect class='d' x='1' y='1' width='14' height='14' rx='3'/%3E%3C/g%3E%3Cpath class='b' d='M10.032.964,9.224.118a.141.141,0,0,0-.2,0L3.384,6.02,1.124,3.653a.141.141,0,0,0-.2,0L.116,4.5a.157.157,0,0,0,0,.212L3.284,8.032a.141.141,0,0,0,.2,0l6.545-6.855A.153.153,0,0,0,10.032.964Z' transform='translate(927.925 327.925)'/%3E%3C/g%3E%3C/svg%3E");
+    background-color: #fff;
+}
+form.EWF__form .EWF__error {
+    color: red;
+    padding-top: 10px;
+}
+form.EWF__form a {
+    color:#b71c1c;
+    font-style:normal;
+    line-height:14px;
+    font-size:12px;
+    font-weight:normal;
+}
+@supports (-ms-ime-align:auto) {
+    form.EWF__form .checkboxes input[type='checkbox'], form.EWF__form .consent input[type='checkbox'] {
+        width: 16px !important;
+        margin-right: 5px;
+    }
+}

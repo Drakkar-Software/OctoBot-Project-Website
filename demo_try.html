@@ -6,17 +6,62 @@ permalink: /demo_try/
 subtitle: try.demo.title
 ---
 <div class="container mx-md-auto w-100">
-    <div>
-        <h3>{% t try.demo.title %}</h3>
-    </div>
     <div class="row">
-        <form>
-            <div class="form-group">
-                <label for="inputEmail">{% t try.email_address %}</label>
-                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="{% t try.enter_email %}">
-                <small id="emailHelp" class="form-text text-muted">{% t try.email_never_shared %}</small>
+        <form action="https://api.elasticemail.com/contact/add?version=2" data-id="ThKXbMPLch" method="post" id="ewf_subscriptionForm_ThKXbMPLch" class="EWF__form Inline">
+            <div class="headers" style="">
+                <h3 id="ewf_formheader" class="EWF__header">{% t try.demo.title %}
+                </h3>
+                <p id="ewf_formdesc" style="display: none;">
+                </p>
             </div>
-            <button type="submit" class="btn btn-primary">{% t try.email_receive_link %}</button>
+            <fieldset style="border:none;" class="webform-custominputs">
+                <div class="inputs">
+                    <div>
+                        <label for="email" class="requiredInput">{% t try.email_address %}
+                        </label>
+                        <input maxlength="60" class="form-control webform__form-control" name="email" size="20" type="email" required="" placeholder="Please enter your email address">
+                    </div>
+                </div>
+                <div class="checkboxes">
+                </div>
+                <div class="webform-lists" style="display: none;">
+                    <div style="display:flex;" class="checkboxes js-demo">
+                        <label class="container-box">
+                            <input type="checkbox" name="publiclistid" id="gMabzvME" value="1a730fe4-9de3-4ca1-8a62-d7214f60a3e2" checked="checked">
+                        </label>
+                        <label class="publiclistlabel" for="gMabzvME">demo
+                        </label>
+                    </div>
+                </div>
+                <p id="ewf_datadisclaimer">We use Elastic Email as our marketing automation service. By submitting this form, you agree that the information you provide will be transferred to Elastic Email for processing in accordance with their
+                    <a href="https://elasticemail.com/resources/usage-policies/terms-of-use/" target="_blank">Terms of Use</a> and
+                    <a href="https://elasticemail.com/resources/usage-policies/privacy-policy/" target="_blank">Privacy Policy</a>.
+                </p>
+            </fieldset>
+            <fieldset class="webform-options style-updated" style="border:none;">
+                <div id="captcha" style="text-align:center">
+                    <div class="text-center" style="display: inline-block;margin: auto;padding: 10px;">
+                        <div id="webformcaptcha">
+                        </div>
+                    </div>
+                    <script type="text/javascript">var grecaptchaready = function () { var eewebformsubmit = document.getElementById("eesubmit"); grecaptcha.render('webformcaptcha', { 'sitekey': '6Lca-iUUAAAAAAQ6T6vYEAp3YybZWpeKUXRJ5E8S', 'callback': function (response) { if (response) { eewebformsubmit.disabled = false; } } }); }</script>
+                </div>
+                <script id="recaptchaScript" src="https://www.google.com/recaptcha/api.js?onload=grecaptchaready&amp;render=explicit" async="" defer="">
+                </script>
+                <input type="submit" name="submit" value="{% t try.email_receive_link %}" id="eesubmit" class="EWF__subscribe" disabled="">
+                <input type="hidden" name="publicaccountid" value="1e92e5ea-f01b-45d4-bcc9-9368d4c49d56">
+                <input type="hidden" name="publicformid" value="1aecea8c-89ed-4ed4-bbf4-5214124064aa">
+                <input type="hidden" name="returnUrl" value="https://www.octobot.online">
+                <input type="hidden" name="activationReturnUrl" value="https://demo-1-octobot-drakkarsoftware.cloud.okteto.net">
+                <input type="hidden" name="alreadyactiveurl" value="https://demo-2-octobot-drakkarsoftware.cloud.okteto.net">
+                <input type="hidden" name="activationTemplate" value="DemoLinkMail">
+                <input type="hidden" name="source" value="WebForm">
+                <input type="hidden" id="ewf_captcha" name="captcha" value="true">
+                <input type="hidden" name="notifyEmail" value="">
+                <button type="button" name="dismissForm" id="ewf_dismissForm" style="display:none; position: absolute; top: 0; right: 0; float: right">X
+                </button>
+                <input id="ewf_verifyEmails" type="hidden" name="verifyemail" value="false">
+            </fieldset>
         </form>
     </div>
 </div>
