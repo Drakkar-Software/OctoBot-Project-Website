@@ -426,9 +426,19 @@ installations:
   accessible_at: L'interface de management de votre OctoBot est accessible sur le port 5001 de votre système.
 
 try:
-  email_address: Adresse mail
+  email_address: Entrez votre adresse e-mail ci-dessous et nous vous enverrons un lien pour essayer un OctoBot de démonstration
   enter_email: Entrez un e-mail
   email_receive_link: Recevoir un lien de démo
   email_never_shared: Nous ne partagerons jamais votre e-mail.
+  email_confirmation:
+    title: Nous venons de vous envoyer un lien d'invitation pour essayer OctoBot.
+    spam: Si vous n'avez pas reçu cet email veuillez consulter votre dossier Courrier indésirable.
+    home_button: Revenir à l'accueil
+  privacy_datadisclaimer: |
+    Nous utilisons Elastic Email comme service d'automatisation du marketing. En soumettant ce formulaire, vous acceptez que les informations que vous fournissez soient transférées à Elastic Email pour traitement conformément à leur
+    <a href="https://elasticemail.com/resources/usage-policies/terms-of-use/" target="_blank">Conditions d'utilisation</a> et leur
+    <a href="https://elasticemail.com/resources/usage-policies/privacy-policy/" target="_blank">Politique de confidentialité</a>.
+  confirm:
+    title: Cliquez sur le lien d'invitation
   demo:
     title: Recevez un lien pour tester OctoBot dès maintenant
