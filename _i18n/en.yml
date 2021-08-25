@@ -404,6 +404,7 @@ try:
   email_confirmation:
     title: We just sent you an invitation link to try a demo OctoBot.
     spam: If you do not receive this email, please check your spam or bulk email folder.
+    contact: Contact us at <a href="mailto:drakkar.software@octobot.online">drakkar.software@octobot.online</a> if you don't receive the email within an hour.
     home_button: Return to home
   privacy_datadisclaimer: |
     We use Elastic Email as our marketing automation service. By submitting this form, you agree that the information you provide will be transferred to Elastic Email for processing in accordance with their

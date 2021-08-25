@@ -433,6 +433,7 @@ try:
   email_confirmation:
     title: Nous venons de vous envoyer un lien d'invitation pour essayer OctoBot.
     spam: Si vous n'avez pas reçu cet email veuillez consulter votre dossier Courrier indésirable.
+    contact: Contactez nous à <a href="mailto:drakkar.software@octobot.online">drakkar.software@octobot.online</a> si vous ne recevez pas l'e-mail dans l'heure.
     home_button: Revenir à l'accueil
   privacy_datadisclaimer: |
     Nous utilisons Elastic Email comme service d'automatisation du marketing. En soumettant ce formulaire, vous acceptez que les informations que vous fournissez soient transférées à Elastic Email pour traitement conformément à leur
