@@ -36,15 +36,7 @@ subtitle: try.demo.title
                 <p id="ewf_datadisclaimer">{% t try.privacy_datadisclaimer %}</p>
             </fieldset>
             <fieldset class="webform-options style-updated" style="border:none;">
-                <div id="captcha" style="text-align:center">
-                    <div class="text-center" style="display: inline-block;margin: auto;padding: 10px;">
-                        <div id="webformcaptcha"></div>
-                    </div>
-                    <script type="text/javascript">var grecaptchaready = function () { var eewebformsubmit = document.getElementById("eesubmit"); grecaptcha.render('webformcaptcha', { 'sitekey': '6Lca-iUUAAAAAAQ6T6vYEAp3YybZWpeKUXRJ5E8S', 'callback': function (response) { if (response) { eewebformsubmit.disabled = false; } } }); }</script>
-                </div>
-                <script id="recaptchaScript" src="https://www.google.com/recaptcha/api.js?onload=grecaptchaready&amp;render=explicit" async="" defer="">
-                </script>
-                <input type="submit" name="submit" value="{% t try.email_receive_link %}" id="eesubmit" class="EWF__subscribe" disabled="">
+                <input type="submit" name="submit" value="{% t try.email_receive_link %}" id="eesubmit" class="EWF__subscribe">
                 <input type="hidden" name="publicaccountid" value="1e92e5ea-f01b-45d4-bcc9-9368d4c49d56">
                 <input type="hidden" name="publicformid" value="1aecea8c-89ed-4ed4-bbf4-5214124064aa">
                 <input type="hidden" name="returnUrl" value="https://www.octobot.online/confirm_try/">
@@ -52,7 +44,6 @@ subtitle: try.demo.title
                 <input type="hidden" name="alreadyactiveurl" value="https://demo-2-octobot-drakkarsoftware.cloud.okteto.net">
                 <input type="hidden" name="activationTemplate" value="DemoLinkMail">
                 <input type="hidden" name="source" value="WebForm">
-                <input type="hidden" id="ewf_captcha" name="captcha" value="true">
                 <input type="hidden" name="notifyEmail" value="">
                 <button type="button" name="dismissForm" id="ewf_dismissForm" style="display:none; position: absolute; top: 0; right: 0; float: right">X
                 </button>
