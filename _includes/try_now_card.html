@@ -4,7 +4,7 @@
             {% if include.icon != "" %}
             <i class="{{ include.icon }}"></i>
             {% elsif include.image_link != "" %}
-            <a href="{{ include.image_link }}" target="_blank" rel="noopener">
+            <a id="try-now-card-open-via-image-{{ include.image_link }}" href="{{ include.image_link }}" target="_blank" rel="noopener">
                 <img src="{{ include.image }}" class="img-fluid card-img-top deploy_img ripple-surface" alt="{{ include.title }}">
             </a>
             {% else %}
@@ -19,7 +19,11 @@
         </div>
         <div class="card-footer mx-0 mx-md-2 mx-lg-3 px-0">
             <div class="text-center">
-                <a href="{% tl include.link %}" class="btn call-to-action-button ripple-surface">{% t include.link_text %}</a>
+                <a id="try-now-card-{{ include.title }}"
+                   href="{% tl include.link %}"
+                   class="btn call-to-action-button ripple-surface">
+                    {% t include.link_text %}
+                </a>
             </div>
         </div>
     </div>

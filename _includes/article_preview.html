@@ -1,5 +1,6 @@
 <div class="card news-card col-12 col-sm-6 col-md-4">
-    <a href="{{include.article.link}}" target="_blank" rel="noopener"
+    <a id="artcle-preview-go-to-{{ include.article.short_name }}"
+       href="{{include.article.link}}" target="_blank" rel="noopener"
        class="news-link d-flex align-items-stretch flex-column h-100">
         <img src="/assets/images/{{ include.article.image }}"
              class="img-fluid"
