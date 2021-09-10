@@ -18,7 +18,8 @@ layout: default
     {% if page.external %}
     <div>
         <p class="text-center">
-            <a href="{{page.link}}" target="_blank" rel="noopener" class="btn call-to-action-button">
+            <a id="post-go-to-external-article-{{ page.title}}"
+               href="{{ page.link }}" target="_blank" rel="noopener" class="btn call-to-action-button">
                 Go to the article
             </a>
         </p>

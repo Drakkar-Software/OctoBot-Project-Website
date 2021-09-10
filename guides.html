@@ -22,7 +22,8 @@ permalink: /guides/
                 <h3 class="border-bottom my-3 pb-2">{% t guides_page.install_octobot %}</h3>
                 <div>
                     {% t guides_page.install_methods_desc_html %}
-                    <a href="{% tl python_installation %}">
+                    <a id="guides-go-to-python-installation"
+                       href="{% tl python_installation %}">
                         {% t installations.directly_from_python %}
                     </a>
                 </div>
@@ -103,7 +104,9 @@ permalink: /guides/
                     {% t guides_page.configure_trading_modes_desc %}
                     <div class="mt-4">
 
-                        <a href="#evaluation_chain" class="btn call-to-action-button">
+                        <a id="guides-go-to-evaluation-chain"
+                           href="#evaluation_chain"
+                           class="btn call-to-action-button">
                             {% t guides_page.more_info_on_evaluation_chain %}
                         </a>
                     </div>
@@ -206,7 +209,9 @@ permalink: /guides/
 <div class="part pt-2 pt-md-5 my-2 my-md-5 text-center">
     <h5>{% t guides_page.this_is_just_an_subset %}</h5>
     <div class="my-2 my-md-3">
-        <a href="{% tl octobot %}#try_octobot" class="btn btn-lg call-to-action-button">
+        <a id="guides-go-to-try-octobot"
+           href="{% tl octobot %}#try_octobot"
+           class="btn btn-lg call-to-action-button">
             {% t landing_page.try_octobot %}
         </a>
     </div>

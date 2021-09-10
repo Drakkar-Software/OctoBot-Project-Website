@@ -18,7 +18,11 @@ permalink: /
         <div class="p-0">
             <div class="mb-1 mb-md-4 w-75 mx-auto text-center">
                 <div class="d-grid col-md-4 mx-auto">
-                    <a href="{% tl demo_try %}" id=first-try-now" class="btn btn-lg call-to-action-button">{% t landing_page.try_octobot %}</a>
+                    <a id="home-first-try-now"
+                       href="{% tl demo_try %}"
+                       class="btn btn-lg call-to-action-button">
+                        {% t landing_page.try_octobot %}
+                    </a>
                 </div>
             </div>
         </div>
@@ -42,7 +46,8 @@ permalink: /
                         <h6>{% t landing_page.test_and_use_for_free %}</h6>
                         <p>{% t landing_page.story.the_obsticle %}</p>
                         <p>
-                            <a href="https://github.com/Drakkar-Software/OctoBot"
+                            <a id="home-go-to-octobot-github"
+                               href="https://github.com/Drakkar-Software/OctoBot"
                                class="btn outline-button" target="_blank" rel="noopener">
                                 {% t landing_page.see_octobot_on %} <i class="fab fa-github"></i> {% t landing_page.github %}
                             </a>
@@ -90,7 +95,10 @@ permalink: /
                     {% t community_page.soon_share_tentacles_html %}
 
                     <div class="mt-4">
-                        <a href="{% tl guides %}" class="btn outline-button"> {% t landing_page.usage_details %}</a>
+                        <a id="home-go-to-guides"
+                           href="{% tl guides %}" class="btn outline-button">
+                            {% t landing_page.usage_details %}
+                        </a>
                     </div>
                 </div>
             </div>
@@ -160,11 +168,11 @@ permalink: /
     <!-- community channels -->
     <div class="d-flex justify-content-center my-4">
         <div class="mx-4">
-            <a href="https://t.me/joinchat/F9cyfxV97ZOaXQ47H5dRWw" target="_blank" rel="noopener" class="link"><i class="fab fa-telegram"></i>
+            <a id="home-go-to-octobot-telegram" href="https://t.me/joinchat/F9cyfxV97ZOaXQ47H5dRWw" target="_blank" rel="noopener" class="link"><i class="fab fa-telegram"></i>
                 {% t landing_page.telegram %}</a>
         </div>
         <div class="mx-4">
-            <a href="https://discord.com/invite/vHkcb8W" target="_blank" rel="noopener" class="link"><i class="fab fa-discord"></i>
+            <a id="home-go-to-octobot-discord" href="https://discord.com/invite/vHkcb8W" target="_blank" rel="noopener" class="link"><i class="fab fa-discord"></i>
                 {% t landing_page.discord %}</a>
         </div>
     </div>
@@ -181,7 +189,10 @@ permalink: /
         </div>
     </div>
     <div class="text-center">
-        <a href="{% tl community %}" class="btn outline-button"> {% t landing_page.octobot_statistics %}</a>
+        <a id="home-go-to-community-stats"
+           href="{% tl community %}" class="btn outline-button">
+            {% t landing_page.octobot_statistics %}
+        </a>
     </div>
 </div>
 
@@ -194,7 +205,8 @@ permalink: /
                 {% t landing_page.octobot_strategies_concept %}
             </div>
             <div class="mt-4">
-                <a href="{% tl guides %}#evaluation_chain" class="btn call-to-action-button">
+                <a id="home-go-to-guides-evaluation-chain"
+                   href="{% tl guides %}#evaluation_chain" class="btn call-to-action-button">
                     {% t landing_page.discover_strategies %}
                 </a>
             </div>

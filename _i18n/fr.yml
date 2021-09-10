@@ -111,7 +111,7 @@ landing_page:
   using_digital_ocean: Avec Digital Ocean
   using_digital_ocean_desc_html: |
     Déployez votre OctoBot en cloud sur DigitalOcean.com gratuitement pendant 60 jours
-    en créant un compte via <a href="https://m.do.co/c/40c9737100b1" target="_blank" rel="noopener">ce lien</a>.
+    en créant un compte via <a id="digital-ocean-installation-register" href="https://m.do.co/c/40c9737100b1" target="_blank" rel="noopener">ce lien</a>.
   using_digital_ocean_desc_link_text: Déployer OctoBot en cloud
   using_docker: Avec Docker
   using_docker_desc: |
@@ -127,7 +127,7 @@ community_page:
     rendre le trading plus transparent par le partage de ses informations !
   coming_soon: Bientôt
   soon_share_tentacles_html: |
-    Explorez les tentacles et profiles créés par la communauté sur <a href="https://community.octobot.online/">community.octobot.online</a>.
+    Explorez les tentacles et profiles créés par la communauté sur <a id="home-go-to-community" href="https://community.octobot.online/">community.octobot.online</a>.
   current_best_performers: Performance des meilleurs OctoBots du moment, depuis leur dernier lancement
   top_exchanges: Plateformes de trading les plus utilisées
   exchange: Plateforme
@@ -153,7 +153,7 @@ guides_page:
     simulation de trading. Octobot peut générer un grand nombre de
     sites de trading simultanément avec des performances optimales.</p>
     <p>Voir
-    <a href="https://exchanges.docs.octobot.online/" target="_blank" rel="noopener">
+    <a id="guides-go-to-exchanges-docs" href="https://exchanges.docs.octobot.online/" target="_blank" rel="noopener">
     OctoBot docs</a> pour obtenir la liste des plateformes supportés.</p>
   exchanges_configuration: Configuration des sites de trading
   configure_traded_pairs: Configurer les cryptomonnaies à trader
@@ -163,7 +163,7 @@ guides_page:
     OctoBot tradera avec l'ensemble des paires sélectionnées lorsqu'elles
     seront disponibles sur les sites de trading utilisés.</p>
     <p>Voir
-    <a href="https://docs.octobot.online/configuration/profile-configuration#currencies" target="_blank" rel="noopener">
+    <a id="guides-go-to-profiles-config-docs" href="https://docs.octobot.online/configuration/profile-configuration#currencies" target="_blank" rel="noopener">
     OctoBot docs</a> pour plus de détails sur la configuration des pairs
     à trader.</p>
   traded_pairs_configuration: Configuration des cryptomonnaies à trader
@@ -178,7 +178,8 @@ guides_page:
     <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
     tradingview.com</a>. Chaque trading mode est
     lui même configurable. Certain trading modes utilisent des stratégies
-    et des évaluateurs : <a href="#evaluation_chain">la chaine d'évaluation</a>.
+    et des évaluateurs : <a id="guides-go-to-evaluation-chain-from-trading-modes-desc"
+    href="#evaluation_chain">la chaine d'évaluation</a>.
     Cette chaine est entièrement configurable, vous pouvez choisir les evaluateurs techniques
     qui seront utilisés comme par exemple le RSI ou le MACD et même utiliser des évaluateurs
     basés sur des réseaux sociaux.
@@ -193,7 +194,8 @@ guides_page:
     une vente d'urgence... Accédez à votre OctoBot d'où vous voulez, quand vous voulez
     grâce à son interface Telegram.</p>
     <p>Voir
-    <a href="https://docs.octobot.online/interfaces/telegram-interface" target="_blank" rel="noopener">
+    <a id="guides-go-telegram-interface-docs"
+    href="https://docs.octobot.online/interfaces/telegram-interface" target="_blank" rel="noopener">
     OctoBot docs</a> pour plus de détails sur l'interface Telegram d'OctoBot.</p>
   communication_channels_configuration: Configurez les connexions de votre OctoBot
   configure_backtesting: Optimisez votre OctoBot avec le backtesting
@@ -205,7 +207,8 @@ guides_page:
     backtesting</a> ! Optimisez la configuration de
     votre OctoBot dans les moindre détails pour maximiser vos profits.</p>
     <p>Voir
-    <a href="https://docs.octobot.online/advanced_usage/backtesting-and-strategy-optimization" target="_blank" rel="noopener">
+    <a id="guides-go-backtesting-docs"
+    href="https://docs.octobot.online/advanced_usage/backtesting-and-strategy-optimization" target="_blank" rel="noopener">
     OctoBot docs</a> pour plus de détails sur le backtesting.</p>
   backtesting_configuration: Résultat de backtesting
   the_evaluation_chain: La chaine d'évaluation d'OctoBot
@@ -269,7 +272,8 @@ about_page:
       community_birth: Naissance de la communauté OctoBot
       first_versions_p1: |
         Grâce à sa
-        <a href="https://github.com/Drakkar-Software/OctoBot" target="_blank" rel="noopener">
+        <a id="about_us-go-to-octobot-github"
+        href="https://github.com/Drakkar-Software/OctoBot" target="_blank" rel="noopener">
         présence sur github.com</a>, OctoBot commence à attirer
         quelques utilisateurs, si bien que début 2019, la communauté OctoBot
         voit le jour. Au fil du temps (et sans communication de la part de
@@ -324,8 +328,10 @@ about_page:
     fonctionnalités les plus pertinentes.</p>
     <p>Enfin, la communauté OctoBot, c'est aussi toute l'aide apportée
     à ses nouveaux membres via les canaux
-    <a href="https://t.me/joinchat/F9cyfxV97ZOaXQ47H5dRWw" target="_blank" rel="noopener">Telegram</a>
-    et <a href="https://discord.com/invite/vHkcb8W" target="_blank" rel="noopener">Discord</a>.
+    <a id="community-go-to-octobot-telegram"
+    href="https://t.me/joinchat/F9cyfxV97ZOaXQ47H5dRWw" target="_blank" rel="noopener">Telegram</a>
+    et <a id="community-go-to-octobot-discord"
+    href="https://discord.com/invite/vHkcb8W" target="_blank" rel="noopener">Discord</a>.
     Merci à la communauté pour ses idées et son aide.</p>
   team_members:
     herklos:
@@ -364,7 +370,8 @@ installations:
       Déployez facilement votre OctoBot dans le cloud de Digital Ocean pour qu'il soit
       en ligne 100% du temps.
     step1: |
-      1. Si vous n'en avez pas déjà un, <a href="https://www.digitalocean.com/?refcode=40c9737100b1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste" target="_blank" rel="noopener">
+      1. Si vous n'en avez pas déjà un, <a id="digital-ocean-installation-register-from-text"
+      href="https://www.digitalocean.com/?refcode=40c9737100b1&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste" target="_blank" rel="noopener">
       créez un compte Digital Ocean</a>. Bénéficiez de 60 jours d'hébergement gratuits en utilisant ce lien.
     step2: "2. Déployez la dernière version d'OctoBot via ce lien:"
     step3: "3. Le déploiement de votre OctoBot commence, le processus dure une dixaine de minutes"
@@ -381,7 +388,8 @@ installations:
     advantages: |
       Déployez et testez OctoBot dans le cloud Okteto: ça ne prendra que quelques secondes.
     step1: |
-      1. <a href="https://cloud.okteto.com/#/login" target="_blank" rel="noopener">Inscrivez-vous sur Okteto</a>,
+      1. <a id="okteto-installation-login"
+      href="https://cloud.okteto.com/#/login" target="_blank" rel="noopener">Inscrivez-vous sur Okteto</a>,
       vous pouvez simplement utiliser votre compte github.
     step2: "2. Déployez la dernière version d'OctoBot en utilisant ce lien:"
     step3: "3. Le déploiment de votre OctoBot est en cours, le processus ne dure que quelques secondes."
@@ -412,7 +420,8 @@ installations:
     advantages: Un fichier à lancer et votre OctoBot démarre
     release_example: Exécutables téléchargeables pour la version 0.4.0-beta8
     step1: |
-      1. Rendez vous sur la <a href="https://github.com/Drakkar-Software/OctoBot/releases/latest" target="_blank" rel="noopener">
+      1. Rendez vous sur la <a id="executable-installation-go-to-releases"
+      href="https://github.com/Drakkar-Software/OctoBot/releases/latest" target="_blank" rel="noopener">
       page officielle des versions d'OctoBot</a> et téléchargez la dernière version correspondant à votre système :
       Windows, Linux ou MacOS. Vous pouvez même utiliser OctoBot sur
       <a href="https://www.raspberrypi.org/"target="_blank" rel="noopener"> Raspberry pie</a>.
