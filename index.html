@@ -219,7 +219,6 @@ permalink: /
     <div class="part my-4">
         <div class="row">
             <h2 class="part-title">{% t category[0] %}</h2>
-            <div class="col-md-2"></div> <!--remove when 3 articles-->
             {% for post in category[1] %}
                 {% include article_preview.html article=post %}
             {% endfor %}
