@@ -420,11 +420,11 @@ installations:
     advantages: Un fichier à lancer et votre OctoBot démarre
     release_example: Exécutables téléchargeables pour la version 0.4.0-beta8
     step1: |
-      1. Rendez vous sur la <a id="executable-installation-go-to-releases"
-      href="https://github.com/Drakkar-Software/OctoBot/releases/latest" target="_blank" rel="noopener">
-      page officielle des versions d'OctoBot</a> et téléchargez la dernière version correspondant à votre système :
-      Windows, Linux ou MacOS. Vous pouvez même utiliser OctoBot sur
-      <a href="https://www.raspberrypi.org/"target="_blank" rel="noopener"> Raspberry pie</a>.
+      1. Cliquez sur un des liens suivants pour télécharger la dernière version correspondant à votre système :</br>
+      - <a id="executable-installation-download-windows" href="https://release.octobot.online/stable/OctoBot_windows_x64.exe" target="_blank" rel="noopener">Windows</a></br>
+      - <a id="executable-installation-download-linux-x64" href="https://release.octobot.online/stable/OctoBot_linux_x64" target="_blank" rel="noopener">Linux</a></br>
+      - <a id="executable-installation-download-macos" href="https://release.octobot.online/stable/OctoBot_macos_x64" target="_blank" rel="noopener">MacOS</a></br>
+      Vous pouvez même utiliser OctoBot sur <a id="executable-installation-download-linux-arm64" href="https://release.octobot.online/stable/OctoBot_linux_arm64" target="_blank" rel="noopener">Raspberry pie</a> avec un système d'exploitation en ARM64.
     step2: |
       2. Lancez l'exécutable téléchargé. OctoBot ouvre un terminal et installe son environnement de configuration et
       l'interface de management d'OctoBot s'ouvre automatiquement.
