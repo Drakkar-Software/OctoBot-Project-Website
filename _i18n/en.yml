@@ -392,10 +392,11 @@ installations:
     advantages: One file and your OctoBot starts
     release_example: Downloadable executables for the 0.4.0-beta8 version
     step1: |
-      1. Go to <a id="executable-installation-go-to-releases"
-      href="https://github.com/Drakkar-Software/OctoBot/releases/latest" target="_blank" rel="noopener">
-      OctoBot's official releases page</a> and download the latest version for your system: Windows, Linux or MacOS.
-      You can even use OctoBot on <a href="https://www.raspberrypi.org/"target="_blank" rel="noopener"> Raspberry pie</a>.
+      1. Download the latest version for your system:</br>
+      - <a id="executable-installation-download-windows" href="https://release.octobot.online/stable/OctoBot_windows_x64.exe" target="_blank" rel="noopener">Windows</a></br>
+      - <a id="executable-installation-download-linux-x64" href="https://release.octobot.online/stable/OctoBot_linux_x64" target="_blank" rel="noopener">Linux</a></br>
+      - <a id="executable-installation-download-macos" href="https://release.octobot.online/stable/OctoBot_macos_x64" target="_blank" rel="noopener">MacOS</a></br>
+      You can even use OctoBot on <a id="executable-installation-download-linux-arm64" href="https://release.octobot.online/stable/OctoBot_linux_arm64"target="_blank" rel="noopener">Raspberry pie</a> with an ARM64 OS.
     step2: |
       2. Start the downloaded executable. OctoBot opens a terminal and installs its configuration environment and
       the OctoBot management interface opens automatically.
