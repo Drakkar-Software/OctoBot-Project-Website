@@ -409,7 +409,7 @@ installations:
 try:
   email_address: Just enter your email address bellow and we will send you a link to try a ready-to-use OctoBot
   enter_email: Enter email
-  email_receive_link: Receive a demo link
+  email_receive_link: Receive a demo link (temporary disabled)
   email_never_shared: We'll never share your email with anyone else.
   email_confirmation:
     title: We just sent you an invitation link to try a demo OctoBot.
