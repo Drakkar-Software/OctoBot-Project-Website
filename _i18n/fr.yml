@@ -437,7 +437,7 @@ installations:
 try:
   email_address: Entrez votre adresse e-mail ci-dessous et nous vous enverrons un lien pour essayer un OctoBot de démonstration
   enter_email: Entrez un e-mail
-  email_receive_link: Recevoir un lien de démo (désactivé temporairement)
+  email_receive_link: Recevoir un lien de démo
   email_never_shared: Nous ne partagerons jamais votre e-mail.
   email_confirmation:
     title: Nous venons de vous envoyer un lien d'invitation pour essayer OctoBot.
