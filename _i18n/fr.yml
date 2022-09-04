@@ -108,6 +108,10 @@ landing_page:
   using_okteto_desc: |
     Déployez votre OctoBot gratuitement en quelques secondes dans le cloud Okteto en utilisant votre compte github
   using_okteto_link_text: Déployez OctoBot en cloud
+  using_astrolab: Avec Astrolab
+  using_astrolab_desc: |
+    Rejoignez la beta d'OctoBot pour tester la fonctionnalité cloud
+  using_astrolab_link_text: Testez OctoBot en cloud
   using_digital_ocean: Avec Digital Ocean
   using_digital_ocean_desc_html: |
     Déployez votre OctoBot en cloud sur DigitalOcean.com gratuitement pendant 60 jours
