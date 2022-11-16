@@ -19,7 +19,8 @@ they_talk_about_octobot: They talk about OctoBot
 news: News
 
 landing_page:
-  try_octobot: Try OctoBot
+  try_octobot: Try the demo
+  deploy_now: Deploy OctoBot
   usage_details: See how to use OctoBot in details
   what_is_octobot: OctoBot is a trading robot which is designed to be easy to use and infinitely customizable.
   octobot_is_opensource: OctoBot is open source
