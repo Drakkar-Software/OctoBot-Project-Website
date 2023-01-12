@@ -16,23 +16,12 @@ permalink: /
             </video>
         </div>
         <div class="p-0">
-            <div class="mb-1 mb-md-4 w-75 mx-auto text-center">
-                <div class="row w-100 offset-md-2">
-                    <div class="col-md-4">
-                        <a id="home-first-try-now"
-                            href="{% tl demo_try %}"
-                            class="btn btn-lg w-75 call-to-action-button">
-                            {% t landing_page.try_octobot %}
-                        </a>
-                    </div>
-                    <div class="col-md-4">
-                        <a id="home-deploy-now"
-                           href="#install_octobot"
-                           class="btn outline-button">
-                            {% t landing_page.deploy_now %}
-                        </a>
-                    </div>
-                </div>
+            <div class="mb-1 mb-md-4 w-100 mx-auto text-center">
+                <a id="home-first-try-now"
+                    href="https://www.octobot.cloud/onboarding"
+                    class="btn btn-lg call-to-action-button">
+                    {% t landing_page.try_octobot %}
+                </a>
             </div>
         </div>
     </div>
@@ -100,7 +89,7 @@ permalink: /
                     <h6>{% t landing_page.each_strategy_is_testable %}</h6>
                     <p>{% t landing_page.story.the_transformation %}</p>
 
-                    <span class="badge bg-primary">{% t community_page.coming_soon %}</span>
+                    <span class="badge bg-primary">{% t community_page.new %}</span>
                     {% t community_page.soon_share_tentacles_html %}
 
                     <div class="mt-4">
@@ -155,16 +144,9 @@ permalink: /
     </div>
 </div>
 
-<div id="try_octobot" class="part bg-darker py-2 py-md-4">
-    <div class="part-title">
-        <h2>{% t landing_page.try_octobot_now %}</h2>
-    </div>
-    {% include try_methods.html %}
-</div>
-
 <div id="install_octobot" class="part bg-darker py-2 py-md-4">
     <div class="part-title">
-        <h2>{% t landing_page.install_octobot_now %}</h2>
+        <h2>{% t landing_page.try_octobot_now %}</h2>
     </div>
     {% include installation_methods.html %}
 </div>

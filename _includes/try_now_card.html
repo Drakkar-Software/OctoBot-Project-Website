@@ -1,6 +1,6 @@
-<div class="card bg-transparent col-12 col-sm-6 col-md-4">
-  <div class="d-flex justify-content-between flex-column h-100">
-    <div class="text-center my-2 my-md-4">
+<div class="card bg-transparent col-12 {{include.card_classes}}">
+  <div class="d-flex justify-content-between flex-column h-100 p-md-2">
+    <div class="text-center my-4">
       {% if include.icon != "" %}
       <i class="{{ include.icon }}"></i>
       {% elsif include.image_link != "" %}
@@ -27,9 +27,9 @@
     <div class="mx-0 mx-md-2 mx-lg-3 px-0">
       <h5 class="card-title">
         <span class="card-title">{% t include.title %}</span>
-        {% if include.comming_soon %}
-        <span class="badge bg-primary">
-          {% t community_page.coming_soon %}
+        {% if include.badge %}
+        <span class="badge bg-secondary float-end">
+          {% t include.badge %}
         </span>
         {% endif %}
       </h5>
@@ -42,7 +42,7 @@
           {% if include.link %}
           href="{% tl include.link %}"
           {% else %}
-          href="{{ include.raw_link }}" target="_blank" rel="noopener"
+          href="{{ include.raw_link }}"
           {% endif %}
           class="btn call-to-action-button ripple-surface"
         >
