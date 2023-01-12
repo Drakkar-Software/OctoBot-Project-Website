@@ -168,7 +168,7 @@ guides_page:
     OctoBot tradera avec l'ensemble des paires sélectionnées lorsqu'elles
     seront disponibles sur les sites de trading utilisés.</p>
     <p>Voir
-    <a id="guides-go-to-profiles-config-docs" href="https://docs.octobot.online/configuration/profile-configuration#currencies" target="_blank" rel="noopener">
+    <a id="guides-go-to-profiles-config-docs" href="https://www.octobot.info/configuration/profile-configuration#currencies" target="_blank" rel="noopener">
     OctoBot docs</a> pour plus de détails sur la configuration des pairs
     à trader.</p>
   traded_pairs_configuration: Configuration des cryptomonnaies à trader
@@ -200,7 +200,7 @@ guides_page:
     grâce à son interface Telegram.</p>
     <p>Voir
     <a id="guides-go-telegram-interface-docs"
-    href="https://docs.octobot.online/interfaces/telegram-interface" target="_blank" rel="noopener">
+    href="https://www.octobot.info/interfaces/telegram-interface" target="_blank" rel="noopener">
     OctoBot docs</a> pour plus de détails sur l'interface Telegram d'OctoBot.</p>
   communication_channels_configuration: Configurez les connexions de votre OctoBot
   configure_backtesting: Optimisez votre OctoBot avec le backtesting
@@ -213,7 +213,7 @@ guides_page:
     votre OctoBot dans les moindre détails pour maximiser vos profits.</p>
     <p>Voir
     <a id="guides-go-backtesting-docs"
-    href="https://docs.octobot.online/advanced_usage/backtesting-and-strategy-optimization" target="_blank" rel="noopener">
+    href="https://www.octobot.info/advanced_usage/backtesting-and-strategy-optimization" target="_blank" rel="noopener">
     OctoBot docs</a> pour plus de détails sur le backtesting.</p>
   backtesting_configuration: Résultat de backtesting
   the_evaluation_chain: La chaine d'évaluation d'OctoBot
