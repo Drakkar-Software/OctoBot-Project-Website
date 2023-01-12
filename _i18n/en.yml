@@ -19,7 +19,7 @@ they_talk_about_octobot: They talk about OctoBot
 news: News
 
 landing_page:
-  try_octobot: Try the demo
+  try_octobot: Try OctoBot now
   deploy_now: Deploy OctoBot
   usage_details: See how to use OctoBot in details
   what_is_octobot: OctoBot is a trading robot which is designed to be easy to use and infinitely customizable.
@@ -88,20 +88,21 @@ landing_page:
       and can be improved at any moment since it is open source and is now tested for many years.
       The OctoBot project was started in 2018.</p>
   try_octobot_now: Try OctoBot now
-  install_octobot_now: Install your OctoBot now
+  recommended: Recommended
+  install_octobot_now: Get your OctoBot now
   backtesting_result: Backtesting results
-  using_the_latest_executable: Using the executable
+  using_the_latest_executable: On your own computer
   using_the_latest_executable_desc: |
-    Simply download and start the executable for your system and launch your OctoBot directly from home.
+    Download and launch your OctoBot directly from home.
   using_the_latest_executable_link_text: Download OctoBot
   using_a_demo: Using a demo
   using_a_demo_desc: |
     Use an already deployed OctoBot in the cloud to test it now
   using_a_demo_link_text: Test a demo OctoBot
-  using_a_cloud: Using a cloud
+  using_octobot_cloud: Using the OctoBot Cloud
   using_a_cloud_desc_html: |
-    Deploy your OctoBot in the cloud for free using one of the automated cloud deployements options
-  using_a_cloud_desc_link_text: Deploy OctoBot in the cloud
+    Deploy your own OctoBot on the OctoBot Cloud for free within a few seconds.
+  using_a_cloud_desc_link_text: Deploy in OctoBot cloud
   using_okteto: Using Okteto
   using_okteto_desc: |
     Deploy your OctoBot within a few seconds in the Okteto cloud for free using your github account
@@ -128,8 +129,9 @@ community_page:
     Many thanks to the OctoBot community for contributing to make trading
     more transparent and for sharing its data !
   coming_soon: Coming soon
+  new: New
   soon_share_tentacles_html: |
-    Explore and use community created tentacles and profiles on <a id="home-go-to-astrolab" href="https://astrolab.cloud/">astrolab</a>.
+    Explore and use community created strategies on <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a>.
   current_best_performers: Performances of the best OctoBots of the moment since they came online
   top_exchanges: Most used exchanges
   exchange: Exchange
@@ -380,8 +382,9 @@ installations:
       It is nevertheless possible to restart your OctoBot instance by pressing the "Wake All" button.
       Using a developer pro account will enable you to have a permanent deployment.
   docker:
-    title: Simply deploy your OctoBot using Docker
-    advantages: Easily manage your OctoBot thanks to an isolated Docker container
+    title: Your OctoBot using Docker
+    advantages: |
+      Option 2: Docker
     step1: |
       1. If you don't have <a href="https://www.docker.com/" target="_blank" rel="noopener"> Docker</a>,
       install it on your system. Documentations for
@@ -392,9 +395,10 @@ installations:
     step2: "2. Download the OctoBot image using the command:"
     step3: "3. Start your OctoBot using the command:"
     full_doc: See the complete documentation on using OctoBot with Docker
-  executable:
-    title: Start your OctoBot from the executable
-    advantages: One file and your OctoBot starts
+  local:
+    title: Your OctoBot on your computer
+    advantages: |
+      Option 1: The executable
     release_example: Downloadable executables for the 0.4.0-beta8 version
     step1: |
       1. Download the latest version for your system:</br>
@@ -406,7 +410,7 @@ installations:
       2. Start the downloaded executable. OctoBot opens a terminal and installs its configuration environment and
       the OctoBot management interface opens automatically.
   your_octobot_is_ready: Your OctoBot is ready
-  install_methods: Ways to install OctoBot
+  install_methods: Ways to get your OctoBot
   or_install_octobot: Or install OctoBot
   directly_from_python: directly from its python code.
   accessible_at: The management interface of your OctoBot is available on port 5001 of your system.

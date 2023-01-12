@@ -20,7 +20,7 @@ news: Les news
 they_talk_about_octobot: Ils parlent d'OctoBot
 
 landing_page:
-  try_octobot: Essayer la démo
+  try_octobot: Essayer OctoBot maintenant
   deploy_now: Déployer OctoBot
   usage_details: Voir l'utilisation d'OctoBot en détails
   what_is_octobot: OctoBot est un robot de trading conçu pour être facile d’utilisation et personalisable à l’infini.
@@ -132,7 +132,7 @@ community_page:
     rendre le trading plus transparent par le partage de ses informations !
   coming_soon: Bientôt
   soon_share_tentacles_html: |
-    Explorez les tentacles et profiles créés par la communauté sur <a id="home-go-to-astrolab" href="https://astrolab.cloud/">astrolab</a>.
+    Explorez et utilisez les stratégies créés par la communauté sur <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a>.
   current_best_performers: Performance des meilleurs OctoBots du moment, depuis leur dernier lancement
   top_exchanges: Plateformes de trading les plus utilisées
   exchange: Plateforme
