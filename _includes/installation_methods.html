@@ -1,10 +1,12 @@
+{% assign featured_added_classes = include.featured_added_classes | append: " col-md-"| append: include.featured_cols | append: " featured-card" %}
+{% assign other_added_classes = " offset-md-1 col-md-"| append: include.other_cols %}
 <div class="row my-4">
     {% include try_now_card.html
     title="landing_page.using_octobot_cloud"
     description="landing_page.using_a_cloud_desc_html"
     image="/assets/images/octobot.svg"
     badge="landing_page.recommended"
-    card_classes="offset-md-4 col-md-4 featured-card"
+    card_classes=featured_added_classes
     icon=""
     image_link=""
     link_text="landing_page.using_a_cloud_desc_link_text"
@@ -13,7 +15,7 @@
     title="landing_page.using_the_latest_executable"
     description="landing_page.using_the_latest_executable_desc"
     image="/assets/images/winlimac.webp"
-    card_classes="offset-md-1 col-md-3"
+    card_classes=other_added_classes
     icon=""
     image_link=""
     link_text="landing_page.using_the_latest_executable_link_text"
