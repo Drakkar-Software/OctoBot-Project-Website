@@ -122,6 +122,9 @@ landing_page:
   using_docker_desc: |
     Déployez votre OctoBot sur l'environnement de votre choix en une commande en utilisant Docker.
   using_docker_link_text: Déployer OctoBot avec Docker
+  see_all_articles_on_our_blog_html: |
+    Retrouvez tous nos articles précédents sur 
+    <a href="https://blog.octobot.online" target="_blank" rel="noopener"> notre blog</a>.
 
 community_page:
   title: Statistiques de la communauté OctoBot
