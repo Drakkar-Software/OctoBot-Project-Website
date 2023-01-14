@@ -7,7 +7,7 @@ permalink: /guides/
 <!--header-->
 <div class="part guides-intro-background mt-0">
     <div class="background-mask p-0">
-        <div class="py-4 w-75 mx-auto text-center">
+        <div class="py-4 w-75 mx-auto">
             <h2 class="my-4">{% t guides_page.title %}</h2>
             <h5>{% t guides_page.subtitle %}</h5>
         </div>
@@ -22,10 +22,6 @@ permalink: /guides/
                 <h3 class="border-bottom my-3 pb-2">{% t guides_page.install_octobot %}</h3>
                 <div>
                     {% t guides_page.install_methods_desc_html %}
-                    <a id="guides-go-to-python-installation"
-                       href="{% tl python_installation %}">
-                        {% t installations.directly_from_python %}
-                    </a>
                 </div>
             </div>
             <div>
@@ -35,55 +31,32 @@ permalink: /guides/
                     other_cols="5"%}
             </div>
         </div>
-        <div class="col-12 col-md-7 text-center my-auto">
-            {% include modalable_image.html
-            rendered_image_path="/assets/images/large_web_interface.webp"
-            class_attr="part-image-md w-100"
-            alt_attr="web interface preview"
-            title="guides_page.web_interface" %}
+        <div class="col-12 row col-md-7 text-center my-auto">
+            <div class="col-12 col-lg-6 text-center my-auto">
+                {% include modalable_image.html
+                rendered_image_path="/assets/images/large_web_interface.webp"
+                class_attr="part-image-md w-100"
+                alt_attr="web interface preview"
+                title="guides_page.web_interface" %}
+            </div>
+            <div class="col-12 col-lg-6 my-auto">
+                {% include modalable_image.html
+                rendered_image_path="/assets/images/strat_designer.jpg"
+                class_attr="part-image-md w-100"
+                alt_attr="strategy design preview"
+                title="guides_page.strategy_designer" %}
+            </div>
+            <div class="col-12 offset-lg-3 col-lg-6 text-center my-auto mt-2">
+                {% include modalable_image.html
+                rendered_image_path="/assets/images/cloud_bots.jpg"
+                class_attr="part-image-md w-100"
+                alt_attr="cloud bots preview"
+                title="guides_page.cloud_bots" %}
+            </div>
         </div>
     </div>
 </div>
 
-<!--configure octobot-->
-<div id="exchanges" class="part">
-    <div class="row py-1 py-md-2">
-        <div class="col-12 col-md-7 text-center my-auto">
-            {% include modalable_image.html
-            rendered_image_path="/assets/images/exchanges_config.webp"
-            class_attr="part-image-md w-100"
-            alt_attr="exchanges configuration preview"
-            title="guides_page.exchanges_configuration" %}
-        </div>
-        <div class="col col-md-5">
-            <div>
-                <h3 class="border-bottom my-3 pb-2">{% t guides_page.configure_exchanges %}</h3>
-                <div>
-                    {% t guides_page.configure_exchanges_desc_html %}
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="traded_pairs" class="part">
-    <div class="row py-1 py-md-2">
-        <div class="col col-md-5">
-            <div>
-                <h3 class="border-bottom my-3 pb-2">{% t guides_page.configure_traded_pairs %}</h3>
-                <div>
-                    {% t guides_page.configure_traded_pairs_desc_html %}
-                </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-7 text-center my-auto">
-            {% include modalable_image.html
-            rendered_image_path="/assets/images/pairs_config.webp"
-            class_attr="part-image-md w-100"
-            alt_attr="traded pairs configuration preview"
-            title="guides_page.traded_pairs_configuration" %}
-        </div>
-    </div>
-</div>
 <div id="trading_modes" class="part">
     <div class="row py-1 py-md-2">
         <div class="col-12 col-md-5 offset-md-2 mx-auto">
@@ -104,7 +77,7 @@ permalink: /guides/
             <div>
                 <h3 class="border-bottom my-3 pb-2">{% t guides_page.configure_trading_modes %}</h3>
                 <div>
-                    {% t guides_page.configure_trading_modes_desc %}
+                    {% t guides_page.configure_trading_modes_desc_html %}
                     <div class="mt-4">
 
                         <a id="guides-go-to-evaluation-chain"
@@ -154,12 +127,21 @@ permalink: /guides/
 </div>
 <div id="backtesting" class="part">
     <div class="row py-1 py-md-2">
-        <div class="col-12 col-md-7 text-center my-auto">
-            {% include modalable_image.html
-            rendered_image_path="/assets/images/backtesting.webp"
-            class_attr="part-image-md w-100"
-            alt_attr="backtesting preview"
-            title="guides_page.backtesting_configuration" %}
+        <div class="col-12 row col-md-7 text-center my-auto">
+            <div class="col-12 col-lg-7 text-center my-auto">
+                {% include modalable_image.html
+                rendered_image_path="/assets/images/backtesting.webp"
+                class_attr="part-image-md w-100"
+                alt_attr="backtesting preview"
+                title="guides_page.backtesting_configuration" %}
+            </div>
+            <div class="col-12 col-lg-5 my-auto">
+                {% include modalable_image.html
+                rendered_image_path="https://raw.githubusercontent.com/Drakkar-Software/OctoBot-Pro/assets/images/report_1.jpg"
+                class_attr="part-image-sm w-100"
+                alt_attr="octobot pro report"
+                title="guides_page.octobot_pro_report" %}
+            </div>
         </div>
         <div class="col col-md-5">
             <div>
@@ -174,37 +156,20 @@ permalink: /guides/
 <div id="evaluation_chain" class="part mb-1 mb-md-5">
     <div class="row py-1 py-md-2">
         <div class="col col-md-5">
-            <h3 class="border-bottom my-3 pb-2">{% t guides_page.the_evaluation_chain %}</h3>
-            <div>
-                <h5> {% t guides_page.evaluators %} </h5>
-                <p>
-                    {% t guides_page.evaluators_desc_html %}
-                </p>
-            </div>
-            <div>
-                <h5> {% t guides_page.strategies %} </h5>
-                <p>
-                    {% t guides_page.strategies_desc %}
-                </p>
-            </div>
-            <div>
-                <h5> {% t guides_page.trading_modes %} </h5>
-                <p>
-                    {% t guides_page.trading_modes_desc %}
-                </p>
-            </div>
+            <h3 class="border-bottom my-3 pb-2">{% t guides_page.sharing_trading_strategies %}</h3>
+            {% t guides_page.sharing_trading_strategies_desc_html %}
         </div>
         <div class="col-12 col-md-7 text-center my-auto">
             {% include modalable_image.html
-            rendered_image_path="/assets/images/chart.webp"
+            rendered_image_path="/assets/images/signals_follower.jpg"
             class_attr="part-image-sm"
-            alt_attr="price chart with technical indicators"
-            title="guides_page.chart_with_TA" %}
+            alt_attr="connet to octobot cloud strategy"
+            title="guides_page.connect_to_cloud_strategies" %}
             {% include modalable_image.html
-            rendered_image_path="/assets/images/evaluators.webp"
+            rendered_image_path="/assets/images/sharing_strat.jpg"
             class_attr="part-image-md w-100"
-            alt_attr="evaluators configuration preview"
-            title="guides_page.evaluators_configuration" %}
+            alt_attr="octobot cloud strategies"
+            title="guides_page.cloud_strategies" %}
         </div>
     </div>
 </div>
@@ -213,7 +178,7 @@ permalink: /guides/
     <h5>{% t guides_page.this_is_just_an_subset %}</h5>
     <div class="my-2 my-md-3">
         <a id="guides-go-to-try-octobot"
-           href="{% tl octobot %}#try_octobot"
+           href="https://www.octobot.cloud/onboarding"
            class="btn btn-lg call-to-action-button">
             {% t landing_page.try_octobot %}
         </a>

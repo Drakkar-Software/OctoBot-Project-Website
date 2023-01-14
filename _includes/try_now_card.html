@@ -44,7 +44,7 @@
           {% else %}
           href="{{ include.raw_link }}"
           {% endif %}
-          class="btn call-to-action-button ripple-surface"
+          class="btn {{ include.button_class }} ripple-surface"
         >
           {% t include.link_text %}
         </a>

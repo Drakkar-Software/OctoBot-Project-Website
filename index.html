@@ -34,15 +34,14 @@ permalink: /
                 <div>
                     <h3 class="border-bottom my-3 pb-2">{% t octobot %}</h3>
                     <div>
-                        {% t landing_page.what_is_octobot %}
+                        {% t landing_page.what_is_octobot_html %}
                     </div>
                 </div>
                 <!-- Differentiator -->
                 <div>
-                    <h3 class="border-bottom my-3 pb-2">{% t landing_page.octobot_is_opensource %}</h3>
+                    <h3 class="border-bottom my-3 pb-2">{% t landing_page.the_ecosystem %}</h3>
                     <div>
-                        <h6>{% t landing_page.test_and_use_for_free %}</h6>
-                        <p>{% t landing_page.story.the_obsticle %}</p>
+                        <p>{% t landing_page.ecosystem_details %}</p>
                         <p>
                             <a id="home-go-to-octobot-github"
                                href="https://github.com/Drakkar-Software/OctoBot"
@@ -89,7 +88,7 @@ permalink: /
                     <h6>{% t landing_page.each_strategy_is_testable %}</h6>
                     <p>{% t landing_page.story.the_transformation %}</p>
 
-                    <span class="badge bg-primary">{% t community_page.new %}</span>
+                    <span class="badge bg-primary">{% t community_page.coming_soon %}</span>
                     {% t community_page.soon_share_tentacles_html %}
 
                     <div class="mt-4">
@@ -149,7 +148,8 @@ permalink: /
         <h2>{% t landing_page.try_octobot_now %}</h2>
     </div>
     {% include installation_methods.html
-        featured_added_classes="offset-md-4" 
+        featured_added_classes="offset-md-2"
+        featured_badge="landing_page.recommended"
         featured_cols="4"
         other_cols="3"%}
 </div>
