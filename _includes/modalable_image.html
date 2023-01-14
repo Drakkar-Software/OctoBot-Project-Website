@@ -1,5 +1,6 @@
+{% assign modale_id = include.rendered_image_path | replace: '.', '' | replace: '/', '' | replace: ':', '' %}
 <!-- trigger modal -->
-<a type="button" data-mdb-toggle="modal" data-mdb-target="#{{ include.rendered_image_path | replace: '.', '' | replace: '/', ''}}Modal">
+<a type="button" data-mdb-toggle="modal" data-mdb-target="#{{ modale_id }}Modal">
     <img src="{{ include.rendered_image_path }}"
          class="{{ include.class_attr }}"
          alt="{{ include.alt_attr }} "
@@ -7,12 +8,12 @@
 </a>
 
 <!-- Modal -->
-<div class="modal" id="{{ include.rendered_image_path | replace: '.', '' | replace: '/', '' }}Modal" tabindex="-1" role="dialog"
-     aria-labelledby="#{{ include.rendered_image_path }}ModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+<div class="modal" id="{{ modale_id }}Modal" tabindex="-1" role="dialog"
+     aria-labelledby="#{{ modale_id }}ModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
         <div class="modal-content bg-dark">
             <div class="modal-header">
-                <h5 class="modal-title" id="#{{ include.rendered_image_path }}ModalLabel">{% t include.title %}</h5>
+                <h5 class="modal-title" id="#{{ modale_id }}ModalLabel">{% t include.title %}</h5>
                 <button type="button" class="close text-light" data-mdb-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>

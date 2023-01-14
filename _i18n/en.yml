@@ -22,9 +22,23 @@ landing_page:
   try_octobot: Try OctoBot now
   deploy_now: Deploy OctoBot
   usage_details: See how to use OctoBot in details
-  what_is_octobot: OctoBot is a trading robot which is designed to be easy to use and infinitely customizable.
-  octobot_is_opensource: OctoBot is open source
-  test_and_use_for_free: Test and use the robot for free. As much as you want.
+  what_is_octobot_html: |
+    With OctoBot, you can: 
+    <ul>
+      <li>
+        Copy a trading strategy from <a href="https://www.octobot.cloud/">OctoBot Cloud</a>. <span class="badge bg-primary">comming soon</span>
+      </li>
+      <li>
+        Use, customize and improve an exsting strategy.
+      </li>
+      <li>
+        Create and optimize your own trading strategy using <a href="https://pro.octobot.info/">OctoBot Pro</a>.
+      </li>
+    </ul>
+    OctoBot is built for people who don't have much time and want the best.
+    Many trading automation tools exist but most of them are complicated to use, expensive 
+    or are meant to be used by profesional traders.
+  the_ecosystem: The ecosystem
   see_octobot_on: See OctoBot on
   github: github
   setup_the_strategy_that_fits_you: Set up the strategy that fits you best
@@ -44,9 +58,7 @@ landing_page:
     which enables CPU time optimization.</p>
     <p>Furthermore, computation and memory intensive processes are
     executed using your system's optimal native code thanks to
-    <a href="https://cython.org/" target="_blank" rel="noopener">Cython</a>. With this architecture, OctoBot
-    is able to work at 100% capacity in minimal environments such as on a
-    <a href="https://www.raspberrypi.org/products/" target="_blank" rel="noopener">Raspberry Pi</a>.</p>
+    <a href="https://cython.org/" target="_blank" rel="noopener">Cython</a>.</p>
   the_octobot_community: The OctoBot community
   telegram: Telegram
   discord: Discord
@@ -61,30 +73,32 @@ landing_page:
     up your requirements.
   discover_strategies: Discover OctoBot strategies
   all_news_on_our_blog: See all news on our blog
+  ecosystem_details: |
+      <p>The OctoBot ecosystem is built to enable crypto-investors to get the best of 
+      their investment by using the most profitable strategies.</p>
+      <p>Strategies are provided by the community on <a href="https://www.octobot.cloud/">OctoBot Cloud</a>:
+      <strong>earn more money</strong> by sharing your best trading strategies</p>
+      <p>To help traders we build the most efficient strategies, we created
+      <a href="https://pro.octobot.info/">OctoBot Pro</a>: a strategy 
+      design toolkit that enables traders to create, test, and optimize their trading strategies.</p>
   story:
     the_obsticle: |
-      <p>OctoBot is built for people who don't have much time or do not easily trust the crypto-world projects.
-      Many trading automation tools exist but most of them are complicated to use, expensive, do not
-      behave as intended or are meant to be used by profesional traders.</p>
-      <p>Moreover, when a favorable trend
-      is spotted, it can be difficult to maximise profit from it: trading takes a lot of time and when it's
-      done automatically how to be sure that the robot will do what it is supposed to ?</p>
+      <p>OctoBot is built for people who don't have much time and want the best.
+      Many trading automation tools exist but most of them are complicated to use, expensive 
+      or are meant to be used by profesional traders.</p>
     the_challenge: |
-      <p>Which value has an investment or a trade if it prevents you from sleeping because you are afraid
+      <p>hat is the value of a trading strategy if it prevents you from sleeping because you are afraid
       of a potential bad decision ?</p>
       <p>How to be sure the robot will behave as expected ? OctoBot's philosophy
       is to be as transparent and reliable as possible.</p>
-    the_challenge_li_1: the code is open source in order to be able to verify what the robot is doing
+    the_challenge_li_1: The code is open source in order to be able to verify how OctoBot really works
     the_challenge_li_2: |
-      strategies are testable on past and real time data to ensure their
-      reliability
+      Trading strategies are testable on past and real time data with simulated money to ensure their reliability.
     the_transformation: |
       <p>By using OctoBot, you will be able to automate your trades with the strategy you have chosen
       and the markets you want. Whether you are a beginner or an expert trader, each strategy
       is testable easily without any limit.</p>
-      <p>You can use an existing setup or try and customize
-      your own until you identify the perfect settings for your trading goals and proceed with
-      real money trading and make real gains. With OctoBot, you use a robot that is verifiable
+      <p>With OctoBot, you use a robot that is verifiable
       and can be improved at any moment since it is open source and is now tested for many years.
       The OctoBot project was started in 2018.</p>
   try_octobot_now: Try OctoBot now
@@ -99,9 +113,9 @@ landing_page:
   using_a_demo_desc: |
     Use an already deployed OctoBot in the cloud to test it now
   using_a_demo_link_text: Test a demo OctoBot
-  using_octobot_cloud: Using the OctoBot Cloud
+  using_octobot_cloud: Using OctoBot Cloud
   using_a_cloud_desc_html: |
-    Deploy your own OctoBot on the OctoBot Cloud for free within a few seconds.
+    Get your own OctoBot running on the Cloud for free and access it anywhere, now.
   using_a_cloud_desc_link_text: Deploy in OctoBot cloud
   using_okteto: Using Okteto
   using_okteto_desc: |
@@ -144,14 +158,29 @@ guides_page:
   subtitle: How to use OctoBot at its full potential
   install_octobot: Setting up OctoBot
   install_methods_desc_html: |
-    There are many ways to install OctoBot. You can directly download the executable
-    or its Docker image and start the robot directly from home or make it run in a
-    cloud server. It is also possible to install OctoBot
+    <p>There are many ways to setup your OctoBot. The easiest is to use 
+    <a href="https://www.octobot.cloud/onboarding" target="_blank" rel="noopener">
+    OctoBot Cloud</a> to get your robot running on our servers. You can try it for free.</p>
+    Using the OctoBot Cloud, your OctoBot will always be online and reachable from anywhere and
+    will benefit from the following additions:
+    <ul>
+    <li>
+      Integrated webhook for trading view-like alerts
+    </li>
+    <li>
+      The strategy designer view to get advanced backtesting insights <span class="badge bg-primary">comming soon</span>
+    </li>
+    </ul>
+
+    You can also directly download the executable, the Docker image or the code and run your robot 
+    from home.
   web_interface: OctoBot Dashboard
+  cloud_bots: Deployed cloud OctoBots
+  strategy_designer: "The strategy designer view: get more from your backtests (beta version)"
   configure_octobot: Configure OctoBot
   configure_exchanges: Configure exchanges
   configure_exchanges_desc_html: |
-    <p>Add exchanges on which OctoBot will work. Authentication of these exchanges
+    <p>Add exchanges on which OctoBot will work. Authentication on these exchanges
     is not only mandatory for the trading simulator mode. OctoBot can handle a great
     number of exchanges simultaneously with optimal performances.</p>
     <p>See
@@ -168,19 +197,30 @@ guides_page:
     OctoBot docs</a> for more details on trading pairs configuration.</p>
   traded_pairs_configuration: Configuration of the cryptocurrencies to trade
   configure_trading_modes: Configuration the trading mode to use
-  configure_trading_modes_desc: |
-    OctoBot has many way to trade: the trading modes.
-    Each trading mode is unique and consists in a different trading approach?
-    Some are risky but with a high gain potential, others are focusing on
-    small and steady gains. There are also trading modes that look for
-    signals from platforms such as <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
-    tradingview.com</a>. Trading modes are themselves configurable.
-    Some trading modes are using strategies and evaluators through
-    <a id="guides-go-to-evaluation-chain-from-trading-modes-desc"
-    href="#evaluation_chain">the evaluation chain</a>. This chain
-    is entierly configurable. You can chose the technical evaluators
-    that should be used such as the RSI or the MACD and even use
-    evaluators based on social networks.
+  configure_trading_modes_desc_html: |
+    OctoBot has many ways to trade: the trading modes.
+    Each trading mode is unique and consists in a different trading technique. Trading modes can:
+    <ul>
+      <li>
+      Use statistics and technical analysis to find the best trade entries and exits.
+      </li>
+      <li>
+      Use market-making algorithms to minimize risks and grant regular small gains.
+      </li>
+      <li>
+      Trade upon signals from platforms such as <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
+      tradingview.com</a>. 
+      </li>
+      <li>
+      Follow the best strategies from <a href="https://www.octobot.cloud/" target="_blank" rel="noopener">
+      OctoBot Cloud</a>. 
+      </li>
+      <li>
+      Do something entirely different based on your ideas that you can code and test using <a href="https://pro.octobot.info/">OctoBot Pro</a>.
+      </li>
+    </ul>
+    
+
   trading_modes_configuration: Configuration of the trading mode to use
   more_info_on_evaluation_chain: More details on the evaluation chain
   telegram_interface: Chat directly with your OctoBot using Telegram
@@ -189,7 +229,7 @@ guides_page:
     <p>It is possible to remotly command your OctoBot by connecting it to
     <a href="https://telegram.org/" target="_blank" rel="noopener">Telegram</a>.
     You can verify what is your robot doing, watch its portfolio, its profits,
-    trigger an emergency sell ... Access your OctoBot from wherever you want, whenever
+    trigger an emergency exit ... Access your OctoBot from wherever you want, whenever
     you want thanks to its Telegram interface.</p>
     <p>See
     <a id="guides-go-telegram-interface-docs"
@@ -197,17 +237,52 @@ guides_page:
     OctoBot docs</a> for more details on the OctoBot Telegram interface.</p>
   communication_channels_configuration: Configure your OctoBot's connections
   configure_backtesting: Optimize your OctoBot using backtesting
+  octobot_pro_report: OctoBot Pro report
   configure_backtesting_desc_html: |
-    <p>Using OctoBot's backtesting, test your robot using historical data
+    <p>Using OctoBot's backtesting, test your current trading strategy using historical data
     from the markets you want to trade. Most OctoBot configurations are
     testable in <a href="https://www.investopedia.com/terms/b/backtesting.asp" target="_blank" rel="noopener">
-    backtesting</a> ! Fine tune your bot's configuration up to the very last detail
+    backtesting</a>. Fine tune your bot's configuration up to the very last detail
     and maximise your profits.</p>
     <p>See
     <a id="guides-go-backtesting-docs"
     href="https://www.octobot.info/advanced_usage/backtesting-and-strategy-optimization" target="_blank" rel="noopener">
     OctoBot docs</a> for more details on backtesting.</p>
+
+    <h5>Take it one step further using OctoBot pro</h5>
+    <p>
+    Turn your trading ideas into tested and optimized strategy using
+    <a href="https://pro.octobot.info/" target="_blank" rel="noopener">OctoBot Pro</a>. 
+    Directly code your strategy in python while benefiting of all the OctoBot tools and an extremely 
+    flexible reporting and charting system. Analyse exactly what is happening when running your ideas on 
+    past data and create your best strategies.
+    </p>
   backtesting_configuration: Backtesting results
+  sharing_trading_strategies: Sharing trading strategies
+  sharing_trading_strategies_desc_html: |
+    <p>OctoBot makes it easy to share trading strategies.</p>
+    If want to use an existing strategy, you can:
+    <ul>
+    <li>
+      Follow an <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a> 
+      strategy and trade every time the strategy trades 
+    </li>
+    <li>
+      Import its profile and use or customize it on your OctoBot
+    </li>
+    </ul>
+    To share a strategy, you can:
+    <ul>
+    <li>
+      Configure your OctoBot to emit signals that others can follow on 
+      <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a> 
+    </li>
+    <li>
+      Export and share your trading profile to allow others to directly use your strategy
+    </li>
+    </ul>
+  cloud_strategies: Use <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a> strategies
+  connect_to_cloud_strategies: Connect to OctoBot Cloud strategies
   the_evaluation_chain: OctoBot's evaluation chain
   evaluators: Evaluators
   evaluators_desc_html: |
@@ -231,7 +306,7 @@ guides_page:
   evaluators_configuration: Evaluators Configuration
   this_is_just_an_subset: |
     These features are only a subset of what is possible to achieve using OctoBot.
-    The best way to figure out the whole range of possibilities is to try the robot yourself.
+    The best way to figure out the whole range of possibilities is to try OctoBot yourself.
 
 about_page:
   title: About OctoBot and its team
@@ -276,12 +351,14 @@ about_page:
       ecosystem_launch: Launch of the ecosystem
       ecosystem: |
         After two years of user feedbacks, OctoBot is now stable and reliable enough
-        for the project to scale. 2021 is the year the OctoBot ecosystem launches:
-      ecosystem_item_1: OctoBot, the free open source robot that trades for its users
+        for the project to scale. 2021 was the year the OctoBot ecosystem launches:
+      ecosystem_item_1: |
+        <a href="https://github.com/Drakkar-Software/OctoBot" target="_blank" rel="noopener"> OctoBot</a>, the free open source robot that trades for its users.
       ecosystem_item_2: |
-        The OctoBot Marketplace which allows OctoBot users to try and share
-        strategies and extensions
-      ecosystem_item_3: The OctoBot community usage data which enables users to learn from one to another
+        <a href="https://www.octobot.cloud/" target="_blank" rel="noopener"> OctoBot Cloud</a> which allows OctoBot users to try and share strategies and extensions.
+      ecosystem_item_3: | 
+        <a href="https://pro.octobot.info/" target="_blank" rel="noopener">OctoBot Pro</a> that allows advanced traders to turn their ideas into 
+        automated and optimized trading strategies.
     the_guide: |
       With OctoBot, you can simply test and use the strategies
       that fit you. OctoBot enables you to easily experiment strategies on
