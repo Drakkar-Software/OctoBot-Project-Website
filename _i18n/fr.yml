@@ -28,18 +28,18 @@ landing_page:
     Avec OctoBot, vous pouvez: 
     <ul>
       <li>
-        Copier une strategie de trading d' <a href="https://www.octobot.cloud/">OctoBot Cloud</a>. <span class="badge bg-primary">bientot disponible</span>
+        Copier une strategie de trading d' <a href="https://www.octobot.cloud/">OctoBot Cloud</a>. <span class="badge bg-primary">bientôt disponible</span>
       </li>
       <li>
-        Utilier, personaliser et améliorer une stratégie.
+        Utiliser, personaliser et améliorer une stratégie.
       </li>
       <li>
         Créer et optimiser votre propre stratégie en utilisant <a href="https://pro.octobot.info/">OctoBot Pro</a>.
       </li>
     </ul>
-    OctoBot est destiné aux personnes qui n'ont pas beaucoup de temps et veullent le meilleur.
+    OctoBot est destiné aux personnes qui n'ont pas beaucoup de temps et veulent le meilleur.
     Beaucoup de solutions d'automatisation existent mais sont compliquées à utiliser, sont chères, ne marchent
-    pas toujours comme voulu ou sont réservées à des professionnels
+    pas toujours comme attendu ou sont réservées à des professionnels
   the_ecosystem: L'écosystème
   what_is_octobot: OctoBot est un robot de trading conçu pour être facile d’utilisation et personalisable à l’infini.
   octobot_is_opensource: OctoBot est open source
@@ -90,7 +90,7 @@ landing_page:
       <p>
       Pour aider les traders à construire les stratégies les plus efficaces, nous avons créé
       <a href="https://pro.octobot.info/">OctoBot Pro</a>: un ensemble d'outils 
-      qui permet aux créateaurs de créer, teste et optimiser leurs stratégies de trading.
+      qui permet aux créateaurs de créer, tester et optimiser leurs stratégies de trading.
       </p>
   story:
     the_obsticle: |
@@ -122,7 +122,7 @@ landing_page:
   backtesting_result: Résultat de backtesting
   using_the_latest_executable: Avec l'exécutable
   using_the_latest_executable_desc: |
-    Téléchargez et lancez votre OctoBot directement chez vous.
+    Téléchargez et lancez votre OctoBot chez vous.
   using_the_latest_executable_link_text: Télécharger OctoBot
   using_a_demo: Avec une démo
   using_a_demo_desc: |
@@ -130,7 +130,7 @@ landing_page:
   using_a_demo_link_text: Tester un OctoBot de démonstration
   using_a_cloud: En cloud
   using_a_cloud_desc_html: |
-    Déployez maintenant votre propre OctoBot gratuitement dans le cloud
+    Déployez maintenant votre OctoBot gratuitement dans le cloud
   using_a_cloud_desc_link_text: Déployer OctoBot en cloud
   using_okteto: Avec Okteto
   using_okteto_desc: |
@@ -182,11 +182,12 @@ guides_page:
     et bénéficiera des extensions suivantes:
     <ul>
     <li>
-      Webhook intégré pour les alertes telles que venant de <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
+      Webhook intégré pour les alertes venant par exemple de <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
       tradingview.com</a>.
     </li>
     <li>
-      La vue strategy designer pour obtenir des statistiques avancé sur les résultats de vos tests historique<span class="badge bg-primary">bientot disponible</span>
+      La vue strategy designer pour obtenir des statistiques avancés sur les résultats de vos tests historiques 
+      <span class="badge bg-primary">bientôt  disponible</span>
     </li>
     </ul>
     Vous pouvez aussi directement télécharger l'exécutable, l'image Docker ou le code source et exécuter votre OctoBot chez vous.
@@ -219,25 +220,24 @@ guides_page:
   configure_trading_modes_desc_html: |
     OctoBot propose différents modules de trading : les trading modes.
     Chaque trading mode est unique et propose une approche différente
-    du trading. les trading modes peuvent:
+    du trading. Les trading modes peuvent:
     <ul>
       <li>
-      Utiliser des statistiques et analyses techniques pour toruver les meilleurs entrées et sorties lors d'un tarde.
+      Utiliser des statistiques et analyses techniques pour trouver les meilleurs entrées et sorties lors d'un trade.
       </li>
       <li>
-      Utiliser des algorithms de market making pour minimiser les risques et générer des gains modestes mais réguliers.
+      Utiliser des algorithmes de market making pour minimiser les risques et générer des gains modestes mais réguliers.
       </li>
       <li>
       Trader sur réception de signaux provenant de plateformes comme  <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
       tradingview.com</a>. 
       </li>
       <li>
-      Suivre les meilleurs stratégies provenant d'<a href="https://www.octobot.cloud/" target="_blank" rel="noopener">
+      Suivre les meilleures stratégies provenant d'<a href="https://www.octobot.cloud/" target="_blank" rel="noopener">
       OctoBot Cloud</a>. 
       </li>
       <li>
-      Faire quelque chose de totalement différent basé sur vos idées 
-      Do something entirely different based on your ideas: codez et testez les en utilisant <a href="https://pro.octobot.info/">OctoBot Pro</a>.
+      Faire quelque chose de totalement différent basé sur vos idées: codez et testez les en utilisant <a href="https://pro.octobot.info/">OctoBot Pro</a>.
       </li>
     </ul>
   configure_trading_modes_desc: |
@@ -286,16 +286,16 @@ guides_page:
 
     <h5>Allez plus loin en utisant OctoBot pro</h5>
     <p>
-    Changez vos inspirations de trading en stratégies testées et optimisées en utilisant
+    Donnez vie à vos inspirations de stratégies en utilisant
     <a href="https://pro.octobot.info/" target="_blank" rel="noopener">OctoBot Pro</a>. <br/>
     Codez directement vos stratégies en python tout en bénéficiant de tous les outils inclus dans OctoBot
     et un système de rapport et de visualisation très flexible. Analysez exactement ce tout qu'il advient 
-    lors de l'exécution de vos idées sur des doonnées historiques et créez vos meilleurs stratégies.
+    lors de l'exécution de vos idées sur des données historiques et créez vos meilleurs stratégies.
     </p>
   backtesting_configuration: Résultat de backtesting
-  sharing_trading_strategies: Partagez les strategies de trading
+  sharing_trading_strategies: Partagez les stratégies de trading
   sharing_trading_strategies_desc_html: |
-    <p>OctoBot permet de facilement partager des strategies de trading.</p>
+    <p>OctoBot permet de facilement partager des stratégies de trading.</p>
     Pour utiliser une stratégie existante, vous pouvez:
     <ul>
     <li>
@@ -303,7 +303,7 @@ guides_page:
       et automatiquement répliquer chaque trade de cette stratégie
     </li>
     <li>
-      Importer le profile d'une stratégie et l'utiiser ou la personaliser sur voter OctoBot
+      Importer le profile d'une stratégie pour l'utiliser ou la personaliser
     </li>
     </ul>
     Pour partager une stratégie, vous pouvez:
@@ -311,15 +311,15 @@ guides_page:
     <li>
       Configurer votre OctoBot pour émettre des signaux que les autres utilisateurs peuvent suivre sur 
       <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a> pour 
-      répliquer vos trades sans en avoir le secret
+      répliquer vos trades
     </li>
     <li>
       Exporter et partager vos profiles de stratégie pour permettre à d'autres utilisateurs 
-      de l'utiliser directement
+      de l'utiliser
     </li>
     </ul>
   cloud_strategies: Utilisez des stratégies partagées sur <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a>
-  connect_to_cloud_strategies: Connectez vous aux strategies OctoBot Cloud
+  connect_to_cloud_strategies: Connectez vous aux stratégies OctoBot Cloud
   the_evaluation_chain: La chaine d'évaluation d'OctoBot
   evaluators: Les évaluateurs
   evaluators_desc_html: |
@@ -393,7 +393,7 @@ about_page:
         la phase suivante.
       ecosystem_launch: Lancement de l'écosystème
       ecosystem: |
-        Après ces deux années de feedbacks utilisateurs, OctoBot était maintenant
+        Après ces deux années de feedbacks utilisateurs, OctoBot est maintenant
         suffisamment stable et fonctionnel pour que le projet prenne de l'envergure.
         2021 marqua le lancement de l'écosystème OctoBot :
       ecosystem_item_1: |
