@@ -11,4 +11,4 @@ external: true
 ---
 
 
-Simply deploy your OctoBot on our cloud platform and enjoy an Octobot that is always online and accessible from anywhere.
+Simply deploy your OctoBot on our cloud platform and enjoy it from anywhere at everytime.
