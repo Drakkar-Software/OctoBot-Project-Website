@@ -74,13 +74,20 @@ landing_page:
   discover_strategies: Discover OctoBot strategies
   all_news_on_our_blog: See all news on our blog
   ecosystem_details: |
-      <p>The OctoBot ecosystem is built to enable crypto-investors to get the best of 
-      their investment by using the most profitable strategies.</p>
-      <p>Strategies are provided by the community on <a href="https://www.octobot.cloud/">OctoBot Cloud</a>:
-      <strong>earn more money</strong> by sharing your best trading strategies</p>
-      <p>To help traders we build the most efficient strategies, we created
+      <p>
+      The OctoBot ecosystem is built to enable crypto-investors to get the best of 
+      their investment by using the most profitable strategies.
+      </p>
+      <p>
+      Strategies are provided by the community on 
+      <a href="https://www.octobot.cloud/">OctoBot Cloud</a>:
+      <strong>earn more money</strong> by sharing your best trading strategies.
+      </p>
+      <p>
+      To help traders build the most efficient strategies, we created
       <a href="https://pro.octobot.info/">OctoBot Pro</a>: a strategy 
-      design toolkit that enables traders to create, test, and optimize their trading strategies.</p>
+      design toolkit that enables traders to create, test, and optimize their trading strategies.
+      </p>
   story:
     the_obsticle: |
       <p>OctoBot is built for people who don't have much time and want the best.
@@ -164,14 +171,15 @@ guides_page:
     <p>There are many ways to setup your OctoBot. The easiest is to use 
     <a href="https://www.octobot.cloud/onboarding" target="_blank" rel="noopener">
     OctoBot Cloud</a> to get your robot running on our servers. You can try it for free.</p>
-    Using the OctoBot Cloud, your OctoBot will always be online and reachable from anywhere and
+    Using the OctoBot Cloud, your OctoBot will always be online, reachable from anywhere and
     will benefit from the following additions:
     <ul>
     <li>
-      Integrated webhook for trading view-like alerts
+      Integrated webhook for alerts such as from <a href="https://www.tradingview.com/" target="_blank" rel="noopener">
+      tradingview.com</a>.
     </li>
     <li>
-      The strategy designer view to get advanced backtesting insights <span class="badge bg-primary">comming soon</span>
+      The strategy designer view to get advanced historical tests insights <span class="badge bg-primary">comming soon</span>
     </li>
     </ul>
 
@@ -219,10 +227,9 @@ guides_page:
       OctoBot Cloud</a>. 
       </li>
       <li>
-      Do something entirely different based on your ideas that you can code and test using <a href="https://pro.octobot.info/">OctoBot Pro</a>.
+      Do something entirely different based on your ideas: code and test them using <a href="https://pro.octobot.info/">OctoBot Pro</a>.
       </li>
     </ul>
-    
 
   trading_modes_configuration: Configuration of the trading mode to use
   more_info_on_evaluation_chain: More details on the evaluation chain
@@ -255,9 +262,9 @@ guides_page:
     <h5>Take it one step further using OctoBot pro</h5>
     <p>
     Turn your trading ideas into tested and optimized strategy using
-    <a href="https://pro.octobot.info/" target="_blank" rel="noopener">OctoBot Pro</a>. 
+    <a href="https://pro.octobot.info/" target="_blank" rel="noopener">OctoBot Pro</a>. <br/>
     Directly code your strategy in python while benefiting of all the OctoBot tools and an extremely 
-    flexible reporting and charting system. Analyse exactly what is happening when running your ideas on 
+    flexible reporting and visualization system. Analyse exactly what is happening when running your ideas on 
     past data and create your best strategies.
     </p>
   backtesting_configuration: Backtesting results
@@ -268,23 +275,24 @@ guides_page:
     <ul>
     <li>
       Follow an <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a> 
-      strategy and trade every time the strategy trades 
+      strategy and automatically replicate each trade from this strategy 
     </li>
     <li>
-      Import its profile and use or customize it on your OctoBot
+      Import the profile of a strategy and use or customize it on your OctoBot
     </li>
     </ul>
     To share a strategy, you can:
     <ul>
     <li>
-      Configure your OctoBot to emit signals that others can follow on 
-      <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a> 
+      Configure your OctoBot to emit signals that other users can follow on 
+      <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a> to replicate your
+      trades without accessible the details of your strategy
     </li>
     <li>
       Export and share your trading profile to allow others to directly use your strategy
     </li>
     </ul>
-  cloud_strategies: Use <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a> strategies
+  cloud_strategies: Use strategies that are shared on <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a>
   connect_to_cloud_strategies: Connect to OctoBot Cloud strategies
   the_evaluation_chain: OctoBot's evaluation chain
   evaluators: Evaluators
@@ -353,10 +361,10 @@ about_page:
         the next step can start.
       ecosystem_launch: Launch of the ecosystem
       ecosystem: |
-        After two years of user feedbacks, OctoBot is now stable and reliable enough
-        for the project to scale. 2021 was the year the OctoBot ecosystem launches:
+        After two years of user feedbacks, OctoBot was now stable and reliable enough
+        for the project to scale. 2021 has been the year the OctoBot ecosystem launched:
       ecosystem_item_1: |
-        <a href="https://github.com/Drakkar-Software/OctoBot" target="_blank" rel="noopener"> OctoBot</a>, the free open source robot that trades for its users.
+        <a href="https://github.com/Drakkar-Software/OctoBot" target="_blank" rel="noopener"> OctoBot</a>, free open source robot that trades for its users.
       ecosystem_item_2: |
         <a href="https://www.octobot.cloud/" target="_blank" rel="noopener"> OctoBot Cloud</a> which allows OctoBot users to try and share strategies and extensions.
       ecosystem_item_3: | 
