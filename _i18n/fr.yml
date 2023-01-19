@@ -84,12 +84,12 @@ landing_page:
       </p>
       <p>
       Les stratégies sont créées par la communauté sur 
-      <a href="https://www.octobot.cloud/">OctoBot Cloud</a>:
+      <a href="https://www.octobot.cloud/">OctoBot Cloud</a> : 
       <strong>faites plus de profits</strong> en partageant vos meilleures stratégies de trading. 
       </p>
       <p>
       Pour aider les traders à construire les stratégies les plus efficaces, nous avons créé
-      <a href="https://pro.octobot.info/">OctoBot Pro</a>: un ensemble d'outils 
+      <a href="https://pro.octobot.info/">OctoBot Pro</a> : un ensemble d'outils 
       qui permet aux créateaurs de créer, tester et optimiser leurs stratégies de trading.
       </p>
   story:
@@ -116,8 +116,9 @@ landing_page:
       à l'infini.</p>
       <p>Avec OctoBot, vous utilisez un
       outil vérifiable et améliorable à tout moment car il est open source
-      et fiable car il est activement testé depuis plusieurs années. Le projet a commencé en 2018.</p>
+      et fiable puisqu'il est activement testé depuis plusieurs années. Le projet a commencé en 2018.</p>
   try_octobot_now: Essayez OctoBot dès à présent
+  recommended: Recommandé
   install_octobot_now: Installez votre OctoBot dès maintenant
   backtesting_result: Résultat de backtesting
   using_the_latest_executable: Avec l'exécutable
@@ -186,7 +187,7 @@ guides_page:
       tradingview.com</a>.
     </li>
     <li>
-      La vue strategy designer pour obtenir des statistiques avancés sur les résultats de vos tests historiques 
+      La vue strategy designer pour obtenir des statistiques avancées sur les résultats de vos tests historiques 
       <span class="badge bg-primary">bientôt  disponible</span>
     </li>
     </ul>
@@ -278,7 +279,7 @@ guides_page:
     d'OctoBot est testable en
     <a href="https://www.investopedia.com/terms/b/backtesting.asp" target="_blank" rel="noopener">
     backtesting</a> ! Optimisez la configuration de
-    votre OctoBot dans les moindre détails pour maximiser vos profits.</p>
+    votre OctoBot dans les moindres détails pour maximiser vos profits.</p>
     <p>Voir
     <a id="guides-go-backtesting-docs"
     href="https://www.octobot.info/advanced_usage/backtesting-and-strategy-optimization" target="_blank" rel="noopener">
@@ -289,8 +290,8 @@ guides_page:
     Donnez vie à vos inspirations de stratégies en utilisant
     <a href="https://pro.octobot.info/" target="_blank" rel="noopener">OctoBot Pro</a>. <br/>
     Codez directement vos stratégies en python tout en bénéficiant de tous les outils inclus dans OctoBot
-    et un système de rapport et de visualisation très flexible. Analysez exactement ce tout qu'il advient 
-    lors de l'exécution de vos idées sur des données historiques et créez vos meilleurs stratégies.
+    et un système de rapport et de visualisation très flexible. Analysez avec précision l'exécution de vos 
+    idées sur des données historiques et créez vos meilleurs stratégies.
     </p>
   backtesting_configuration: Résultat de backtesting
   sharing_trading_strategies: Partagez les stratégies de trading
@@ -300,7 +301,7 @@ guides_page:
     <ul>
     <li>
       Suivre une stratégie <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a>
-      et automatiquement répliquer chaque trade de cette stratégie
+      et reproduire automatiquement chaque trade de cette stratégie
     </li>
     <li>
       Importer le profile d'une stratégie pour l'utiliser ou la personaliser
@@ -311,11 +312,11 @@ guides_page:
     <li>
       Configurer votre OctoBot pour émettre des signaux que les autres utilisateurs peuvent suivre sur 
       <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a> pour 
-      répliquer vos trades
+      reproduire vos trades
     </li>
     <li>
-      Exporter et partager vos profiles de stratégie pour permettre à d'autres utilisateurs 
-      de l'utiliser
+      Exporter et partager vos profils de stratégie pour permettre à d'autres utilisateurs 
+      de les utiliser
     </li>
     </ul>
   cloud_strategies: Utilisez des stratégies partagées sur <a id="community-go-to-octobot-cloud" href="https://octobot.cloud/">OctoBot Cloud</a>
@@ -346,7 +347,7 @@ guides_page:
   this_is_just_an_subset: |
     Ces fonctionnalités ne sont qu'un exemple de tout ce qu'il est
     possible de faire avec OctoBot. Le meilleur moyen de se rendre compte de
-    l'éventail des possibilités disponible avec ce robot est de l'essayer dès maintenant.
+    l'éventail des possibilités disponibles avec ce robot est de l'essayer dès maintenant.
 
 about_page:
   title: A propos d'OctoBot et de son équipe
@@ -354,7 +355,7 @@ about_page:
   octobot_project_history: L'histoire du projet OctoBot
   steps:
     download_octobot: Téléchargez OctoBot
-    choose_exchange: Sélectionnez votre plateformes de trading
+    choose_exchange: Sélectionnez votre plateforme de trading
     choose_strategy: Choisissez votre stratégie
     octobot_is_ready: Votre OctoBot est prêt
   story:
@@ -399,10 +400,9 @@ about_page:
       ecosystem_item_1: |
         <a href="https://github.com/Drakkar-Software/OctoBot" target="_blank" rel="noopener"> OctoBot</a>, robot de trading open source qui trade pour ses utilisateurs.
       ecosystem_item_2: |
-        <a href="https://www.octobot.cloud/" target="_blank" rel="noopener"> OctoBot Cloud</a> qui permet aux utilisateurs d'OctoBot d'essayer et partager des stratégies et extensions.
+        <a href="https://www.octobot.cloud/" target="_blank" rel="noopener"> OctoBot Cloud</a> permet aux utilisateurs d'OctoBot d'essayer et partager des stratégies et extensions.
       ecosystem_item_3: | 
-        <a href="https://pro.octobot.info/" target="_blank" rel="noopener">OctoBot Pro</a> qui permet aux traders avancés de changer leurs idées en
-        stratégies de trading automatisées. 
+        <a href="https://pro.octobot.info/" target="_blank" rel="noopener">OctoBot Pro</a> permet aux traders expérimentés de concevoir des stratégies de trading automatisées. 
     the_guide: |
       Avec OctoBot, vous pouvez simplement tester
       et utiliser les stratégies qui vous ressemblent. OctoBot vous
