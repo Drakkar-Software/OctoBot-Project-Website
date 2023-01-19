@@ -10,4 +10,4 @@ categories: latest_new
 external: true
 ---
 
-Trader des cryptomonnies peut être excitant mais cela prend beaucoup de temps si on sait pas vraiment comment s'y prendre. Il y a plusieurs types d'ordres qu'il est possible d'utiliser pour acheter et vendre sur votre plateforme de trading en fonction de ce que vous voulez faire.
+Trader des cryptomonnies peut être excitant mais cela prend beaucoup de temps si on ne sait pas vraiment comment s'y prendre. Il y a plusieurs types d'ordres qu'il est possible d'utiliser pour acheter et vendre sur votre plateforme de trading en fonction de ce que vous voulez faire.
