@@ -5,7 +5,7 @@ title: Suivre des stratégies de trading
 subtitle: Suivez les meilleures stratégies de trading sur OctoBot Cloud
 date: 2022-11-16
 image: posts/copy-trading-banner.jpg
-link: https://blog.octobot.online/following-strategies-in-astrolab
+link: https://blog.octobot.online/following-strategies-in-octobot-cloud
 categories: latest_new
 external: true
 ---

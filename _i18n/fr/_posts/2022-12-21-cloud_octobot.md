@@ -5,7 +5,7 @@ title: OctoBot Cloud est live
 subtitle: Déployez facilement votre OctoBot sur OctoBot Cloud.
 date: 2022-12-21
 image: posts/cloud-bot-banner.jpg
-link: https://blog.octobot.online/deploy-octobots-in-astrolab
+link: https://blog.octobot.online/deploy-octobots-in-octobot-cloud
 categories: latest_new
 external: true
 ---
