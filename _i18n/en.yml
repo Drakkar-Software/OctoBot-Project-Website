@@ -169,7 +169,7 @@ guides_page:
   install_octobot: Setting up OctoBot
   install_methods_desc_html: |
     <p>There are many ways to setup your OctoBot. The easiest is to use 
-    <a href="https://www.octobot.cloud/onboarding" target="_blank" rel="noopener">
+    <a href="https://www.octobot.cloud/" target="_blank" rel="noopener">
     OctoBot Cloud</a> to get your robot running on our servers. You can try it for free.</p>
     Using the OctoBot Cloud, your OctoBot will always be online, reachable from anywhere and
     will benefit from the following additions:
