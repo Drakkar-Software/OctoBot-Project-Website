@@ -116,8 +116,26 @@
 }
 
 .news-link:hover {
+  color: white;
   box-shadow: 0 2px #b71c1c;
-  color: white
+}
+
+.red-hover:hover {
+  box-shadow: 0 3px #b71c1c;
+}
+
+.exchange-logo {
+  max-height: 25.6px;
+  max-width: 112px;
+  min-height: 25px;
+}
+
+@media screen and (min-width: 400px) {
+  .exchange-logo {
+    max-height: 64px;
+    max-width: 280px;
+    min-height: 50px;
+  }
 }
 
 .bot-stats {
