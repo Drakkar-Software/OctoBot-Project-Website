@@ -190,19 +190,27 @@ permalink: /
     </div>
 </div>
 
-<!-- Les stratégies utilisables sur OctoBot -->
-<div id="strategies" class="part strategies-background mb-0">
-    <div class="background-mask px-0 pt-5">
-        <div class="py-4 w-75 mx-auto">
-            <h2 class="mb-4">{% t landing_page.discover_octobot_strategies %}</h2>
-            <div class="">
-                {% t landing_page.octobot_strategies_concept %}
+<!-- Les exchanges compatibles -->
+<div id="exchanges" class="part bg-darker mb-0">
+    <div class="px-0 pt-5">
+        <div class="py-2 w-75 mx-auto">
+            <h2 class="mb-4 text-center">{% t landing_page.supported_exchanges %}</h2>
+            <div class="row">
+                {% include exchange_logo.html exchange="binance" logo="binance_logo.svg" link="https://exchanges.octobot.info/partners/binance/setup" %}
+                {% include exchange_logo.html exchange="okx" logo="okx_logo.png" link="https://exchanges.octobot.info/partners/okx/setup" %}
+                {% include exchange_logo.html exchange="bybit" logo="bybit_logo.svg" link="https://exchanges.octobot.info/partners/bybit" %}
+                {% include exchange_logo.html exchange="kucoin" logo="kucoin_logo.svg" link="https://exchanges.octobot.info/officially_supported/kucoin" %}
+                {% include exchange_logo.html exchange="coinbase" logo="coinbase_logo.svg" link="https://exchanges.octobot.info/officially_supported/coinbase_pro" %}
+                {% include exchange_logo.html exchange="cryptocom" logo="cryptocom_logo.webp" link="https://exchanges.octobot.info/partners/cryptocom" %}
+                {% include exchange_logo.html exchange="gateio" logo="gateio_logo.png" link="https://exchanges.octobot.info/partners/gateio" %}
+                {% include exchange_logo.html exchange="hollaex" logo="hollaex_logo.png" link="https://exchanges.octobot.info/partners/hollaex/setup" %}
+                {% include exchange_logo.html exchange="huobi" logo="huobi_logo.svg" link="https://exchanges.octobot.info/partners/huobi" %}
             </div>
-            <div class="mt-4">
-                <a id="home-go-to-guides-evaluation-chain"
-                   href="{% tl guides %}#evaluation_chain" class="btn call-to-action-button">
-                    {% t landing_page.discover_strategies %}
-                </a>
+            <div class="text-end my-4">
+                <h5>
+                    <a id="view-all-supported-exchanges" 
+                       href="https://exchanges.octobot.info/">{% t landing_page.view_all_exchanges %}</a>
+                </h5>
             </div>
         </div>
     </div>

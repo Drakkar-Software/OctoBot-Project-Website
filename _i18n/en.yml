@@ -72,6 +72,8 @@ landing_page:
     Whether you are a beginner, advanced or expert trader, you will be able to set OctoBot's strategies
     up your requirements.
   discover_strategies: Discover OctoBot strategies
+  supported_exchanges: Supported exchanges
+  view_all_exchanges: View all supported exchanges
   all_news_on_our_blog: See all news on our blog
   ecosystem_details: |
       <p>

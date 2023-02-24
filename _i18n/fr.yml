@@ -72,6 +72,8 @@ landing_page:
   total_octobots: OctoBots déjà installés
   octobot_statistics: Voir les statistics de la communauté
   discover_octobot_strategies: Découvrez les stratégies d’OctoBot
+  supported_exchanges: Exchanges supportés
+  view_all_exchanges: Voir tous les exchanges supportés
   octobot_strategies_concept: |
     OctoBot est personalisable à l’infini: une multitude de stratégies est disponible, chaque stratégie est
     personalisable. Débutant, confirmé ou expert, il y en a pour tout le monde.
