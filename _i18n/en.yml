@@ -215,6 +215,9 @@ guides_page:
     Each trading mode is unique and consists in a different trading technique. Trading modes can:
     <ul>
       <li>
+      Trade on <strong>spot</strong> or <strong>futures</strong> markets.
+      </li>
+      <li>
       Use statistics and technical analysis to find the best trade entries and exits.
       </li>
       <li>
