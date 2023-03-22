@@ -74,6 +74,21 @@ landing_page:
   discover_octobot_strategies: Découvrez les stratégies d’OctoBot
   supported_exchanges: Exchanges supportés
   view_all_exchanges: Voir tous les exchanges supportés
+  special_requests: Développement spécifiques
+  special_requests_desc_1_html: |
+      Si vous voulez sponsoriser le développment d'une nouvelle fonctionnalité dans OctoBot telle que:
+  special_requests_desc_2_html: |
+      <ul>
+        <li> Supporter le trading de futures pour un exchange spécifique </li>  
+        <li> Créer une nouvelle stratégie de trading complexe </li>  
+        <li> Connecter votre OctoBot à des services externes </li>
+        <li> Ajouter quelque chose d'autre </li>    
+      </ul>
+  special_requests_desc_3_html: | 
+      <a id="home-special-request-contact-us"
+          href="mailto:contact@drakkar.software?subject=OctoBot%20special%20request">
+          Contactez nous
+      </a> et réalisons cette évolution.
   octobot_strategies_concept: |
     OctoBot est personalisable à l’infini: une multitude de stratégies est disponible, chaque stratégie est
     personalisable. Débutant, confirmé ou expert, il y en a pour tout le monde.
