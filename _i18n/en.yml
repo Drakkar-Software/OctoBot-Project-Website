@@ -74,6 +74,23 @@ landing_page:
   discover_strategies: Discover OctoBot strategies
   supported_exchanges: Supported exchanges
   view_all_exchanges: View all supported exchanges
+  special_requests: Special requests
+  special_requests_desc_1_html: |
+      If you are willing to sponsor the development of a new feature in OctoBot such as:
+  special_requests_desc_2_html: |
+      <ul>
+        <li> Supporting futures trading on a specific exchange </li>  
+        <li> Creating a trading strategy that is completely different from the current ones</li>  
+        <li> Connecting your OctoBot to external services </li>
+        <li> Adding something else </li>    
+      </ul>
+  special_requests_desc_3_html: |
+      Please 
+      <a id="home-special-request-contact-us"
+          href="mailto:contact@drakkar.software?subject=OctoBot%20special%20request">
+          contact us
+      </a> and let's make it happen.
+
   all_news_on_our_blog: See all news on our blog
   ecosystem_details: |
       <p>
