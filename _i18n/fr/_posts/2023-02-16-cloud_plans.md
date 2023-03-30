@@ -10,6 +10,5 @@ categories: latest_new
 external: true
 ---
 
-Dans l'équipe OctoBot, nous voulons que chacun puisse utiliser OctoBot et bénéficier de stratégies d'investissement automatisées.
-
+Dans l'équipe OctoBot, nous voulons que chacun puisse utiliser OctoBot et bénéficier de stratégies d'investissement automatisées.  
 C'est pourquoi nous avons créé 4 abonnements afin de correspondre à tout les besoins.
