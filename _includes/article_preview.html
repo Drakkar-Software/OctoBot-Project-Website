@@ -1,17 +1,19 @@
 <div class="card news-card col-12 col-sm-6 col-md-4">
     <a id="artcle-preview-go-to-{{ include.article.short_name }}"
        href="{{include.article.link}}" target="_blank" rel="noopener"
-       class="news-link d-flex align-items-stretch flex-column h-100">
-        <img src="/assets/images/{{ include.article.image }}"
-             class="img-fluid"
-             alt="{{include.article.short_name}}_cover"
-        >
-        <div class="card-body">
+       class="news-link d-flex flex-column h-100">
+       <div class="flex-grow-1">
+            <img src="/assets/images/{{ include.article.image }}"
+                class="img-fluid"
+                alt="{{include.article.short_name}}_cover"
+            >
+       </div>
+        <div class="card-body pb-0">
             <h5 class="card-title">{{ include.article.title }}</h5>
             <h4 class="card-subtitle">{{ include.article.subtitle }}</h4>
-            <p class="card-text">
+            <div class="card-text">
                 {{ include.article.content }}
-            </p>
+            </div>
         </div>
         <div class="card-footer font-weight-bold text-end">
             {{ include.article.date | date: "%Y-%m-%d"}}
