@@ -3,7 +3,7 @@ layout: post
 short_name: gpt_trading
 title: Trading using ChatGPT
 subtitle: Use ChatGPT to predict market trends.
-date: 2023-04-03
+date: 2023-04-02
 image: posts/gpt_trading_banner.png
 link: https://blog.octobot.online/trading-using-chat-gpt
 categories: latest_new
