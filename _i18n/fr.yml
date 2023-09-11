@@ -21,6 +21,9 @@ news: Les news
 they_talk_about_octobot: Ils parlent d'OctoBot
 
 landing_page:
+  beta_announcement: |
+    La phase de beta du nouvel ecosystème OctoBot est maintenant publique. Vous pouvez maintenant automatiser les 
+    stratégies de trading les plus populaires <strong>très facilement et sans frais</strong>. Essayez le dès aujourd'hui sur
   try_octobot: Essayer OctoBot maintenant
   deploy_now: Déployer OctoBot
   usage_details: Voir l'utilisation d'OctoBot en détails
